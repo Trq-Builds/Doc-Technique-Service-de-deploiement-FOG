@@ -90,7 +90,7 @@ Tu y apprendras à **installer le serveur**, **capturer une image master**, et *
 > Présentation des outils et prérequis :
 > - **Serveur :** Debian 13 **sans interface graphique**
 > - **Client :** Windows 11.
-> - **Outils :** FOG `V.1.5.10.1721`
+> - **Outils :** FOG (Free Open-Source Ghost) `V.1.5.10.1721` [`🌐`](https://fogproject.org/)
 
 ---
 
