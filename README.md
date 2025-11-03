@@ -115,8 +115,6 @@ Tu y apprendras à **installer le serveur**, **capturer une image master**, et *
 
 ### `🚧`︲Comptes et mots de passe (NON NÉGOCIABLE)
 
-**Important — obligatoires :**
-
 ```
 ID : root    | MDP : btssio
 ID : btssio  | MDP : btssio
