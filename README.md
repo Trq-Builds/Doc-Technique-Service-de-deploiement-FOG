@@ -123,9 +123,11 @@ ID : btssio  | MDP : btssio
 * Créer les deux comptes avec ces mots de passe lors de l’installation / configuration.
 * Vérifier les droits sudo si nécessaire pour l’utilisateur `btssio`.
 
-<details>
-  <summary><strong>🖼️︲Captures d'écran</strong></summary>
-   </details>
+> [!TIP]
+> [🎥︲Vidéo explicative – Cliquez-ici (Dona.One)]()
+
+> [!TIP]
+> [🎥︲Vidéo explicative – Cliquez-ici (Mega.nz)]()
 
 ## Étapes recommandées (résumé rapide)
 
