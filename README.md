@@ -88,6 +88,7 @@ Tu y apprendras à **installer le serveur**, **capturer une image master**, et *
 ---
 
 <a id="presentation-outils-prerequis"></a>
+## `🧰`︲Présentation des outils et prérequis.
 > [!IMPORTANT]
 > Présentation des outils et prérequis :
 > - **Serveur :** Debian 13 **sans interface graphique** [`🌐`](https://www.debian.org/)
