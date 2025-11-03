@@ -133,31 +133,6 @@ ID : btssio  | MDP : btssio
 
 ---
 
-## Résumé rapide.
-
-## Configuration VM
-- **RAM** : 1024 Mo
-- **Disque** : 100 Go (dynamique)
-
-## Installation
-1. Démarrer avec miroir local Debian 13
-2. Mode : Sans environnement de bureau (server/console)
-3. **Hostname** : `srv-fog`
-4. Réseau : DHCP sur interface principale
-
-## Comptes & Sécurité
-- Configurer comptes/mots de passe :
-  - `root`
-  - `btssio`
-- Installer SSH : `apt install openssh-server`
-- Activer SSH : `systemctl enable --now ssh`
-
-## Post-installation
-- Redémarrer la VM
-- Vérifier IP DHCP : `ip a` ou `ip addr show`
-- Tester connectivité SSH
-
----
 
 
 
