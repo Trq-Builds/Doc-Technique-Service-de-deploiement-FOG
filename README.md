@@ -74,6 +74,26 @@ Tu y apprendras à **installer le serveur**, **capturer une image master**, et *
 
 ---
 
+<a id="introduction"></a>
+## `📘`︲Introduction
+
+---
+
+<a id="contexte-et-objectifs"></a>
+> [!NOTE]
+> Tu vas apprendre à configurer un domaine, comprendre le rôle d’un contrôleur de domaine, gérer efficacement les utilisateurs et les groupes, appliquer des stratégies de groupe (GPO) et automatiser certaines tâches courantes grâce à PowerShell. > L’objectif est de te permettre de mettre en place un environnement réseau fonctionnel et de maîtriser les bases essentielles de l’administration système dans un contexte professionnel.
+
+---
+
+<a id="presentation-outils-prerequis"></a>
+> [!IMPORTANT]
+> Présentation de l'architecture réseau et des outils utilisés :
+> - **Serveur :** Windows Server 2025.
+> - **Client :** Windows 11.
+> - **Outils :** Active Directory, DNS, PowerShell, GPO.
+
+---
+
 
 
 
