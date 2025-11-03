@@ -94,9 +94,9 @@ Tu y apprendras à **installer le serveur**, **capturer une image master**, et *
 > - **Serveur :** Debian 13 **sans interface graphique** [`🌐`](https://www.debian.org/)
 > - -# Small de ouf le texte
 > - **Client :** Windows 11. [`🌐`](https://www.microsoft.com/fr-fr/software-download/windows11)
-> - -# Small de ouf le texte
+> - > Small de ouf le texte
 > - **Outils :** FOG (Free Open-Source Ghost) `V.1.5.10.1721` [`🌐`](https://fogproject.org/)
-> - -# Small de ouf le texte
+> > Small de ouf le texte
 
 ---
 
