@@ -131,6 +131,8 @@ ID : btssio  | MDP : btssio
 > [!TIP]
 > [🎥︲Vidéo explicative – Cliquez-ici (Mega.nz)]()
 
+---
+
 ## Étapes recommandées (résumé rapide)
 
 1. Préparer la VM dans l’hyperviseur (taille RAM : 1024 Mo, disque : 100 Go — dynamique).
