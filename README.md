@@ -118,8 +118,8 @@ Tu y apprendras à **installer le serveur**, **capturer une image master**, et *
 **Important — obligatoires :**
 
 ```
-ID : root    / MDP : btssio
-ID : btssio  / MDP : btssio
+ID : root    |  MDP : btssio
+ID : btssio  | MDP : btssio
 ```
 
 * Créer les deux comptes avec ces mots de passe lors de l’installation / configuration.
