@@ -1,8 +1,4 @@
-# ` ☁️ `︲Documentation TP : Service de déploiement FOG
-
----
-
-# `🧠`︲Documentation TP : Installer et configurer un service de déploiement FOG
+# ` ☁️ `︲Documentation TP : Installer et configurer un service de déploiement FOG
 
 ---
 
