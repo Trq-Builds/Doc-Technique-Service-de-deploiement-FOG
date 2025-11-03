@@ -113,7 +113,7 @@ Tu y apprendras à **installer le serveur**, **capturer une image master**, et *
 * **Mémoire :** 1024 Mo.
 * **Disque :** 100 Go (allocation dynamique).
 
-### `🚧`︲Comptes et mots de passe (NON NÉGOCIABLE)
+### `🚧`︲Couples d’identifiants (__NON NÉGOCIABLE__)
 
 ```
 ID : root    | MDP : btssio
