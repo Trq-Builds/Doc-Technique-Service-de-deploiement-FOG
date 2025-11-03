@@ -81,7 +81,9 @@ Tu y apprendras à **installer le serveur**, **capturer une image master**, et *
 
 <a id="contexte-et-objectifs"></a>
 > [!NOTE]
-> Tu vas apprendre à configurer un domaine, comprendre le rôle d’un contrôleur de domaine, gérer efficacement les utilisateurs et les groupes, appliquer des stratégies de groupe (GPO) et automatiser certaines tâches courantes grâce à PowerShell. > L’objectif est de te permettre de mettre en place un environnement réseau fonctionnel et de maîtriser les bases essentielles de l’administration système dans un contexte professionnel.
+> Tu vas apprendre à installer et configurer un serveur FOG, à capturer et déployer des images système sur un parc de machines, à gérer les configurations réseau (DHCP, multicast), et à automatiser le déploiement d’environnements Windows ou Linux dans un contexte professionnel.
+
+> L’objectif est de te permettre de maîtriser les bases de la gestion de parc informatique et de la clonage d’images via FOG, un outil libre et puissant, afin de déployer rapidement et efficacement des postes de travail dans un environnement de type SISR.
 
 ---
 
