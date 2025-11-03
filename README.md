@@ -17,60 +17,60 @@ Tu y apprendras à **installer le serveur**, **capturer une image master**, et *
 
 ## `📑`︲Sommaire (cliquez pour accéder directement à la section souhaitée)
 
-1. [`📘`︲Introduction](#introduction)
+1. [`📘`︲Introduction.](#introduction)
 
-   * [`❔`︲Contexte et objectifs du TP](#contexte-et-objectifs)
-   * [`🧰`︲Présentation des outils et prérequis](#presentation-outils-prerequis)
+   * [`❔`︲Contexte et objectifs du TP.](#contexte-et-objectifs)
+   * [`🧰`︲Présentation des outils et prérequis.](#presentation-outils-prerequis)
 
-2. [`🛠️`︲Installation de Debian 13 sans interface graphique](#installation-debian)
+2. [`🛠️`︲Installation de Debian 13 sans interface graphique.](#installation-debian)
 
-   * [`💿`︲Création et configuration de la VM](#creation-vm)
-   * [`⚙️`︲Installation du système Debian 13](#installation-systeme)
-   * [`🔐`︲Création des comptes et configuration SSH](#configuration-ssh)
+   * [`💿`︲Création et configuration de la VM.](#creation-vm)
+   * [`⚙️`︲Installation du système Debian 13.](#installation-systeme)
+   * [`🔐`︲Création des comptes et configuration SSH.](#configuration-ssh)
 
-3. [`🌍`︲Installation du service FOG](#installation-fog)
+3. [`🌍`︲Installation du service FOG.](#installation-fog)
 
-   * [`⬇️`︲Téléchargement et préparation de l’archive](#telechargement-fog)
-   * [`🧩`︲Procédure d’installation du serveur FOG](#installation-serveur-fog)
-   * [`🔧`︲Configuration initiale et tests](#configuration-initiale-fog)
+   * [`⬇️`︲Téléchargement et préparation de l’archive.](#telechargement-fog)
+   * [`🧩`︲Procédure d’installation du serveur FOG.](#installation-serveur-fog)
+   * [`🔧`︲Configuration initiale et tests.](#configuration-initiale-fog)
 
-4. [`⚙️`︲Configuration du service FOG](#configuration-service-fog)
+4. [`⚙️`︲Configuration du service FOG.](#configuration-service-fog)
 
-   * [`🌐`︲Paramètres réseau et DHCP](#parametres-reseau)
-   * [`⏱️`︲Modification du menu PXE et du timeout](#modification-pxe)
-   * [`👥`︲Augmentation du nombre de clients simultanés](#clients-simultanes)
+   * [`🌐`︲Paramètres réseau et DHCP.](#parametres-reseau)
+   * [`⏱️`︲Modification du menu PXE et du timeout.](#modification-pxe)
+   * [`👥`︲Augmentation du nombre de clients simultanés.](#clients-simultanes)
 
-5. [`🖼️`︲Création d’une image et d’un groupe de déploiement](#creation-image-groupe)
+5. [`🖼️`︲Création d’une image et d’un groupe de déploiement.](#creation-image-groupe)
 
-   * [`📷`︲Création d’une image “S126-master”](#creation-image)
-   * [`👥`︲Création d’un groupe de déploiement et assignation](#creation-groupe)
+   * [`📷`︲Création d’une image “S126-master”.](#creation-image)
+   * [`👥`︲Création d’un groupe de déploiement et assignation.](#creation-groupe)
 
-6. [`💻`︲Préparation de la machine master](#preparation-master)
+6. [`💻`︲Préparation de la machine master.](#preparation-master)
 
-   * [`🪛`︲Installation du logiciel personnalisé](#logiciel-master)
-   * [`📋`︲Recensement de la machine sur le serveur FOG](#recensement-machine)
-   * [`🏷️`︲Renommage et validation](#renommage-machine)
+   * [`🪛`︲Installation du logiciel personnalisé.](#logiciel-master)
+   * [`📋`︲Recensement de la machine sur le serveur FOG.](#recensement-machine)
+   * [`🏷️`︲Renommage et validation.](#renommage-machine)
 
-7. [`📦`︲Capture de l’image master](#capture-image)
+7. [`📦`︲Capture de l’image master.](#capture-image)
 
-   * [`🧭`︲Préparation avant capture](#preparation-capture)
-   * [`📸`︲Lancer la capture et suivi du processus](#lancer-capture)
+   * [`🧭`︲Préparation avant capture.](#preparation-capture)
+   * [`📸`︲Lancer la capture et suivi du processus.](#lancer-capture)
 
-8. [`🚀`︲Déploiement de l’image par multicast](#deploiement-image)
+8. [`🚀`︲Déploiement de l’image par multicast.](#deploiement-image)
 
-   * [`🌐`︲Préparation de l’environnement réseau](#preparation-deploiement)
-   * [`⚡`︲Lancement du déploiement multicast](#lancement-deploiement)
-   * [`✅`︲Vérifications post-déploiement](#verification-deploiement)
+   * [`🌐`︲Préparation de l’environnement réseau.](#preparation-deploiement)
+   * [`⚡`︲Lancement du déploiement multicast.](#lancement-deploiement)
+   * [`✅`︲Vérifications post-déploiement.](#verification-deploiement)
 
-9. [`🧩`︲Fonctionnalités avancées (optionnel)](#fonctionnalites-avancees)
+9. [`🧩`︲Fonctionnalités avancées (optionnel).](#fonctionnalites-avancees)
 
-   * [`🔁`︲Mise à jour du serveur FOG](#maj-fog)
-   * [`🔒`︲Intégration au domaine Active Directory](#integration-ad)
-   * [`📡`︲Utilisation d’un second réseau dédié au déploiement](#reseau-dedie)
+   * [`🔁`︲Mise à jour du serveur FOG.](#maj-fog)
+   * [`🔒`︲Intégration au domaine Active Directory.](#integration-ad)
+   * [`📡`︲Utilisation d’un second réseau dédié au déploiement.](#reseau-dedie)
 
-10. [`📚`︲Conclusion et bonnes pratiques](#conclusion)
+10. [`📚`︲Conclusion et bonnes pratiques.](#conclusion)
 
-11. [`🧰`︲Outils et ressources utilisées](#outils-ressources)
+11. [`🧰`︲Outils et ressources utilisées.](#outils-ressources)
 
 ---
 
