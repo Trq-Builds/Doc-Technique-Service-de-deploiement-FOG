@@ -87,7 +87,7 @@ Tu y apprendras à **installer le serveur**, **capturer une image master**, et *
 
 <a id="presentation-outils-prerequis"></a>
 > [!IMPORTANT]
-> Présentation de l'architecture réseau et des outils utilisés :
+> Présentation des outils et prérequis :
 > - **Serveur :** Windows Server 2025.
 > - **Client :** Windows 11.
 > - **Outils :** Active Directory, DNS, PowerShell, GPO.
