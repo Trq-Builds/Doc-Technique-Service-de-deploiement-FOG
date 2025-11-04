@@ -105,12 +105,12 @@ Tu y apprendras à **installer le serveur**, **capturer une image master**, et *
 
 ### `⚙️`︲Configuration de la VM.
 
-* `🪛` **Hostname :** `srv-fog`.
-* `🪛` **Adressage IP :** dynamique (DHCP) récupérer une adresse sur le réseau local physique.
-* `🪛` **Interface graphique :** **aucune** (installation en mode serveur / ligne de commande).
-* `🪛` **Service à installer :** `ssh` (SSH activé et démarré).
-* `🪛` **Mémoire :** 1024 Mo.
-* `🪛` **Disque :** 100 Go (allocation dynamique).
+* `❓` **Hostname :** `srv-fog`.
+* `🪪` **Adressage IP :** dynamique (DHCP) récupérer une adresse sur le réseau local physique.
+* `🖼️` **Interface graphique :** **aucune** (installation en mode serveur / ligne de commande).
+* `🧩` **Service à installer :** `ssh` (SSH activé et démarré).
+* `📏` **Mémoire :** 1024 Mo.
+* `💾` **Disque :** 100 Go (allocation dynamique).
 
 ### `🚧`︲Couples d’identifiants (__NON NÉGOCIABLE__)
 
