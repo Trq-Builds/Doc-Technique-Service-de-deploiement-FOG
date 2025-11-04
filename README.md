@@ -96,7 +96,7 @@ Tu y apprendras à **installer le serveur**, **capturer une image master**, et *
 ---
 
 <a id="installation-debian"></a>
-## `🛠️`︲Installation de Debian 13 sans interface graphique.
+## `🛠️`︲Installation de Debian 13 __sans interface graphique__.
 
 ---
 
