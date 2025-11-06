@@ -230,30 +230,11 @@ ID : btssio  | MDP : btssio
 <img width="802" height="596" alt="image" src="https://github.com/user-attachments/assets/868f4416-77c3-4f45-a338-913e8c6595b3" />
 </details>
 
----
+
 
 > [!TIP]
-> 💡 *Prends un snapshot de ta VM à ce stade (avant configuration SSH).*
-> Cela te permettra de revenir rapidement si la configuration réseau ou FOG plante plus tard.
-
-
-  ---
-
-  ---
-
-  ---
-
-  
-
-> [!TIP]
-> [🎥︲Vidéo explicative – Cliquez-ici (Dona.One)]()
-
-> [!TIP]
-> [🎥︲Vidéo explicative – Cliquez-ici (Mega.nz)]()
-
-<details>
-  <summary><strong>🖼️︲Captures d'écran</strong></summary>
-</details>
+> 💡 ︲*Prends un snapshot de ta VM à ce stade (avant configuration SSH ! ).*
+> Cela te permettra de revenir rapidement si la configuration réseau ou si FOG plante plus tard ! 
 
 ---
 
