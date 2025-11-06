@@ -74,7 +74,7 @@ Tu y apprendras à **installer le serveur**, **capturer une image master**, et *
 ---
 
 <a id="introduction"></a>
-### `📘`︲Introduction.
+# `📘`︲Introduction.
 
 ---
 
@@ -96,14 +96,14 @@ Tu y apprendras à **installer le serveur**, **capturer une image master**, et *
 ---
 
 <a id="installation-debian"></a>
-### `🛠️`︲Installation de Debian 13 sans interface graphique.
+# `🛠️`︲Installation de Debian 13 sans interface graphique.
 
 ---
 
 <a id="creation-vm"></a>
 ## `💿`︲Création et configuration de la VM.
 
-# `⚙️`︲Configuration de la VM.
+### `⚙️`︲Configuration de la VM.
 
 * `❓` ︲**Hostname :** `srv-fog`.
 * `🪪` ︲**Adressage IP :** dynamique (DHCP) récupérer une adresse sur le réseau local physique.
