@@ -137,9 +137,98 @@ ID : btssio  | MDP : btssio
 
 ---
 
-AAAA
-AAAA
-AAAA
+> [!NOTE]
+> Cette partie couvre **l’installation complète de Debian 13 sans interface graphique**.
+> Objectif : obtenir un serveur minimaliste, stable et prêt pour héberger FOG.
+
+---
+
+1️⃣︲**Lancement de l’installation depuis l’ISO Debian 13**
+
+* Sélectionner **Installation** (pas “Graphical install”).
+* Choisir la **langue :** `Français`
+* Choisir le **pays :** `France`
+* Disposition clavier : **Français (AZERTY)**
+
+<details>
+  <summary>📸︲Sélection langue et clavier</summary>
+
+*(Insère ici tes captures d’écran correspondantes)*
+
+</details>
+
+---
+
+2️⃣︲**Configuration réseau**
+
+* Nom de la machine : `srv-fog`
+* Méthode d’adressage : **DHCP (automatique)**
+* Domaine : *(laisser vide ou local)*
+
+<details>
+  <summary>📸︲Paramètres réseau</summary>
+
+*(Tes captures ici)*
+
+</details>
+
+---
+
+3️⃣︲**Partitionnement du disque**
+
+* Disque virtuel : **100 Go dynamiquement alloué**
+* Schéma recommandé :
+
+  * `/` → 60 Go
+  * `swap` → 2 Go
+  * `/var` → reste du disque
+* Type : **Guidé – utiliser tout le disque**, séparé selon les besoins.
+
+<details>
+  <summary>📸︲Partitionnement automatique</summary>
+
+*(Tes captures ici)*
+
+</details>
+
+---
+
+4️⃣︲**Sélection des paquets à installer**
+
+* Ne **pas** installer d’environnement graphique.
+* Cocher uniquement :
+
+  * `serveur SSH`
+  * `utilitaires système standard`
+
+---
+
+5️⃣︲**Installation du chargeur de démarrage (GRUB)**
+
+* Installer sur le disque principal `/dev/sda`.
+* Une fois l’installation terminée : **retirer l’ISO et redémarrer.**
+
+<details>
+  <summary>📸︲Fin d’installation et redémarrage</summary>
+
+*(Tes captures ici)*
+
+</details>
+
+---
+
+> [!TIP]
+> 💡 *Prends un snapshot de ta VM à ce stade (avant configuration SSH).*
+> Cela te permettra de revenir rapidement si la configuration réseau ou FOG plante plus tard.
+
+
+  ---
+
+  ---
+
+  ---
+
+  
 
 > [!TIP]
 > [🎥︲Vidéo explicative – Cliquez-ici (Dona.One)]()
@@ -155,6 +244,107 @@ AAAA
 
 <a id="configuration-ssh"></a>
 ## `🔐`︲Création des comptes et configuration SSH.
+
+
+
+---
+
+> [!NOTE]
+> Cette section configure les **utilisateurs**, le **SSH** et la **sécurisation basique du serveur**.
+> Indispensable avant de passer à l’installation de FOG.
+
+---
+
+1️⃣︲**Création des utilisateurs**
+
+* Utilisateur root : `root / btssio`
+* Utilisateur standard : `btssio / btssio`
+* Vérifie que les deux existent avec :
+
+  ```bash
+  cat /etc/passwd | grep btssio
+  ```
+
+---
+
+2️⃣︲**Activation du SSH**
+
+* S’assurer que le paquet est installé :
+
+  ```bash
+  sudo apt install openssh-server -y
+  ```
+* Démarrer et activer le service :
+
+  ```bash
+  sudo systemctl enable ssh --now
+  sudo systemctl status ssh
+  ```
+
+<details>
+  <summary>📸︲Vérification du service SSH</summary>
+
+*(Insère la capture montrant le service SSH actif)*
+
+</details>
+
+---
+
+3️⃣︲**Autoriser la connexion root (optionnel)**
+
+* Éditer le fichier de configuration :
+
+  ```bash
+  sudo nano /etc/ssh/sshd_config
+  ```
+* Modifier / vérifier ces lignes :
+
+  ```
+  PermitRootLogin yes
+  PasswordAuthentication yes
+  ```
+* Redémarrer SSH :
+
+  ```bash
+  sudo systemctl restart ssh
+  ```
+
+> [!WARNING]
+> ⚠️ **Ne laisse pas le root activé en environnement réel**.
+> Ici c’est uniquement pour le TP ou les tests internes.
+
+---
+
+4️⃣︲**Test de connexion distante**
+Depuis la machine hôte :
+
+```bash
+ssh btssio@<ip_du_serveur>
+```
+
+ou
+
+```bash
+ssh root@<ip_du_serveur>
+```
+
+<details>
+  <summary>📸︲Connexion SSH réussie</summary>
+
+*(Capture de la première connexion)*
+
+</details>
+
+---
+
+> [!TIP]
+> 💾 *Prends un instantané de la VM “srv-fog” après validation du SSH.*
+> Tu pourras y revenir avant de lancer l’installation du service FOG.
+
+---
+
+---
+
 
 --- 
 
