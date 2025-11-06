@@ -169,6 +169,22 @@ ID : btssio  | MDP : btssio
 <a id="telechargement-fog"></a>
 ### `⬇️`︲Téléchargement et préparation de l’archive.
 
+---
+
+<a id="installation-serveur-fog"></a>
+### `🧩`︲Procédure d’installation du serveur FOG.
+
+
+---
+
+<a id="configuration-initiale-fog"></a>
+### `🔧`︲Configuration initiale et tests.
+
+---
+
+
+
+
 
 
 
