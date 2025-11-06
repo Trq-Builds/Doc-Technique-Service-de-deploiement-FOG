@@ -138,8 +138,8 @@ ID : btssio  | MDP : btssio
 ---
 
 > [!NOTE]
-> Cette partie couvre **l’installation complète de Debian 13 sans interface graphique**.
-> Objectif : obtenir un serveur minimaliste, stable et prêt pour héberger FOG.
+> Cette partie couvre **l’installation de Debian 13 sans interface graphique**.
+> Objectif : obtenir un serveur minimaliste, stable et prêt pour héberger FOG !
 
 ---
 
