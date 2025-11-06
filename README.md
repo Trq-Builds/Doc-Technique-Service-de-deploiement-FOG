@@ -225,10 +225,9 @@ ID : btssio  | MDP : btssio
 * Une fois l’installation terminée : **retirer l’ISO et redémarrer.**
 
 <details>
-  <summary>📸︲Fin d’installation et redémarrage</summary>
-
-*(Tes captures ici)*
-
+  <summary>📸︲Installation Grub et redémarrage</summary>
+<img width="803" height="595" alt="image" src="https://github.com/user-attachments/assets/171b3e92-fc9a-4348-8f36-5ea8fcfd55be" />
+<img width="802" height="596" alt="image" src="https://github.com/user-attachments/assets/868f4416-77c3-4f45-a338-913e8c6595b3" />
 </details>
 
 ---
