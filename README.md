@@ -171,13 +171,6 @@ ID : btssio  | MDP : btssio
 <img width="801" height="596" alt="image" src="https://github.com/user-attachments/assets/40ccea59-94b4-4ba1-88f4-25eeb0370e81" />
 <img width="796" height="592" alt="image" src="https://github.com/user-attachments/assets/4c376e36-fd1f-439c-a746-8a3c903564aa" />
 <img width="797" height="591" alt="image" src="https://github.com/user-attachments/assets/b0d8cc27-4859-451b-92a6-fd5cf0d9bc81" />
-
-
-
-
-
-
-
 </details>
 
 ---
@@ -195,6 +188,8 @@ ID : btssio  | MDP : btssio
 <details>
   <summary>📸︲Partitionnement automatique</summary>
 <img width="802" height="594" alt="image" src="https://github.com/user-attachments/assets/ed6046dd-c312-47fb-bce0-79ef312d88bb" />
+<img width="797" height="597" alt="image" src="https://github.com/user-attachments/assets/d401aafe-522b-4d87-9a58-c75c25c8f6ba" />
+
 </details>
 
 ---
