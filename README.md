@@ -203,19 +203,19 @@ ID : btssio  | MDP : btssio
 * Ne **pas** installer d’environnement graphique.
 * Cocher uniquement :
 
-[ ] environnement de bureau Debian
-[ ] ... GNOME
-[ ] ... Xfce
-[ ] ... bureau GNOME Flashback
-[ ] ... KDE Plasma
-[ ] ... Cinnamon
-[ ] ... MATE
-[ ] ... LXDE
-[ ] ... LXQt
-[ ] serveur web
-[x] serveur SSH
-[x] utilitaires usuels du système
-[ ] choix d’un assemblage (Blend) de Debian lors de l’installation
+- [ ] environnement de bureau Debian
+- [ ] ... GNOME
+- [ ] ... Xfce
+- [ ] ... bureau GNOME Flashback
+- [ ] ... KDE Plasma
+- [ ] ... Cinnamon
+- [ ] ... MATE
+- [ ] ... LXDE
+- [ ] ... LXQt
+- [ ] serveur web
+- [x] serveur SSH
+- [x] utilitaires usuels du système
+- [ ] choix d’un assemblage (Blend) de Debian lors de l’installation
 
 ---
 
