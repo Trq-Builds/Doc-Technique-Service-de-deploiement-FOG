@@ -164,9 +164,10 @@ ID : btssio  | MDP : btssio
 * Domaine : *(laisser vide ou local)*
 
 <details>
-  <summary>📸︲Paramètres réseau</summary>
+  <summary>📸︲Identifiants</summary>
 
-*(Tes captures ici)*
+<img width="799" height="594" alt="image" src="https://github.com/user-attachments/assets/e74ab1d5-33ba-4686-b6c8-c50b86963e06" />
+
 
 </details>
 
