@@ -306,8 +306,8 @@ ID : btssio  | MDP : btssio
   ```
 
 > [!WARNING]
-> - ⚠️ ︲**Ne laisse pas le root activé en environnement réel**.
-> - ⚠️︲ **Ici c’est uniquement pour le TP ou les tests internes.**
+> - ⚠️ ︲**Ne laisse pas le root activé en environnement réel !**
+> - ⚠️︲ **Ici c’est uniquement pour le TP ou les tests internes !**
 
 ---
 
