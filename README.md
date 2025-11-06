@@ -232,8 +232,8 @@ ID : btssio  | MDP : btssio
 
 ---
 > [!WARNING]
-> ⚠️︲**Prends un snapshot de ta VM à ce stade (avant configuration SSH ! ).**
-> ⚠️︲**Cela te permettra de revenir rapidement si la configuration réseau ou si FOG plante plus tard !**
+> - ⚠️︲**Prends un snapshot de ta VM à ce stade (avant configuration SSH ! ).**
+> - ⚠️︲**Cela te permettra de revenir rapidement si la configuration réseau ou si FOG plante plus tard !**
 
 ---
 
