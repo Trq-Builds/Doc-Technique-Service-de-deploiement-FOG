@@ -255,7 +255,7 @@ ID : btssio  | MDP : btssio
 
 ---
 
-1️⃣︲**Création des utilisateurs**
+1️⃣︲**Création des utilisateurs.**
 
 * Utilisateur root : `root / btssio`
 * Utilisateur standard : `btssio / btssio`
@@ -267,7 +267,7 @@ ID : btssio  | MDP : btssio
 
 ---
 
-2️⃣︲**Activation du SSH**
+2️⃣︲**Activation du SSH.**
 
 * S’assurer que le paquet est installé :
 * En mode ROOT : 
@@ -291,7 +291,7 @@ ID : btssio  | MDP : btssio
 
 ---
 
-3️⃣︲**Autoriser la connexion root (optionnel)**
+3️⃣︲**Autoriser la connexion root (optionnel).**
 
 * Éditer le fichier de configuration :
 
