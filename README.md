@@ -558,7 +558,7 @@ sudo systemctl status isc-dhcp-server
 ```
 
 > [!TIP]
-> 💡 Si tu utilises VirtualBox, passe ton **réseau en “interne”** pour éviter les conflits avec le DHCP de ta box.
+> Passe ton **réseau en “interne”** pour éviter les conflits avec le DHCP !
 
 ---
 
