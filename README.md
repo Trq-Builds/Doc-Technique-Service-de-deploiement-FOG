@@ -383,8 +383,8 @@ sudo unzip fogproject.zip
 
 <details>
   <summary>📸︲Téléchargement et extraction</summary>
+<img width="825" height="701" alt="image" src="https://github.com/user-attachments/assets/a69c78e0-e50d-4d50-917a-f7414c4f9110" />
 
-*(Insère ici tes captures montrant le téléchargement, puis le dossier extrait dans `/opt/`)*
 
 </details>
 
