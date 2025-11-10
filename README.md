@@ -310,7 +310,7 @@ ID : btssio  | MDP : btssio
 
 ---
 
-4️⃣︲**Test de connexion distante**
+4️⃣︲**Test de connexion distante.**
 Depuis la machine hôte :
 
 ```bash
@@ -336,7 +336,7 @@ ssh root@<ip_du_serveur>
 ---
 
 <a id="installation-fog"></a>
-## `🌍`︲Installation du service FOG
+## `🌍`︲Installation du service FOG.
 
 ---
 
@@ -351,7 +351,7 @@ ssh root@<ip_du_serveur>
 
 ---
 
-1️⃣︲**Installation des dépendances requises**
+1️⃣︲**Installation des dépendances requises.**
 
 Avant d’installer FOG, on met à jour le système et on installe les outils nécessaires :
 
@@ -364,7 +364,7 @@ sudo apt update && sudo apt install -y unzip git curl wget lsb-release net-tools
 
 ---
 
-2️⃣︲**Téléchargement du projet FOG**
+2️⃣︲**Téléchargement du projet FOG.**
 
 On récupère la version 1.5.10.1721 du projet depuis GitHub :
 
@@ -389,7 +389,7 @@ sudo unzip fogproject.zip
 
 ---
 
-3️⃣︲**Accès au répertoire d’installation**
+3️⃣︲**Accès au répertoire d’installation.**
 
 Déplace-toi dans le dossier contenant le script principal :
 
@@ -415,7 +415,7 @@ cd /opt/fogproject/bin/
 
 ---
 
-1️⃣︲**Lancement du script d’installation**
+1️⃣︲**Lancement du script d’installation.**
 
 ```bash
 sudo ./installfog.sh
@@ -457,13 +457,13 @@ Récapitulatif rapide des options :
 
 ---
 
-2️⃣︲**Validation du hostname et de l’adresse IP**
+2️⃣︲**Validation du hostname et de l’adresse IP.**
 
 Confirme simplement les valeurs par défaut si le nom `srv-fog` et l’adresse DHCP correspondent à ta configuration.
 
 ---
 
-3️⃣︲**Installation automatique**
+3️⃣︲**Installation automatique.**
 
 Le script installe les dépendances et configure FOG.
 Une fois terminé, un message t’indiquera d’accéder à l’interface web pour finaliser la configuration.
@@ -477,7 +477,7 @@ Une fois terminé, un message t’indiquera d’accéder à l’interface web po
 
 ---
 
-4️⃣︲**Configuration web initiale**
+4️⃣︲**Configuration web initiale.**
 
 Depuis ton navigateur (machine hôte ou autre VM sur le même réseau) :
 
@@ -506,7 +506,6 @@ Sur la page d’accueil, clique sur :
 ---
 
 <a id="configuration-initiale-fog"></a>
-
 ### `🔧`︲Configuration initiale et tests
 
 ---
@@ -516,7 +515,7 @@ Sur la page d’accueil, clique sur :
 
 ---
 
-1️⃣︲**Connexion au tableau de bord FOG**
+1️⃣︲**Connexion au tableau de bord FOG.**
 
 Rends-toi à nouveau sur :
 
@@ -531,7 +530,7 @@ Par défaut :
 
 ---
 
-2️⃣︲**Vérification des services actifs**
+2️⃣︲**Vérification des services actifs.**
 
 Sur le tableau de bord (**Dashboard**), assure-toi que tous les services sont affichés en vert ✅ :
 
@@ -549,7 +548,7 @@ Sur le tableau de bord (**Dashboard**), assure-toi que tous les services sont af
 
 ---
 
-3️⃣︲**Vérifier le service DHCP**
+3️⃣︲**Vérifier le service DHCP.**
 
 FOG gère son propre service DHCP.
 Vérifie qu’il est actif :
@@ -563,7 +562,7 @@ sudo systemctl status isc-dhcp-server
 
 ---
 
-4️⃣︲**Tester le service TFTP**
+4️⃣︲**Tester le service TFTP.**
 
 Pour t’assurer que le boot PXE fonctionnera correctement :
 
@@ -588,7 +587,7 @@ sudo systemctl status tftpd-hpa
 
 ---
 
-5️⃣︲**Modifier le mot de passe par défaut (recommandé)**
+5️⃣︲**Modifier le mot de passe par défaut (recommandé).**
 
 Une fois tout opérationnel :
 `User Management → fog → Edit → Change Password`
