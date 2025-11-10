@@ -447,6 +447,12 @@ Récapitulatif rapide des options :
 - [x] **Using FOG DHCP:** Yes  
 - [x] **DHCP Router Address:** 192.168.23.2  
 - [x] **Send OS Name, OS Version, and FOG Version:** No
+<details>
+  <summary>📸︲Copie d'écran</summary>
+<img width="612" height="833" alt="image" src="https://github.com/user-attachments/assets/57116a47-b443-43e4-9008-b2aff9e5cfb7" />
+</details>
+
+
 
 
 ---
