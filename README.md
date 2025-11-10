@@ -425,6 +425,7 @@ Lors du processus, plusieurs questions seront posées :
 
 | Question                      | Réponse attendue              |
 | ----------------------------- | ----------------------------- |
+| Version Linux ?               | `2` (Debian Based Linux       |
 | Type d’installation ?         | `N` (Normal Server)           |
 | Interface réseau détectée ?   | `Entrée` (valider par défaut) |
 | Activer DHCP sur ce serveur ? | `Y`                           |
