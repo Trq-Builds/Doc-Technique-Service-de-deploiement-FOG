@@ -433,8 +433,7 @@ Lors du processus, plusieurs questions seront posées :
 | Activer HTTPS ?               | `N`                           |
 
 ---
-Récapitulatif des options : 
-# FOG Settings
+Récapitulatif rapide des options : 
 
 - [x] **Base Linux:** Debian  
 - [x] **Detected Linux Distribution:** Debian GNU/Linux  
