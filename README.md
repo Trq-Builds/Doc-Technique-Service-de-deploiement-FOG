@@ -599,9 +599,8 @@ Une fois tout opérationnel :
 ---
 
 > [!TIP]
-> 🎯 À ce stade, ton serveur FOG est **installé, opérationnel et prêt pour la configuration avancée**.
-> Tu peux maintenant passer à la section suivante :
-> `⚙️︲Configuration du service FOG` pour affiner les paramètres (menu PXE, délais, nombre de clients simultanés, etc.).
+> 🎯 À ce stade, ton serveur FOG est **installé, opérationnel et prêt pour la configuration avancée !**.
+> Tu peux maintenant passer à la section suivante pour affiner les paramètres (menu PXE, délais, nombre de clients simultanés, etc.).
 
 ---
 
