@@ -470,9 +470,7 @@ Une fois terminé, un message t’indiquera d’accéder à l’interface web po
 
 <details>
   <summary>📸︲Installation du script FOG</summary>
-
-*(Capture de la progression du script dans le terminal et du message final)*
-
+<img width="637" height="836" alt="image" src="https://github.com/user-attachments/assets/b2ac5481-4ddd-4058-99cf-6f3d1b64870a" />
 </details>
 
 ---
@@ -492,9 +490,7 @@ Sur la page d’accueil, clique sur :
 
 <details>
   <summary>📸︲Page web d’installation</summary>
-
-*(Capture du bouton “Install/Update Now” et de la confirmation)*
-
+<img width="1774" height="1048" alt="image" src="https://github.com/user-attachments/assets/cf84e032-fa31-42b7-9320-6f205b2913e8" />
 </details>
 
 ---
