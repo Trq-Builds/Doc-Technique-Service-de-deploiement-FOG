@@ -237,7 +237,7 @@ ID : btssio  | MDP : btssio
 
 ---
 > [!WARNING]
-> Prends un snapshot de ta VM à ce stade (avant de configurer SSH). Cela te permettra de revenir rapidement en arrière en cas de problème avec la configuration réseau ou si FOG rencontre une erreur par la suite
+> **Prends un snapshot de ta VM à ce stade (avant de configurer SSH). Cela te permettra de revenir rapidement en arrière en cas de problème avec la configuration réseau ou si FOG rencontre une erreur par la suite**
 
 ---
 
@@ -306,7 +306,7 @@ ID : btssio  | MDP : btssio
   ```
 
 > [!WARNING]
-> Ne laissez jamais le compte root activé en production : il ne doit être utilisé que pour les besoins du TP ou des tests internes.
+> **Ne laissez jamais le compte root activé en production : il ne doit être utilisé que pour les besoins du TP ou des tests internes.**
 
 ---
 
@@ -331,7 +331,7 @@ ssh root@<ip_du_serveur>
 ---
 
 > [!WARNING]
-> Prends un instantané de la VM après avoir validé le SSH, afin de pouvoir y revenir avant d’installer le service FOG.
+> **Prends un instantané de la VM après avoir validé le SSH, afin de pouvoir y revenir avant d’installer le service FOG.**
 
 ---
 
@@ -573,7 +573,7 @@ Une fois tout opérationnel :
 `User Management → fog → Edit → Change Password`
 
 > [!WARNING]
-> ⚠️ Ne laisse jamais le mot de passe `password` par défaut, même pour un simple TP en réseau local.
+> **Ne laisse jamais le mot de passe `password` par défaut, même pour un simple TP en réseau local.**
 
 ---
 
