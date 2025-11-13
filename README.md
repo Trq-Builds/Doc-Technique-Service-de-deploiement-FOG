@@ -533,18 +533,6 @@ Par défaut :
   <img width="1783" height="982" alt="image" src="https://github.com/user-attachments/assets/a9b7d3db-2983-4546-863d-8da59ebbef29" />
 </details>
 
-
----
-
-2️⃣︲**Vérification des services actifs.**
-
-Sur le tableau de bord (**Dashboard**), assure-toi que tous les services sont affichés en vert ✅ :
-
-* FOG Scheduler
-* FOG Multicast Manager
-* FOG Image Replicator
-* FOG Task Scheduler
-
 <details>
   <summary>📸︲Tableau de bord FOG</summary>
 <img width="1787" height="1057" alt="image" src="https://github.com/user-attachments/assets/49bf6987-7a78-4eb2-ae31-30417bc12f55" />
@@ -552,7 +540,7 @@ Sur le tableau de bord (**Dashboard**), assure-toi que tous les services sont af
 
 ---
 
-3️⃣︲**Vérifier le service DHCP.**
+2️⃣︲**Vérifier le service DHCP.**
 
 FOG gère son propre service DHCP.
 Vérifie qu’il est actif :
@@ -566,7 +554,7 @@ $ systemctl status isc-dhcp-server
 
 ---
 
-4️⃣︲**Tester le service TFTP.**
+︲**Tester le service TFTP.**
 
 Pour t’assurer que le boot PXE fonctionnera correctement :
 
@@ -584,14 +572,12 @@ sudo systemctl status tftpd-hpa
 
 <details>
   <summary>📸︲Test du service TFTP</summary>
-
-*(Capture du test `tftp` réussi)*
-
+<img width="1089" height="701" alt="image" src="https://github.com/user-attachments/assets/0467a90e-1723-40fd-bb13-5ea6d8e21b27" />
 </details>
 
 ---
 
-5️⃣︲**Modifier le mot de passe par défaut (recommandé).**
+3️⃣︲**Modifier le mot de passe par défaut (recommandé mais ici test en Labo).**
 
 Une fois tout opérationnel :
 `User Management → fog → Edit → Change Password`
