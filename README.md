@@ -610,6 +610,227 @@ Une fois tout opérationnel :
 <a id="configuration-service-fog"></a>
 # `⚙️`︲Configuration du service FOG.
 
+---
+
+> [!NOTE]  
+> Cette partie te guide dans la **configuration avancée du service FOG**, afin d’adapter son comportement à ton environnement réseau de TP.  
+> Objectif : ajuster le DHCP, modifier le délai du menu PXE et optimiser le nombre de connexions simultanées.
+
+---
+
+<a id="parametres-reseau"></a>
+### `🌐`︲Paramètres réseau et DHCP
+
+---
+
+1️⃣︲**Isoler le réseau du serveur FOG**
+
+Dans VirtualBox :  
+- Passe la carte réseau du **serveur FOG** en mode **“Réseau interne”**.  
+- Fais de même pour les **machines clientes** à déployer.
+
+> [!TIP]  
+> 💡 Cela permet d’éviter les conflits DHCP avec le réseau de la salle et de s’assurer que **seul FOG attribue les adresses IP**.
+
+---
+
+2️⃣︲**Vérifier la configuration DHCP de FOG**
+
+FOG peut faire office de serveur DHCP.  
+Pour vérifier et ajuster la configuration :
+
+```bash
+sudo nano /etc/dhcp/dhcpd.conf
+````
+
+Les lignes essentielles doivent ressembler à ceci :
+
+```bash
+subnet 192.168.100.0 netmask 255.255.255.0 {
+    range dynamic-bootp 192.168.100.50 192.168.100.150;
+    option routers 192.168.100.1;
+    filename "undionly.kpxe";
+    next-server 192.168.100.10;
+}
+```
+
+> [!WARNING]
+> ⚠️ Ne modifie pas le fichier si tu n’es pas sûr de ton plan d’adressage.
+> Une mauvaise configuration DHCP peut empêcher tout boot PXE.
+
+<details>
+  <summary>📸︲Exemple de configuration DHCP</summary>
+
+*(Capture du contenu du fichier `dhcpd.conf`)*
+
+</details>
+
+---
+
+3️⃣︲**Redémarrer les services FOG et DHCP**
+
+```bash
+sudo systemctl restart isc-dhcp-server
+sudo systemctl restart FOGMulticastManager
+sudo systemctl restart FOGImageReplicator
+sudo systemctl restart FOGScheduler
+```
+
+<details>
+  <summary>📸︲Redémarrage des services</summary>
+
+*(Capture des services redémarrés sans erreur)*
+
+</details>
+
+---
+
+> [!TIP]
+> 🎯 À ce stade, ton réseau interne FOG est isolé et opérationnel.
+> Les clients peuvent désormais recevoir une adresse IP depuis le serveur FOG au boot PXE.
+
+---
+
+<a id="modification-pxe"></a>
+
+### `⏱️`︲Modification du menu PXE et du timeout
+
+---
+
+> [!NOTE]
+> Par défaut, le menu PXE du serveur FOG s’affiche 3 secondes.
+> On va augmenter ce délai pour faciliter les manipulations et diagnostics.
+
+---
+
+1️⃣︲**Accéder à l’interface web FOG**
+
+`Dashboard → FOG Configuration → PXE Boot Menu`
+
+---
+
+2️⃣︲**Modifier le délai d’affichage du menu**
+
+Cherche le paramètre :
+
+```
+FOG_PXE_BOOT_MENU_TIMEOUT
+```
+
+Modifie la valeur :
+
+```
+10
+```
+
+Puis clique sur **“Save Changes”** pour enregistrer.
+
+<details>
+  <summary>📸︲Modification du délai PXE</summary>
+
+*(Capture de la section PXE Boot Menu avant/après modification)*
+
+</details>
+
+---
+
+3️⃣︲**Vérifier le menu au démarrage d’un client**
+
+Lance une VM cliente configurée pour booter en réseau (PXE).
+Le menu FOG devrait maintenant s’afficher **pendant 10 secondes**.
+
+<details>
+  <summary>📸︲Affichage du menu PXE</summary>
+
+*(Capture du menu FOG avec le nouveau timeout)*
+
+</details>
+
+---
+
+> [!TIP]
+> ⏱️ Augmenter le délai du menu PXE évite de rater l’entrée en mode “Quick Registration” ou “Deploy Image” lors des tests en TP.
+
+---
+
+<a id="clients-simultanes"></a>
+
+### `👥`︲Augmentation du nombre de clients simultanés
+
+---
+
+> [!NOTE]
+> Par défaut, FOG limite le nombre de connexions PXE simultanées à 10.
+> On va augmenter cette valeur pour permettre un déploiement massif sur plusieurs postes à la fois.
+
+---
+
+1️⃣︲**Accéder aux paramètres avancés**
+
+Depuis l’interface web :
+`FOG Configuration → FOG Settings → TFTP Server`
+
+---
+
+2️⃣︲**Modifier le paramètre de sessions simultanées**
+
+Repère la ligne :
+
+```
+FOG_TFTP_FTP_MAX_CONNECTIONS
+```
+
+Augmente la valeur selon ton besoin (exemple : 30) :
+
+```
+30
+```
+
+> [!TIP]
+> 💡 Pour un test en salle complète (18 à 20 machines), 30 connexions assurent un flux stable.
+
+<details>
+  <summary>📸︲Paramètre TFTP modifié</summary>
+
+*(Capture du paramètre modifié dans FOG Settings)*
+
+</details>
+
+---
+
+3️⃣︲**Redémarrer le service TFTP pour appliquer la modification**
+
+```bash
+sudo systemctl restart tftpd-hpa
+```
+
+<details>
+  <summary>📸︲Redémarrage du service TFTP</summary>
+
+*(Capture du terminal montrant le redémarrage réussi du service)*
+
+</details>
+
+---
+
+4️⃣︲**Vérification finale**
+
+Teste un boot PXE simultané sur plusieurs machines virtuelles.
+Toutes doivent atteindre l’écran de menu FOG sans erreur réseau.
+
+> [!TIP]
+> 🎯 Si certains clients restent bloqués, augmente légèrement la limite (jusqu’à 50 connexions selon la puissance de ta machine hôte).
+
+---
+
+> [!TIP]
+> ✅ Ton serveur FOG est maintenant **configuré, optimisé et prêt à gérer plusieurs déploiements en parallèle**.
+> Tu peux passer à la prochaine étape :
+> `🖼️︲Création d’une image et d’un groupe de déploiement`.
+
+---
+
+
 
 
 
