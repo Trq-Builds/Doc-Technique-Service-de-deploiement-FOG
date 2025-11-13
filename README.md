@@ -616,7 +616,7 @@ Dans VMWare :
 - Fais de même pour les **machines clientes** à déployer.
   
 <details>
-  <summary>📸︲Config VMWareTFTP</summary>
+  <summary>📸︲Config VMWare</summary>
     <img width="1197" height="933" alt="image" src="https://github.com/user-attachments/assets/0dd3b069-8b9e-4e01-accc-16ebde632b9c" />
 </details>
 
