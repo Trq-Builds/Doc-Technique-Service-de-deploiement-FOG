@@ -647,14 +647,12 @@ subnet 192.168.100.0 netmask 255.255.255.0 {
 ```
 
 > [!WARNING]
-> ⚠️ Ne modifie pas le fichier si tu n’es pas sûr de ton plan d’adressage.
+> Ne modifie pas le fichier si tu n’es pas sûr de ton plan d’adressage.
 > Une mauvaise configuration DHCP peut empêcher tout boot PXE.
 
 <details>
   <summary>📸︲Exemple de configuration DHCP</summary>
-
-*(Capture du contenu du fichier `dhcpd.conf`)*
-
+<img width="1085" height="701" alt="image" src="https://github.com/user-attachments/assets/9356d95a-27ec-4928-af09-5f08839d44d9" />
 </details>
 
 ---
