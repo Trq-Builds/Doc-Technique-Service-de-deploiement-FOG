@@ -611,12 +611,18 @@ Une fois tout opérationnel :
 
 1️⃣︲**Isoler le réseau du serveur FOG**
 
-Dans VirtualBox :  
+Dans VMWare :  
 - Passe la carte réseau du **serveur FOG** en mode **“Réseau interne”**.  
 - Fais de même pour les **machines clientes** à déployer.
+  
+<details>
+  <summary>📸︲Test du service TFTP</summary>
+    <img width="1197" height="933" alt="image" src="https://github.com/user-attachments/assets/0dd3b069-8b9e-4e01-accc-16ebde632b9c" />
+</details>
+
 
 > [!TIP]  
-> 💡 Cela permet d’éviter les conflits DHCP avec le réseau de la salle et de s’assurer que **seul FOG attribue les adresses IP**.
+> Cela permet d’éviter les conflits DHCP avec le réseau de la salle et de s’assurer que **seul FOG attribue les adresses IP**.
 
 ---
 
@@ -678,7 +684,6 @@ sudo systemctl restart FOGScheduler
 ---
 
 <a id="modification-pxe"></a>
-
 ### `⏱️`︲Modification du menu PXE et du timeout
 
 ---
@@ -740,7 +745,6 @@ Le menu FOG devrait maintenant s’afficher **pendant 10 secondes**.
 ---
 
 <a id="clients-simultanes"></a>
-
 ### `👥`︲Augmentation du nombre de clients simultanés
 
 ---
