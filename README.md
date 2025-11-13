@@ -529,7 +529,7 @@ Par défaut :
 * **Mot de passe :** `password` *(à modifier plus tard)*
   
 <details>
-  <summary>📸︲Copie d'écran< (Login)/summary>
+  <summary>📸︲Copie d'écran< (Login)</summary>
   <img width="1783" height="982" alt="image" src="https://github.com/user-attachments/assets/a9b7d3db-2983-4546-863d-8da59ebbef29" />
 </details>
 
