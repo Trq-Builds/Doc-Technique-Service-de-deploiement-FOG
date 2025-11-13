@@ -583,7 +583,7 @@ Une fois tout opérationnel :
 `User Management → fog → Edit → Change Password`
 
 > [!WARNING]
-> **Ne laisse jamais le mot de passe `password` par défaut, même pour un simple TP en réseau local.**
+> **Ne laisse jamais le mot de passe `password` par défaut, ici c'est pour un simple TP en réseau local pour gagner du temps.**
 
 ---
 
