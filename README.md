@@ -558,7 +558,7 @@ FOG gère son propre service DHCP.
 Vérifie qu’il est actif :
 
 ```bash
-sudo systemctl status isc-dhcp-server
+$ systemctl status isc-dhcp-server
 ```
 
 > [!TIP]
