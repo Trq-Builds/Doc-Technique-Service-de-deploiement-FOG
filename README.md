@@ -632,7 +632,7 @@ FOG peut faire office de serveur DHCP.
 Pour vérifier et ajuster la configuration :
 
 ```bash
-sudo nano /etc/dhcp/dhcpd.conf
+$ nano /etc/dhcp/dhcpd.conf
 ````
 
 Les lignes essentielles doivent ressembler à ceci :
@@ -660,10 +660,10 @@ subnet 192.168.100.0 netmask 255.255.255.0 {
 3️⃣︲**Redémarrer les services FOG et DHCP**
 
 ```bash
-sudo systemctl restart isc-dhcp-server
-sudo systemctl restart FOGMulticastManager
-sudo systemctl restart FOGImageReplicator
-sudo systemctl restart FOGScheduler
+$ systemctl restart isc-dhcp-server
+$ systemctl restart FOGMulticastManager
+$ systemctl restart FOGImageReplicator
+$ systemctl restart FOGScheduler
 ```
 
 <details>
