@@ -813,4 +813,132 @@ Toutes doivent atteindre l’écran de menu FOG sans erreur réseau.
 
 ---
 
+<a id="creation-image-groupe"></a>
+## `🖼️`︲Création d’une image et d’un groupe de déploiement
+
+---
+
+> [!NOTE]  
+> Cette partie consiste à préparer l’infrastructure FOG pour accueillir et gérer la future image master Windows 11 de la salle 126.  
+> Objectif : créer une **image FOG** et un **groupe de déploiement** pour faciliter les opérations à grande échelle.
+
+---
+
+<a id="creation-image"></a>
+### `📷`︲Création d’une image “S126-master”
+
+---
+
+1️⃣︲**Accéder au menu Images depuis l’interface FOG**
+
+Interface Web → `Image Management` → `Create New Image`
+
+---
+
+2️⃣︲**Paramétrer l’image**
+
+Renseigne les champs suivants :
+
+| Paramètre | Valeur |
+|----------|--------|
+| **Image Name** | `S126-master` |
+| **Image Description** | *Image master Windows 11 – Salle 126* |
+| **Storage Group** | `default` |
+| **Image Type** | `Single Disk - Resizable` |
+| **OS** | `Windows 10/11` |
+| **Image Path** | `/images/S126-master` |
+
+> [!TIP]  
+> 💡 Le type *Resizable* permet à FOG d’adapter la partition lors du déploiement, idéal pour les environnements homogènes.
+
+<details>
+  <summary>📸︲Création de l’image dans FOG</summary>
+
+  *(Insère ici la capture de la page “Create New Image”)*
+
+</details>
+
+---
+
+3️⃣︲**Sauvegarder l’image**
+
+Clique sur **“Add”** pour valider la création.
+
+Tu verras apparaître ton image dans :
+`Image Management → All Images`
+
+<details>
+  <summary>📸︲Image enregistrée</summary>
+
+  *(Capture de la liste des images avec “S126-master” dans la liste)*
+
+</details>
+
+---
+
+<a id="creation-groupe"></a>
+### `👥`︲Création d’un groupe de déploiement
+
+---
+
+1️⃣︲**Aller dans Group Management**
+
+Interface Web → `Group Management` → `Create New Group`
+
+---
+
+2️⃣︲**Configurer le groupe**
+
+| Paramètre | Valeur |
+|----------|--------|
+| **Group Name** | `Salle126` |
+| **Group Description** | *Groupe des clients destinés à recevoir l’image S126-master* |
+
+Clique ensuite sur **“Add”**.
+
+<details>
+  <summary>📸︲Création du groupe Salle126</summary>
+
+  *(Capture de la page de création du groupe)*
+
+</details>
+
+---
+
+3️⃣︲**Associer le groupe à l’image**
+
+Dans le groupe fraîchement créé :
+
+`Group Management → Salle126 → Image`
+
+Sélectionne :
+```
+
+S126-master
+
+```
+Puis clique sur **“Update”**.
+
+> [!TIP]  
+> 🎯 Cette étape est cruciale : elle permet de déployer automatiquement l’image sur **toutes les machines recensées dans le groupe** sans reconfigurer chaque client.
+
+<details>
+  <summary>📸︲Assignation de l’image au groupe</summary>
+
+  *(Capture du groupe Salle126 avec l’image assignée)*
+
+</details>
+
+---
+
+> [!TIP]  
+> Tu as maintenant un **groupe de déploiement opérationnel**, prêt à recevoir des clients et à lancer un déploiement massif.  
+> Prochaine étape :  
+> `💻︲Préparation et recensement de la machine master`.
+
+
+
+
+
+
 
