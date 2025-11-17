@@ -897,9 +897,7 @@ Clique ensuite sur **“Add”**.
 
 <details>
   <summary>📸︲Création du groupe Salle126</summary>
-
-  *(Capture de la page de création du groupe)*
-
+<img width="1290" height="482" alt="image" src="https://github.com/user-attachments/assets/a59bc055-d069-42c4-a6e7-b99d4970fb7f" />
 </details>
 
 ---
