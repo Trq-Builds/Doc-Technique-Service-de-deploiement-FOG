@@ -927,7 +927,181 @@ Puis clique sur **“Update”**.
 ---
 
 > [!TIP]  
-> Tu as maintenant un **groupe de déploiement opérationnel**, prêt à recevoir des clients et à lancer un déploiement massif.  
+> Tu as maintenant un **groupe de déploiement opérationnel**, prêt à recevoir des clients et à lancer un déploiement massif.
+
+--- 
+
+Parfait Kata, **on enchaîne proprement**.
+Voici la suite complète, formatée comme tes sections précédentes, 100% prête à coller dans ton README.
+
+---
+
+<a id="preparation-master"></a>
+## `💻`︲Préparation et recensement de la machine master
+
+---
+
+> [!NOTE]  
+> Ici, tu vas préparer la machine qui servira d’**image master** : installation d’un logiciel, recensement via FOG, et renommage dans l’interface.  
+> Cette étape est indispensable avant la capture de l’image.
+
+---
+
+<a id="logiciel-master"></a>
+### `🪛`︲Installation du logiciel de personnalisation (au choix)
+
+---
+
+1️⃣︲**Créer la VM Windows 11 “Master”**
+
+- Utilise une configuration proche des PC du centre de formation.  
+- Désactive l’EFI dans VirtualBox (important pour le recensement FOG).  
+- Une fois Windows 11 installé : mets à jour, configure et prépare l’environnement.
+
+---
+
+2️⃣︲**Installer un logiciel parmi la liste imposée**
+
+Tu dois installer **un des logiciels suivants** sur la machine master :
+
+- FileZilla Client  
+- LibreOffice  
+- Visual Studio Code  
+- WinRAR  
+
+> [!TIP]  
+> Choisis un logiciel visible et simple à repérer : idéal pour vérifier, après déploiement, que l’image a bien été appliquée.
+
+<details>
+  <summary>📸︲Installation du logiciel choisi</summary>
+
+  *(Capture de l’installation du logiciel)*
+
+</details>
+
+---
+
+3️⃣︲**Finaliser la machine avant recensement**
+
+- Nettoyer les fichiers inutiles.  
+- Vérifier que Windows est activé.  
+- Vérifier les mises à jour.  
+- Redémarrer une dernière fois avant de passer au boot PXE.
+
+---
+
+<a id="recensement-machine"></a>
+### `📋`︲Recensement de la machine master dans FOG
+
+---
+
+> [!NOTE]  
+> Le recensement permet à FOG d’enregistrer la machine dans sa base afin de pouvoir la capturer.
+
+---
+
+1️⃣︲**Configurer le boot réseau de la VM master**
+
+Dans VirtualBox :  
+- Désactive **EFI**  
+- Active le démarrage réseau **PXE** (Intel PXE-ROM)
+
+---
+
+2️⃣︲**Démarrer la machine master en PXE**
+
+Au démarrage, la VM doit afficher le menu FOG.  
+Sélectionne :  
+```
+
+Perform Full Host Registration and Inventory
+
+```
+
+---
+
+3️⃣︲**Remplir les informations demandées**
+
+- **Host name** : `master-s126` (exemple recommandé)  
+- **Image association** : ne rien toucher pour le moment  
+- **Autres champs** : valider par défaut
+
+<details>
+  <summary>📸︲Recensement via le menu FOG</summary>
+
+  *(Capture de l’écran de Full Host Registration)*
+
+</details>
+
+---
+
+4️⃣︲**Redémarrer la machine**
+
+Après l’enregistrement, laisse la machine redémarrer normalement.
+
+> [!TIP]  
+> Tu peux maintenant vérifier dans l’interface FOG :  
+> `Host Management → All Hosts`  
+> Ta machine doit apparaître dans la liste.
+
+<details>
+  <summary>📸︲Machine master recensée dans FOG</summary>
+
+  *(Capture de la liste des hosts montrant master-s126)*
+
+</details>
+
+---
+
+<a id="renommage-machine"></a>
+### `🏷️`︲Renommage et validations sur le serveur FOG
+
+---
+
+1️⃣︲**Ouvrir la fiche de la machine enregistrée**
+
+Interface Web →  
+`Host Management → master-s126`
+
+---
+
+2️⃣︲**Vérifier / modifier si nécessaire**
+
+- Hostname  
+- MAC address  
+- Description  
+- Groupe d’appartenance (la machine master NE DOIT PAS aller dans un groupe client)
+
+> [!WARNING]  
+> ❗ Le master NE doit **jamais** être dans le groupe “Salle126”.  
+> (Sinon FOG pourrait tenter de lui déployer sa propre image.)
+
+---
+
+3️⃣︲**Associer l’image à capturer (facultatif à ce stade)**
+
+Tu peux associer l’image `S126-master`, mais ce n’est pas obligatoire avant la capture.
+
+<details>
+  <summary>📸︲Paramètres du host master dans FOG</summary>
+
+  *(Capture de la page Host Management)*
+
+</details>
+
+---
+
+> [!TIP]  
+> 🎯 Ton master est maintenant **préparé, recensé et prêt à être capturé**.  
+> Tu peux passer à la prochaine étape :  
+> `📦︲Capture de l’image master`.
+
+
+
+---
+
+**`📦︲Capture de l’image master`** ?
+
 
 
 
