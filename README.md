@@ -508,7 +508,7 @@ Sur la page d’accueil, clique sur :
 ---
 
 <a id="configuration-initiale-fog"></a>
-### `🔧`︲Configuration initiale et tests
+### `🔧`︲Configuration initiale et tests.
 
 ---
 
@@ -607,7 +607,7 @@ Une fois tout opérationnel :
 ---
 
 <a id="parametres-reseau"></a>
-### `🌐`︲Paramètres réseau et DHCP
+### `🌐`︲Paramètres réseau et DHCP.
 
 ---
 
@@ -682,7 +682,7 @@ $ systemctl restart FOGScheduler
 ---
 
 <a id="modification-pxe"></a>
-### `⏱️`︲Modification du menu PXE et du timeout
+### `⏱️`︲Modification du menu PXE et du timeout.
 
 ---
 
@@ -743,7 +743,7 @@ Le menu FOG devrait maintenant s’afficher **pendant 10 secondes**.
 ---
 
 <a id="clients-simultanes"></a>
-### `👥`︲Augmentation du nombre de clients simultanés
+### `👥`︲Augmentation du nombre de clients simultanés.
 
 ---
 
@@ -827,7 +827,7 @@ Toutes doivent atteindre l’écran de menu FOG sans erreur réseau.
 ---
 
 <a id="creation-image"></a>
-### `📷`︲Création d’une image “S126-master”
+### `📷`︲Création d’une image “S126-master”.
 
 ---
 
@@ -878,7 +878,7 @@ Tu verras apparaître ton image dans :
 ---
 
 <a id="creation-groupe"></a>
-### `👥`︲Création d’un groupe de déploiement
+### `👥`︲Création d’un groupe de déploiement.
 
 ---
 
@@ -950,7 +950,7 @@ Voici la suite complète, formatée comme tes sections précédentes, 100% prêt
 ---
 
 <a id="logiciel-master"></a>
-### `🪛`︲Installation du logiciel de personnalisation (au choix)
+### `🪛`︲Installation du logiciel de personnalisation (au choix).
 
 ---
 
@@ -1059,7 +1059,7 @@ Après l’enregistrement, laisse la machine redémarrer normalement.
 ---
 
 <a id="renommage-machine"></a>
-### `🏷️`︲Renommage et validations sur le serveur FOG
+### `🏷️`︲Renommage et validations sur le serveur FOG.
 
 ---
 
