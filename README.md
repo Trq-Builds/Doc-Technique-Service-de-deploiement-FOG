@@ -849,7 +849,7 @@ Renseigne les champs suivants :
 | **Image Path** | `/images/S126-master` |
 
 > [!TIP]  
-> 💡 Le type *Resizable* permet à FOG d’adapter la partition lors du déploiement, idéal pour les environnements homogènes.
+> Le type *Resizable* permet à FOG d’adapter la partition lors du déploiement, idéal pour les environnements homogènes.
 
 <details>
   <summary>📸︲Création de l’image dans FOG</summary>
@@ -920,7 +920,7 @@ S126-master
 Puis clique sur **“Update”**.
 
 > [!TIP]  
-> 🎯 Cette étape est cruciale : elle permet de déployer automatiquement l’image sur **toutes les machines recensées dans le groupe** sans reconfigurer chaque client.
+>  Cette étape est cruciale : elle permet de déployer automatiquement l’image sur **toutes les machines recensées dans le groupe** sans reconfigurer chaque client.
 
 <details>
   <summary>📸︲Assignation de l’image au groupe</summary>
@@ -933,8 +933,7 @@ Puis clique sur **“Update”**.
 
 > [!TIP]  
 > Tu as maintenant un **groupe de déploiement opérationnel**, prêt à recevoir des clients et à lancer un déploiement massif.  
-> Prochaine étape :  
-> `💻︲Préparation et recensement de la machine master`.
+
 
 
 
