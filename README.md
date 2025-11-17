@@ -1076,8 +1076,8 @@ Interface Web →
 - Groupe d’appartenance (la machine master NE DOIT PAS aller dans un groupe client)
 
 > [!WARNING]  
-> ❗ Le master NE doit **jamais** être dans le groupe “Salle126”.  
-> (Sinon FOG pourrait tenter de lui déployer sa propre image.)
+> Le master NE doit **jamais** être dans le groupe “Salle126”.  
+> (Sinon FOG pourrait tenter de lui déployer sa propre image...)
 
 ---
 
