@@ -94,6 +94,7 @@ Tu y apprendras à **installer le serveur**, **capturer une image master**, et *
 > - `🟦`︲**Client :** Windows 11. ︲[`🌐`](https://www.microsoft.com/fr-fr/software-download/windows11)
 > - `🧰`︲**Outils :** FOG (Free Open-Source Ghost) `V.1.5.10.1721` ︲[`🌐`](https://fogproject.org/)
 > - `📦`︲**VMWare :** ︲[`🌐`](https://www.vmware.com/)
+> - `⚡`︲**PuTTY :** ︲[`🌐`](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html)
 > - `👤`︲**Interface Chaise-Clavier fonctionnelle.**
 ---
 
@@ -115,7 +116,7 @@ Tu y apprendras à **installer le serveur**, **capturer une image master**, et *
 * `❓` ︲**Hostname :** `srv-fog`.
 * `📡` ︲**Adressage IP :** dynamique (DHCP) récupérer une adresse sur le réseau local physique.
 * `🖼️` ︲**Interface graphique :** **__aucune__** (__installation en mode serveur / ligne de commande__).
-* `🧩` ︲**Service à installer :** `ssh` (SSH activé et démarré).
+* `🧩` ︲**Service à installer :** `ssh` **(SSH activé et démarré)**.
 * `📏` ︲**Mémoire :** `1024 Mo`.
 * `💾` ︲**Disque :** `100 Go` (allocation dynamique).
 * `❤️` ︲**Cœurs :** `1`. (Optionel)
