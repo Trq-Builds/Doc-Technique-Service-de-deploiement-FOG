@@ -719,9 +719,7 @@ Puis clique sur **“Save Changes”** pour enregistrer.
 
 <details>
   <summary>📸︲Modification du délai PXE</summary>
-
-*(Capture de la section PXE Boot Menu avant/après modification)*
-
+<img width="1151" height="383" alt="image" src="https://github.com/user-attachments/assets/51dc3624-a08d-4b52-87c7-22342cc861dc" />
 </details>
 
 ---
@@ -733,9 +731,6 @@ Le menu FOG devrait maintenant s’afficher **pendant 10 secondes**.
 
 <details>
   <summary>📸︲Affichage du menu PXE</summary>
-
-*(Capture du menu FOG avec le nouveau timeout)*
-
 </details>
 
 ---
