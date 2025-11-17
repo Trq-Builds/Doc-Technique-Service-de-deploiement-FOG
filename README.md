@@ -921,9 +921,7 @@ Puis clique sur **“Update”**.
 
 <details>
   <summary>📸︲Assignation de l’image au groupe</summary>
-
-  *(Capture du groupe Salle126 avec l’image assignée)*
-
+<img width="1777" height="999" alt="image" src="https://github.com/user-attachments/assets/99cf6486-9613-493f-be73-316e1428f330" />
 </details>
 
 ---
