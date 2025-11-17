@@ -760,26 +760,32 @@ Depuis l’interface web :
 
 2️⃣︲**Modifier le paramètre de sessions simultanées**
 
-Repère la ligne :
+---
 
-```
-FOG_TFTP_FTP_MAX_CONNECTIONS
-```
+La modification du nombre de connexions simultanées dans FOG se fait via l’interface Web d’administration.
 
-Augmente la valeur selon ton besoin (exemple : 30) :
+### Modifier le nombre de clients (Max Clients)
 
-```
-30
-```
+1. Ouvrir **Storage Management**.
+2. Sélectionner **DefaultMember** (stockage créé par défaut).
+3. Ajuster la valeur **Max Clients** (limite par défaut : 10).
+
+Ce paramétrage permet d’adapter FOG aux besoins, par exemple pour couvrir plusieurs salles de TP de 18 postes lors d’un déploiement.
+
+### Modifier le délai d’affichage du menu PXE
+
+1. Aller dans **FOG Configuration**.
+2. Ouvrir **PXE Boot Menu**.
+3. Modifier **Menu Timeout (in seconds)** puis valider avec **Save PXE MENU**.
+
+---
 
 > [!TIP]
 > Pour un test en salle complète (18 à 20 machines), 30 connexions assurent un flux stable.
 
 <details>
-  <summary>📸︲Paramètre TFTP modifié</summary>
-
-*(Capture du paramètre modifié dans FOG Settings)*
-
+  <summary>📸︲Paramètre modifié</summary>
+<img width="1777" height="999" alt="image" src="https://github.com/user-attachments/assets/6188d04a-2b91-468c-af9b-24393eeccdf4" />
 </details>
 
 ---
