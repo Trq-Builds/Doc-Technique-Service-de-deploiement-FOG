@@ -94,6 +94,7 @@ Tu y apprendras à **installer le serveur**, **capturer une image master**, et *
 > - `🟦`︲**Client :** Windows 11. ︲[`🌐`](https://www.microsoft.com/fr-fr/software-download/windows11)
 > - `🧰`︲**Outils :** FOG (Free Open-Source Ghost) `V.1.5.10.1721` ︲[`🌐`](https://fogproject.org/)
 > - `📦`︲**VMWare :** ︲[`🌐`](https://www.vmware.com/)
+> - `👤`︲**Interface Chaise-Clavier fonctionnelle.**
 ---
 
 <a id="installation-debian"></a>
