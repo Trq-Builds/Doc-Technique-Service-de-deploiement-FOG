@@ -50,7 +50,7 @@ Tu y apprendras à **installer le serveur**, **capturer une image master**, et *
    * [`📋`︲Recensement de la machine sur le serveur FOG.](#recensement-machine)
    * [`🏷️`︲Renommage et validation.](#renommage-machine)
 
-7. [`📦`︲Capture de l’image master.](#capture-image)
+7. [`📦`︲Capture de l’image Master.](#capture-image)
 
    * [`🧭`︲Préparation avant capture.](#preparation-capture)
    * [`📸`︲Lancer la capture et suivi du processus.](#lancer-capture)
