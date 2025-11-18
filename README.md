@@ -294,7 +294,7 @@ ID : btssio  | MDP : btssio
 * Éditer le fichier de configuration :
 
   ```bash
-  sudo nano /etc/ssh/sshd_config
+  $ nano /etc/ssh/sshd_config
   ```
 * Modifier / vérifier ces lignes :
 
@@ -305,7 +305,7 @@ ID : btssio  | MDP : btssio
 * Redémarrer SSH :
 
   ```bash
-  sudo systemctl restart ssh
+  $ systemctl restart ssh
   ```
 
 > [!WARNING]
@@ -359,7 +359,7 @@ ssh root@<ip_du_serveur>
 Avant d’installer FOG, on met à jour le système et on installe les outils nécessaires :
 
 ```bash
-sudo apt update && sudo apt install -y unzip git curl wget lsb-release net-tools
+$ apt update && $ apt install -y unzip git curl wget lsb-release net-tools
 ````
 
 > [!TIP]
@@ -373,15 +373,15 @@ On récupère la version 1.5.10.1721 du projet depuis GitHub :
 
 ```bash
 cd /opt/
-sudo wget https://api.github.com/repos/FOGProject/fogproject/zipball/1.5.10.1721 -O fogproject.zip
-sudo unzip fogproject.zip
+$ wget https://api.github.com/repos/FOGProject/fogproject/zipball/1.5.10.1721 -O fogproject.zip
+$ unzip fogproject.zip
 ```
 
 > [!TIP]
 > Si le dossier extrait possède un nom long (`FOGProject-fogproject-*`), renomme-le simplement :
 >
 > ```bash
-> sudo mv FOGProject-fogproject-* fogproject
+> $ mv FOGProject-fogproject-* fogproject
 > ```
 
 <details>
@@ -421,7 +421,7 @@ cd /opt/fogproject/bin/
 1️⃣︲**Lancement du script d’installation.**
 
 ```bash
-sudo ./installfog.sh
+$ ./installfog.sh
 ```
 
 > [!WARNING]
@@ -574,7 +574,7 @@ Le fichier `default.ipxe` doit se télécharger sans erreur.
 Sinon, vérifie le service TFTP :
 
 ```bash
-sudo systemctl status tftpd-hpa
+$ systemctl status tftpd-hpa
 ```
 
 <details>
@@ -799,7 +799,7 @@ Ce paramétrage permet d’adapter FOG aux besoins, par exemple pour couvrir plu
 3️⃣︲**Redémarrer le service TFTP pour appliquer la modification**
 
 ```bash
-sudo systemctl restart tftpd-hpa
+$ systemctl restart tftpd-hpa
 ```
 
 ---
