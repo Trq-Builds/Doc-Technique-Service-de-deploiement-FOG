@@ -424,6 +424,10 @@ cd /opt/fogproject/bin/
 sudo ./installfog.sh
 ```
 
+> [!WARNING]
+> **NOTES POUR MOI MEME **INCOMPLET A MOFIFIER RAJOUTER LES COLONNES**
+
+
 Lors du processus, plusieurs questions seront posées :
 
 | Question                      | Réponse attendue              |
