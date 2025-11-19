@@ -1074,7 +1074,7 @@ Interface Web →
 - `🚦`︲Hostname  
 - `❓`︲MAC address  
 - `ℹ️`︲Description  
-- `❔`︲Groupe d’appartenance (la machine master NE DOIT PAS aller dans un groupe client)
+- `❔`︲Groupe d’appartenance (**La machine master NE DOIT PAS aller dans un groupe client** !)
 
 > [!WARNING]  
 > Le master NE doit **jamais** être dans le groupe “Salle126”.  
@@ -1096,7 +1096,7 @@ Tu peux associer l’image `S126-master`, mais ce n’est pas obligatoire avant 
 ---
 
 > [!TIP]  
-> Ton master est maintenant **préparé, recensé et prêt à être capturé**.  
+> Ton master est maintenant **préparé, recensé et prêt à être capturé !**.  
 
 ---
 
