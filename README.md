@@ -857,7 +857,7 @@ Renseigne les champs suivants :
 > [!TIP]  
 > Le type *Resizable* permet à FOG d’adapter la partition lors du déploiement, idéal pour les environnements homogènes.
 
-> [!TIP]  
+> [!IMPORTANT]  
 > **L’option Windows 11 n’est pas disponible, mais sélectionner Windows 10 fonctionnera quand même.**
 
 <details>
