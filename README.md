@@ -1012,7 +1012,7 @@ Dans VirtualBox :
 
 ---
 
-2️⃣︲**Démarrer la machine master en PXE**
+2️⃣︲**Démarrer la machine Master en PXE**
 
 Au démarrage, la VM doit afficher le menu FOG.  
 Sélectionne :  
