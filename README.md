@@ -1032,9 +1032,7 @@ Perform Full Host Registration and Inventory
 
 <details>
   <summary>📸︲Recensement via le menu FOG</summary>
-
-  *(Capture de l’écran de Full Host Registration)*
-
+<img width="1776" height="954" alt="image" src="https://github.com/user-attachments/assets/f7fbfa44-4f63-4cb6-a2fc-a36a9207d6ba" />
 </details>
 
 ---
