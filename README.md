@@ -1128,7 +1128,6 @@ Avant toute capture :
 - Le nom d’hôte doit être correct (`master-s126`).
 - L’EFI doit être **désactivé** dans VirtualBox.
 - Le master doit être **éteint** avant capture.
-- 
 
 > [!TIP]  
 > Laisse la machine dans un état **exactement prêt à être cloné**, comme en production.
