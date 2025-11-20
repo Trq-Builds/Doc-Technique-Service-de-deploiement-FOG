@@ -1006,21 +1006,26 @@ Tu dois installer **un des logiciels suivants** sur la machine master :
 
 1️⃣︲**Configurer le boot réseau de la VM master**
 
-Dans VirtualBox :  
-- Désactive **EFI**  
-- Active le démarrage réseau **PXE** (Intel PXE-ROM)
+Dans VMWare :  
+- Ne pas oublier de mettre les deux machines en 'LAN Segment' (réseau interne) afin que la machine Master puisse démarrer en PXE.
 
 ---
 
 2️⃣︲**Démarrer la machine Master en PXE**
 
 Au démarrage, la VM doit afficher le menu FOG.  
-Sélectionne :  
-```
-
-Perform Full Host Registration and Inventory
+Sélectionne :
 
 ```
+
+Quick Registration and Inventory
+
+```
+
+<details>
+  <summary>📸︲Menu PXE  FOG</summary>
+<img width="803" height="604" alt="image" src="https://github.com/user-attachments/assets/be68581a-fe4c-48c8-acc6-e2046e3e9d4a" />
+</details>
 
 ---
 
@@ -1032,7 +1037,7 @@ Perform Full Host Registration and Inventory
 
 <details>
   <summary>📸︲Recensement via le menu FOG</summary>
-<img width="1776" height="954" alt="image" src="https://github.com/user-attachments/assets/f7fbfa44-4f63-4cb6-a2fc-a36a9207d6ba" />
+
 </details>
 
 ---
