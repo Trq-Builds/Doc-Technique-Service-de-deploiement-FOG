@@ -1053,9 +1053,7 @@ Après l’enregistrement, laisse la machine redémarrer normalement.
 
 <details>
   <summary>📸︲Machine master recensée dans FOG</summary>
-
-  *(Capture de la liste des hosts montrant master-s126)*
-
+<img width="1756" height="927" alt="image" src="https://github.com/user-attachments/assets/425637ff-dd3e-4c31-a045-2c2a434f6ba2" />
 </details>
 
 ---
