@@ -424,7 +424,7 @@ cd /opt/fogproject/bin/
 $ ./installfog.sh
 ```
 
-Lors du processus, plusieurs questions seront posées :
+Lors du processus, plusieurs questions seront posées : (Les questions dans le tableau ne sont pas dans l'ordre.)
 
 | Question                      | Réponse attendue              |
 | ----------------------------- | ----------------------------- |
@@ -1181,6 +1181,10 @@ C:\Windows\System32\sysprep
 ```
 sysprep /generalize /oobe /shutdown
 ```
+
+Copie d'écran Sysprep
+<img width="1052" height="788" alt="image" src="https://github.com/user-attachments/assets/1ab1f2ed-12a8-45c8-bc20-d813767d0d1f" />
+
 
 ---
 
