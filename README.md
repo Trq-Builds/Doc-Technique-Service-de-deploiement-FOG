@@ -1182,9 +1182,10 @@ C:\Windows\System32\sysprep
 sysprep /generalize /oobe /shutdown
 ```
 
-Copie d'écran Sysprep
+<details>
+  <summary>📸︲Copie d'écran Sysprep</summary>
 <img width="1052" height="788" alt="image" src="https://github.com/user-attachments/assets/1ab1f2ed-12a8-45c8-bc20-d813767d0d1f" />
-
+</details>
 
 ---
 
