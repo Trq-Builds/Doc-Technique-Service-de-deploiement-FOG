@@ -1273,23 +1273,12 @@ Image upload complete
 … puis un redémarrage automatique.
 
 Sur ton serveur Debian, dans `/images/`, tu dois voir le dossier :
-```
 
-/images/S126-master/
-
-```
-
-avec plusieurs fichiers :  
-- `d1.mbr`  
-- `d1p1.img`  
-- `d1p2.img`  
-- `d1pX.img` *(selon les partitions)*
+`/images/S126-master/`
 
 <details>
   <summary>📸︲Fichiers d’image sur le serveur</summary>
-
-  *(Capture du dossier `/images/S126-master`)*
-
+<img width="1777" height="999" alt="image" src="https://github.com/user-attachments/assets/ca4c670c-c1ea-43ca-8f10-b8ede6971c63" />
 </details>
 
 ---
