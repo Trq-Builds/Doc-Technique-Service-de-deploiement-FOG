@@ -1317,7 +1317,207 @@ Vérifie :
 ---
 
 > [!TIP]  
-> Ton image master Windows 11 est maintenant parfaitement capturée et prête à être déployée en masse.  
+> Ton image master Windows 11 est maintenant parfaitement capturée et prête à être déployée en masse.
+
+
+---
+
+<a id="deploiement-image"></a>
+## `🚀`︲Déploiement de l’image master en multicast
+
+---
+
+> [!NOTE]  
+> Dans cette partie, tu vas déployer ton image **S126-master** vers toutes les machines clientes du groupe `Salle126`.  
+> Le déploiement **multicast** permet d’envoyer l’image à plusieurs machines simultanément, sans saturer le réseau.
+
+---
+
+<a id="preparation-deploiement"></a>
+### `🌐`︲Préparation de l’environnement réseau
+
+---
+
+1️⃣︲**Isoler le réseau du plot de TP**
+
+Pour éviter toute interférence :
+
+- Débranche le câble réseau du plot de travail  
+- Assure-toi que **seul le serveur FOG** fournit DHCP  
+- Passe les machines clientes et le serveur en **réseau interne** (VirtualBox)
+
+---
+
+2️⃣︲**Configurer correctement les VM clientes**
+
+Pour chaque machine cliente :
+
+- Désactiver **EFI**  
+- Activer le boot **PXE (Network Boot)**  
+- Vérifier que la carte réseau pointe vers le **même réseau interne** que le serveur FOG  
+- Vérifier le groupe : les clients doivent être dans le **groupe Salle126**
+
+> [!TIP]  
+> Assure-toi que toutes les VM ont bien une MAC différente (VirtualBox les génère automatiquement à la création).
+
+<details>
+  <summary>📸︲Configuration réseau des VM clientes</summary>
+
+  *(Capture de la configuration VirtualBox)*
+
+</details>
+
+---
+
+3️⃣︲**Vérifier que chaque client apparaît dans FOG**
+
+Interface Web →  
+`Host Management → All Hosts`
+
+Les machines destinées au déploiement doivent :
+
+- Être recensées  
+- Être propres  
+- Avoir le bon hostname (ex : `client126-01`, `client126-02`, etc.)  
+- Être dans le groupe `Salle126`
+
+<details>
+  <summary>📸︲Liste des hosts clients</summary>
+
+  *(Capture de All Hosts montrant les clients)*
+
+</details>
+
+---
+
+<a id="lancement-deploiement"></a>
+### `⚡`︲Lancement du déploiement multicast
+
+---
+
+1️⃣︲**Créer la tâche de déploiement multicast**
+
+Dans l’interface FOG :
+
+`Group Management → Salle126 → Basic Tasks → Multicast`
+
+Sélectionne l’image :
+```
+
+S126-master
+
+```
+
+Clique sur :  
+➡️ **“Multicast”**  
+➡️ **“Schedule Task”**
+
+<details>
+  <summary>📸︲Création de la tâche multicast</summary>
+
+  *(Capture du menu de création de tâche)*
+
+</details>
+
+---
+
+2️⃣︲**Démarrer toutes les machines clientes**
+
+Lance simultanément toutes les VM clientes.
+
+Elles devraient :
+
+1. Obtenir une adresse IP par FOG  
+2. Charger le boot PXE  
+3. Détecter la tâche multicast  
+4. Se synchroniser  
+5. Lancer Partclone toutes en même temps  
+6. Déployer la même image en parallèle
+
+---
+
+3️⃣︲**Déroulement du déploiement**
+
+Les étapes typiques :
+
+- Attente de synchronisation “Waiting for clients…”  
+- Démarrage de la session multicast  
+- Récupération des blocs depuis le serveur  
+- Décompression et écriture sur le disque  
+- Finalisation et reboot automatique
+
+<details>
+  <summary>📸︲Déploiement en cours (Partclone)</summary>
+
+  *(Capture montrant plusieurs clients en cours de déploiement)*
+
+</details>
+
+---
+
+4️⃣︲**Fin du déploiement**
+
+Chaque client affichera :  
+```
+
+Image deployed successfully
+
+```
+
+Puis redémarrera automatiquement.
+
+> [!TIP]  
+> Sur certains clients, la progression peut légèrement différer : c’est normal en multicast, tant que la synchronisation initiale s’est faite sans erreur.
+
+---
+
+<a id="verification-deploiement"></a>
+### `✅`︲Vérifications post-déploiement
+
+---
+
+1️⃣︲**Premier démarrage Windows**
+
+À la fin du déploiement, laisse chaque VM démarrer normalement.
+
+2️⃣︲**Vérifier que le logiciel installé sur la machine master est présent**
+
+Exemple :  
+- VSCode  
+- WinRAR  
+- LibreOffice  
+- FileZilla
+
+C’est l’indicateur principal que le déploiement a fonctionné.
+
+---
+
+3️⃣︲**Vérifier les informations système**
+
+- Nom de la machine  
+- Comportement général  
+- Absence d’erreurs Windows  
+- Boot rapide et propre  
+- Connexions réseau fonctionnelles
+
+---
+
+4️⃣︲**Vérifier dans l’interface FOG que la tâche est marquée comme complète**
+
+Interface Web →  
+`Task Management → Active Tasks`
+
+> [!TIP]  
+> Une tâche multicast peut mettre un peu de temps à disparaître même après sa fin : FOG attend la confirmation de tous les clients.
+
+---
+
+> [!TIP]  
+> 🎉 À ce stade, ton serveur FOG a **réussi un déploiement en multicast**, et tu as un workflow complet de capture/déploiement fonctionnel.  
+> La mission est OBJECTIVEMENT validée.
+
+---
+
   
 
 
