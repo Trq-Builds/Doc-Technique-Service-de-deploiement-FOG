@@ -1257,9 +1257,7 @@ Tu vas voir plusieurs étapes :
 
 <details>
   <summary>📸︲Écran Partclone pendant la capture</summary>
-
-  *(Capture montrant Partclone en action)*
-
+<img width="541" height="378" alt="image" src="https://github.com/user-attachments/assets/520f37d6-37b9-4eed-87e7-247a168e2ce3" />
 </details>
 
 ---
