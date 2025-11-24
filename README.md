@@ -958,7 +958,7 @@ Puis clique sur **“Update”**.
 1️⃣︲**Créer la VM Windows 11 “Master”**
 
 - Utilise une configuration proche des PC du centre de formation.  
-- Désactive l’EFI dans VirtualBox (important pour le recensement FOG).  
+- Désactive l’EFI dans VMWare (important pour le recensement FOG).  
 - Une fois Windows 11 installé : mets à jour, configure et prépare l’environnement.
 
 ---
