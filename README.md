@@ -1205,9 +1205,7 @@ Puis clique sur **Update**.
 
 <details>
   <summary>📸︲Association de l’image au master</summary>
-
-  *(Capture du menu Host Management avec l’image assignée)*
-
+<img width="1770" height="977" alt="image" src="https://github.com/user-attachments/assets/48d0d2c8-8b56-44b5-ac05-89a1cfb98b11" />
 </details>
 
 ---
@@ -1229,9 +1227,7 @@ Puis clique sur :
 
 <details>
   <summary>📸︲Planification de la tâche de capture</summary>
-
-  *(Capture de la fenêtre de planification de tâche)*
-
+<img width="1777" height="999" alt="image" src="https://github.com/user-attachments/assets/c36d7a2f-2254-49ce-a583-0586296c58f0" />
 </details>
 
 ---
