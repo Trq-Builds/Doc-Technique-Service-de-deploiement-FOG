@@ -61,15 +61,9 @@ Tu y apprendras à **installer le serveur**, **capturer une image master**, et *
    * [`⚡`︲Lancement du déploiement multicast.](#lancement-deploiement)
    * [`✅`︲Vérifications post-déploiement.](#verification-deploiement)
 
-9. [`🧩`︲Fonctionnalités avancées (optionnel).](#fonctionnalites-avancees)
+9. [`📚`︲Conclusion et bonnes pratiques.](#conclusion)
 
-   * [`🔁`︲Mise à jour du serveur FOG.](#maj-fog)
-   * [`🔒`︲Intégration au domaine Active Directory.](#integration-ad)
-   * [`📡`︲Utilisation d’un second réseau dédié au déploiement.](#reseau-dedie)
-
-10. [`📚`︲Conclusion et bonnes pratiques.](#conclusion)
-
-11. [`🧰`︲Outils et ressources utilisées.](#outils-ressources)
+10. [`🧰`︲Outils et ressources utilisées.](#outils-ressources)
 
 ---
 
