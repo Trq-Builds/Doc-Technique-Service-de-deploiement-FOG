@@ -1512,8 +1512,8 @@ Interface Web →
 * `📄` **︲Documents/Liens d’annexes fournis :**
   * `📄` ︲`1.2 - Installer et configurer un service de déploiement FOG - TP.pdf`
   * `🌐` ︲Idum︲[`🌐`](https://idum.fr/spip.php?article301)
-  * `🌐` ︲Installation de FOG 1.4.4 sur Debian 9︲[`🌐`]([https://idum.fr/spip.php?article301](https://memo-linux.com/installation-de-fog-1-4-4-sur-debian-9/)
-  * `🌐` ︲www.ceos3c.com︲[`🌐`](https://www.ceos3c.com/linux/)
+  * `🌐` ︲Installation de FOG 1.4.4 sur Debian 9︲[`🌐`]([https://idum.fr/spip.php?article301](https://memo-linux.com/installation-de-fog-1-4-4-sur-debian-9/))
+  * `🌐` ︲`www.ceos3c.com`︲[`🌐`](https://www.ceos3c.com/linux/)
 
 * `🤖` **︲GPT-5** ︲  [`🌐`](https://chatgpt.com/)
 * `❓` **︲Markdownguide.org**   ︲[`🌐`](https://www.markdownguide.org/)
