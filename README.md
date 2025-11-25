@@ -1501,7 +1501,31 @@ Interface Web →
 <a id="outils-ressources"></a>
 ## `🧰`︲Outils et ressources utilisées.
 
+---
+
+> [!TIP]
+> Vous trouverez ici la liste de tous les outils, ressources et services utilisés pour la création de cette documentation.
+> Les liens correspondants sont accessibles en cliquant sur l’emoji `  🌐  ` .
+
+---
+
+- * `📄` **︲Documents d’annexes fournis**
+
+* `🤖` **︲GPT-5** ︲  [`🌐`](https://chatgpt.com/)
+* `❓` **︲Markdownguide.org**   ︲[`🌐`](https://www.markdownguide.org/)
+* `🤖` **︲NoteBookLM**   ︲[`🌐`](https://notebooklm.google.com/)
+* `✂️` **︲Screenpresso**   ︲[`🌐`](https://www.screenpresso.com/fr/)
+* `😀` **︲Smiley.cool**   ︲[`🌐`](https://smiley.cool/emoji-list.php)
+* `❓` **︲Syntaxe de base pour l’écriture et la mise en forme**  ︲ [`🌐`](https://docs.github.com/fr/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
+* `🛠️` **︲VMWare**   ︲[`🌐`](https://www.vmware.com/)
+
 --- 
+
+> * `🎚️`︲Nagi ︲ [`🌐`](https://github.com/Anthonyy232/Nagi)
+> * `🎶`︲Mac DeMarco - 20200229 2  ︲ [`🌐`](https://youtu.be/Y_KLjGEQTgY)
+
+---
+
 
 
   
