@@ -8,9 +8,7 @@ Tu y apprendras à **installer le serveur**, **capturer une image master**, et *
 ---
 
 > [!IMPORTANT]
-> ~~Les vidéos~~ et captures d’écran seront ajoutées progressivement.
-> ~~Les **vidéos** sont hébergées sur `dona.one`.~~
-> ~~Autrement utilisez `mega.nz` pour visionner les vidéos.~~
+> Les captures d’écran seront ajoutées progressivement.
 
 ---
 
