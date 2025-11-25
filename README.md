@@ -1494,12 +1494,12 @@ Interface Web →
 ---
 
 <a id="conclusion"></a>
-### `📚`︲Conclusion et bonnes pratiques.
+## `📚`︲Conclusion et bonnes pratiques.
 
 ---
 
 <a id="outils-ressources"></a>
-### `🧰`︲Outils et ressources utilisées.
+## `🧰`︲Outils et ressources utilisées.
 
 --- 
 
