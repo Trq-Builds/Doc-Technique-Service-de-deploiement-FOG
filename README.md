@@ -319,7 +319,7 @@ ssh root@<ip_du_serveur>
 ```
 
 <details>
-  <summary>📸︲Connexion SSH réussie. (Putty )</summary>
+  <summary>📸︲Connexion SSH réussie (Putty )</summary>
 <img width="1481" height="914" alt="image" src="https://github.com/user-attachments/assets/d71b108c-696f-42d7-a863-e7ebfb7f4b94" />
 </details>
 
