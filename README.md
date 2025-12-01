@@ -1624,7 +1624,7 @@ Interface Web →
 
 **Maintenant :**
 
-* J'exlplique *pourquoi* je fais les choses
+* J'explique *pourquoi* je fais les choses
 * Contexte réseau (DHCP / PXE / NAT / Host-only) mieux détaillé
 * FOG expliqué comme un vrai service d’infra, pas juste un script
 * Ajustements réseau parfaitement formulés
