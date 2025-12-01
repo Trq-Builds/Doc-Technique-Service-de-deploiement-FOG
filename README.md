@@ -1669,13 +1669,12 @@ Interface Web →
 
 ---
 
-En gros c'est  : 
-* plus clair
-* plus structuré
-* plus pro
-* plus technique
-* plus lisible
-* plus propre
+* **Plus Clair**
+* **Plus Structuré**
+* **Plus Professionnel**
+* **Plus Technique**
+* **Plus Lisible**
+* **Plus Propre**
 
 ---
 
