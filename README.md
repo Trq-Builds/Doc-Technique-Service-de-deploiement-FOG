@@ -1624,7 +1624,7 @@ Interface Web →
 
 **Maintenant :**
 
-* Tu expliques *pourquoi* tu fais les choses
+* J'exlplique *pourquoi* je fais les choses
 * Contexte réseau (DHCP / PXE / NAT / Host-only) mieux détaillé
 * FOG expliqué comme un vrai service d’infra, pas juste un script
 * Ajustements réseau parfaitement formulés
@@ -1670,12 +1670,16 @@ Interface Web →
 ---
 
 En gros c'est  : 
-→ plus clair
-→ plus structuré
-→ plus pro
-→ plus technique
-→ plus lisible
-→ plus propre
+* plus clair
+* plus structuré
+* plus pro
+* plus technique
+* plus lisible
+* plus propre
+
+---
+
+> *Être méticuleux jusque dans les moindres détails, c’est le secret.*
 
 ---
 
