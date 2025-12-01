@@ -1556,7 +1556,7 @@ Interface Web →
 * Utilisés pour *expliquer*, *clarifier*, *avertir*
 * Respect du rôle précis de chaque type
 
-➡️ **Pédagogie : +200%**
+➡️ **Pédagogie**
 
 ---
 
