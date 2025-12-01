@@ -1539,7 +1539,7 @@ Interface Web →
 * Titres uniformisés, ancres, transitions propres
 * Un vrai sommaire professionnel
 
-➡️ **Lisibilité améliorée.
+➡️ **Lisibilité améliorée.**
 
 ---
 
