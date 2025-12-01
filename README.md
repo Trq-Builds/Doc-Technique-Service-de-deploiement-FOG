@@ -732,6 +732,7 @@ Le menu FOG devrait maintenant s’afficher **pendant 10 secondes**.
 
 <details>
   <summary>📸︲Affichage du menu PXE</summary>
+  <img width="803" height="604" alt="image" src="https://github.com/user-attachments/assets/904507c2-8a98-439d-b4c8-e60c15ca2381" />
 </details>
 
 ---
