@@ -1350,13 +1350,13 @@ Les machines destinées au déploiement doivent :
 
 <details>
   <summary>📸︲Liste des hosts clients</summary>
-<img width="1777" height="999" alt="image" src="https://github.com/user-attachments/assets/5ef292de-94d9-42f8-8505-c9994cb7b34f" />
+<img width="1777" height="1002" alt="image" src="https://github.com/user-attachments/assets/6c57f2c4-b573-4bae-bcec-6aff09bcc1e1" />
 </details>
 
 ---
 
 <a id="lancement-deploiement"></a>
-### `⚡`︲Lancement du déploiement multicast
+### `⚡`︲Lancement du déploiement.
 
 ---
 
@@ -1364,7 +1364,7 @@ Les machines destinées au déploiement doivent :
 
 Dans l’interface FOG :
 
-`Group Management → Salle126 → Basic Tasks → Multicast`
+`Group Management → Salle126 → Basic Tasks → Deploy`
 
 Sélectionne l’image :
 
@@ -1375,13 +1375,17 @@ S126-master
 ```
 
 Clique sur :  
-➡️ **“Multicast”**  
-➡️ **“Schedule Task”**
+➡️ **“`Deploy`”**  
+➡️ **“`Task`”**
 
 <details>
-  <summary>📸︲Création de la tâche multicast</summary>
+  <summary>📸︲Deploy / Création de la tâche</summary>
+  
+<img width="1242" height="306" alt="image" src="https://github.com/user-attachments/assets/7d501fa9-b79e-4ef6-8d90-207a9b6bc2b6" />
 
-  *(Capture du menu de création de tâche)*
+<img width="1222" height="688" alt="image" src="https://github.com/user-attachments/assets/1fc608a4-9403-4d94-ba5f-b71fe0248e73" />
+
+<img width="1241" height="452" alt="image" src="https://github.com/user-attachments/assets/fd9c859b-c2e0-4c41-ab14-816fb92d4101" />
 
 </details>
 
@@ -1415,7 +1419,7 @@ Les étapes typiques :
 <details>
   <summary>📸︲Déploiement en cours (Partclone)</summary>
 
-  *(Capture montrant plusieurs clients en cours de déploiement)*
+<img width="1618" height="938" alt="image" src="https://github.com/user-attachments/assets/71fb3e35-a28d-475e-80e4-d8be2f7eec18" />
 
 </details>
 
@@ -1424,6 +1428,7 @@ Les étapes typiques :
 4️⃣︲**Fin du déploiement**
 
 Chaque client affichera :  
+
 ```
 
 Image deployed successfully
@@ -1431,9 +1436,6 @@ Image deployed successfully
 ```
 
 Puis redémarrera automatiquement.
-
-> [!TIP]  
-> Sur certains clients, la progression peut légèrement différer : c’est normal en multicast, tant que la synchronisation initiale s’est faite sans erreur.
 
 ---
 
@@ -1474,18 +1476,13 @@ Interface Web →
 `Task Management → Active Tasks`
 
 > [!TIP]  
-> Une tâche multicast peut mettre un peu de temps à disparaître même après sa fin : FOG attend la confirmation de tous les clients.
+> Une tâche peut mettre un peu de temps à disparaître même après sa fin : FOG attend la confirmation de tous les clients !
 
 ---
 
 > [!TIP]  
 > À ce stade, ton serveur FOG a **réussi un déploiement en multicast**, et tu as un workflow complet de capture/déploiement fonctionnel.  
-> La mission est OBJECTIVEMENT validée.
-
----
-
-<a id="conclusion"></a>
-## `📚`︲Conclusion et bonnes pratiques.
+> La mission est validée !
 
 ---
 
