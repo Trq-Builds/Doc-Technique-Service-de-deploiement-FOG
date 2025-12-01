@@ -1678,8 +1678,8 @@ Interface Web →
 
 ---
 
-> *Être méticuleux jusque dans les moindres détails, c’est le secret.*
-> *Crossin’ your t’s, dottin’ your i’s. That’s the way to be.*
+> - *Être méticuleux jusque dans les moindres détails, c’est le secret.*
+> - *Crossin’ your t’s, dottin’ your i’s. That’s the way to be.*
 
 ---
 
