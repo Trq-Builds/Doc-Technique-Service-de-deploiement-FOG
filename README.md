@@ -1350,9 +1350,7 @@ Les machines destinées au déploiement doivent :
 
 <details>
   <summary>📸︲Liste des hosts clients</summary>
-
-  *(Capture de All Hosts montrant les clients)*
-
+<img width="1777" height="999" alt="image" src="https://github.com/user-attachments/assets/5ef292de-94d9-42f8-8505-c9994cb7b34f" />
 </details>
 
 ---
@@ -1369,6 +1367,7 @@ Dans l’interface FOG :
 `Group Management → Salle126 → Basic Tasks → Multicast`
 
 Sélectionne l’image :
+
 ```
 
 S126-master
