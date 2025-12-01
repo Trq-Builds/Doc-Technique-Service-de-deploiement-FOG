@@ -1463,17 +1463,17 @@ Exemple :
 - LibreOffice  
 - FileZilla
 
-C’est l’indicateur principal que le déploiement a fonctionné.
+C’est l’indicateur principal que le déploiement a fonctionné !
 
 ---
 
 3️⃣︲**Vérifier les informations système**
 
-- Nom de la machine  
-- Comportement général  
-- Absence d’erreurs Windows  
-- Boot rapide et propre  
-- Connexions réseau fonctionnelles
+- Nom de la machine.
+- Comportement général.
+- Absence d’erreurs Windows. 
+- Boot rapide et propre.  
+- Connexions réseau fonctionnelles.
 
 ---
 
@@ -1488,7 +1488,7 @@ Interface Web →
 ---
 
 > [!TIP]  
-> 🎉 À ce stade, ton serveur FOG a **réussi un déploiement en multicast**, et tu as un workflow complet de capture/déploiement fonctionnel.  
+> À ce stade, ton serveur FOG a **réussi un déploiement en multicast**, et tu as un workflow complet de capture/déploiement fonctionnel.  
 > La mission est OBJECTIVEMENT validée.
 
 ---
