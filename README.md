@@ -1520,6 +1520,8 @@ Interface Web →
 <a id="technique-methode"></a>
 ## `🪛`︲Technique et méthode
 
+---
+
 > [!NOTE]
 > J’ai noté ici tous les ajustements et optimisations que j’ai appliqués par rapport à [la première documentation que j’avais faite.](https://github.com/Trq-Builds/Doc-Technique-Administrer-Un-Controleur-De-Domaine)
 > 
