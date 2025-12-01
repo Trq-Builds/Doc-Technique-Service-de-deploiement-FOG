@@ -61,6 +61,8 @@ Tu y apprendras à **installer le serveur**, **capturer une image master**, et *
    
 9. [`🧰`︲Outils et ressources utilisées.](#outils-ressources)
 
+10. [`🪛`︲Technique et méthode.](#technique-methode)
+
 ---
 
 <a id="introduction"></a>
@@ -1514,9 +1516,10 @@ Interface Web →
 > * `🎶`︲Mac DeMarco - 20230109  ︲ [`🌐`](https://youtu.be/PCPG19DKzf0?si=W7OKOEhPHPjnxiwZ)
 
 ---
-`🪛`︲Technique
-Quelques améliorations par rapport à la première documentation
-AAAAAAA
+
+<a id="technique-methode"></a>
+## `🪛`︲Technique et méthode
+
 ---
 
 
