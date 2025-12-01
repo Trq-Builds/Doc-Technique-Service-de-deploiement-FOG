@@ -1521,7 +1521,7 @@ Interface Web →
 ## `🪛`︲Technique et méthode
 
 > [!NOTE]
-> J’ai noté ici tous les ajustements et optimisations que j’ai appliqués par rapport à [la première documentation que j’avais faite.]([url](https://github.com/Trq-Builds/Doc-Technique-Administrer-Un-Controleur-De-Domaine))
+> J’ai noté ici tous les ajustements et optimisations que j’ai appliqués par rapport à [la première documentation que j’avais faite.](https://github.com/Trq-Builds/Doc-Technique-Administrer-Un-Controleur-De-Domaine)
 > 
 
 ## `1️⃣`︲**Structure générale : x10 plus claire**
