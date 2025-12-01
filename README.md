@@ -1318,7 +1318,7 @@ Pour éviter toute interférence :
 
 - Débranche le câble réseau du plot de travail  
 - Assure-toi que **seul le serveur FOG** fournit DHCP  
-- Passe les machines clientes et le serveur en **réseau interne** (VirtualBox)
+- Passe les machines clientes et le serveur en **réseau interne** (VMWare)
 
 ---
 
@@ -1332,14 +1332,7 @@ Pour chaque machine cliente :
 - Vérifier le groupe : les clients doivent être dans le **groupe Salle126**
 
 > [!TIP]  
-> Assure-toi que toutes les VM ont bien une MAC différente (VirtualBox les génère automatiquement à la création).
-
-<details>
-  <summary>📸︲Configuration réseau des VM clientes</summary>
-
-  *(Capture de la configuration VirtualBox)*
-
-</details>
+> Assure-toi que toutes les VM ont bien une MAC différente !
 
 ---
 
