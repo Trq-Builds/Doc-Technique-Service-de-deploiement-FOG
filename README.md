@@ -1157,7 +1157,7 @@ Une entreprise installe Windows 11 sur une machine, ajoute Office, configure les
 
 ---
 
-Sources :
+`🌐`︲Sources :
 - Vue d’ensemble de Sysprep – Microsoft Learn [`🌐`](https://learn.microsoft.com/fr-fr/windows-hardware/manufacture/desktop/sysprep--system-preparation--overview?view=windows-11)  
 - Processus Sysprep – Microsoft Learn [`🌐`](https://learn.microsoft.com/fr-fr/windows-hardware/manufacture/desktop/sysprep-process-overview?view=windows-11)  
 - Utiliser Sysprep (généralisation) – Microsoft Learn [`🌐`](https://learn.microsoft.com/fr-fr/windows-hardware/manufacture/desktop/sysprep--generalize--a-windows-installation?view=windows-11)  
