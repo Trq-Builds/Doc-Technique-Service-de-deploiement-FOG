@@ -1475,7 +1475,6 @@ Interface Web →
 > [!TIP]  
 > Une tâche peut mettre un peu de temps à disparaître même après sa fin : FOG attend la confirmation de tous les clients !
 
----
 
 > [!TIP]  
 > À ce stade, ton serveur FOG a **réussi un déploiement en multicast**, et tu as un workflow complet de capture/déploiement fonctionnel.  
