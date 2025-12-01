@@ -1668,6 +1668,7 @@ Interface Web →
 ➡️ **Qualité documentaire**
 
 ---
+En somme c'est : 
 
 * **Plus Clair**
 * **Plus Structuré**
