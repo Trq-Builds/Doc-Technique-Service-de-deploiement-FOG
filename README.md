@@ -809,7 +809,7 @@ Toutes doivent atteindre l’écran de menu FOG sans erreur réseau.
 ---
 
 <a id="creation-image-groupe"></a>
-## `🖼️`︲Création d’une image et d’un groupe de déploiement.
+# `🖼️`︲Création d’une image et d’un groupe de déploiement.
 
 ---
 
