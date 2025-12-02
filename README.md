@@ -927,7 +927,7 @@ Puis clique sur **“Update”**.
 ---
 
 <a id="preparation-master"></a>
-## `💻`︲Préparation et recensement de la machine master.
+# `💻`︲Préparation et recensement de la machine master.
 
 ---
 
