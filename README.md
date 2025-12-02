@@ -86,7 +86,7 @@ Tu y apprendras à **installer le serveur**, **capturer une image master**, et *
 > - `🧰`︲**Outils :** FOG (Free Open-Source Ghost) `V.1.5.10.1721` ︲[`🌐`](https://fogproject.org/)
 > - `📦`︲**VMWare :** ︲[`🌐`](https://www.vmware.com/)
 > - `⚡`︲**PuTTY :** ︲[`🌐`](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html)
-> - `👤`︲**Interface Chaise-Clavier fonctionnelle.** ︲`🫵`
+> - `👤`︲**Interface Chaise-Clavier fonctionnelle.**
 > - `☕`︲**Un peu de patience !**
 ---
 
