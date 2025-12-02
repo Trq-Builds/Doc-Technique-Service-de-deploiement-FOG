@@ -87,7 +87,7 @@ Tu y apprendras à **installer le serveur**, **capturer une image master**, et *
 > - `📦`︲**VMWare :** ︲[`🌐`](https://www.vmware.com/)
 > - `⚡`︲**PuTTY :** ︲[`🌐`](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html)
 > - `👤`︲**Interface Chaise-Clavier fonctionnelle.** ︲`🫵`
-> - `👤`︲**De la patience !**
+> - `☕`︲**De la patience !**
 ---
 
 <a id="installation-debian"></a>
@@ -1504,7 +1504,7 @@ Interface Web →
 * `✂️` **︲Screenpresso**   ︲[`🌐`](https://www.screenpresso.com/fr/)
 * `😀` **︲Smiley.cool**   ︲[`🌐`](https://smiley.cool/emoji-list.php)
 * `❓` **︲Syntaxe de base pour l’écriture et la mise en forme**  ︲ [`🌐`](https://docs.github.com/fr/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
-
+> * `☕`**︲De la patience !**
 --- 
 
 > * `🎚️`︲Nagi Player︲ [`🌐`](https://github.com/Anthonyy232/Nagi)
