@@ -53,10 +53,10 @@ Tu y apprendras à **installer le serveur**, **capturer une image master**, et *
    * [`🧭`︲Préparation avant capture.](#preparation-capture)
    * [`📸`︲Lancer la capture et suivi du processus.](#lancer-capture)
 
-8. [`🚀`︲Déploiement de l’image par multicast.](#deploiement-image)
+8. [`🚀`︲Déploiement de l’image.](#deploiement-image)
 
    * [`🌐`︲Préparation de l’environnement réseau.](#preparation-deploiement)
-   * [`⚡`︲Lancement du déploiement multicast.](#lancement-deploiement)
+   * [`⚡`︲Lancement du déploiement.](#lancement-deploiement)
    * [`✅`︲Vérifications post-déploiement.](#verification-deploiement)
    
 9. [`🧰`︲Outils et ressources utilisées.](#outils-ressources)
@@ -1294,13 +1294,12 @@ Vérifie :
 ---
 
 <a id="deploiement-image"></a>
-## `🚀`︲Déploiement de l’image master en multicast.
+## `🚀`︲Déploiement de l’image master.
 
 ---
 
 > [!NOTE]  
 > Dans cette partie, tu vas déployer ton image **S126-master** vers toutes les machines clientes du groupe `Salle126`.  
-> Le déploiement **multicast** permet d’envoyer l’image à plusieurs machines simultanément, sans saturer le réseau.
 
 ---
 
