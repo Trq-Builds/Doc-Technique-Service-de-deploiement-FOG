@@ -1134,7 +1134,7 @@ Avant toute capture :
 `📌`**︲Exemple concret.**
 - **Une entreprise installe Windows 11 sur une machine, ajoute Office, configure les paramètres réseau et applique les mises à jour. Avec Sysprep, elle généralise cette installation et capture une image. Cette image est ensuite déployée sur 100 ordinateurs, chacun recevant un SID unique et une configuration adaptée lors du premier démarrage.**
 
-`🖼️`**︲Shéma récapitulatif : **
+`🖼️`**︲Shéma récapitulatif :**
  
 ```
 [Machine de référence]
