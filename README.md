@@ -44,7 +44,7 @@ Tu y apprendras à **installer le serveur**, **capturer une image master**, et *
 
 6. [`💻`︲Préparation de la machine master.](#preparation-master)
 
-   * [`🪛`︲Installation du logiciel personnalisé.](#logiciel-master)
+   * [`🧰`︲Installation du logiciel personnalisé.](#logiciel-master)
    * [`📋`︲Recensement de la machine sur le serveur FOG.](#recensement-machine)
    * [`🏷️`︲Renommage et validation.](#renommage-machine)
 
@@ -939,7 +939,7 @@ Puis clique sur **“Update”**.
 ---
 
 <a id="logiciel-master"></a>
-### `🪛`︲Installation du logiciel de personnalisation (au choix).
+### `🧰`︲Installation du logiciel de personnalisation (au choix).
 
 ---
 
