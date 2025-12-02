@@ -87,6 +87,7 @@ Tu y apprendras à **installer le serveur**, **capturer une image master**, et *
 > - `📦`︲**VMWare :** ︲[`🌐`](https://www.vmware.com/)
 > - `⚡`︲**PuTTY :** ︲[`🌐`](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html)
 > - `👤`︲**Interface Chaise-Clavier fonctionnelle.** ︲`🫵`
+> - `👤`︲**De la patience !**
 ---
 
 <a id="installation-debian"></a>
