@@ -1447,10 +1447,10 @@ Puis redémarrera automatiquement.
 2️⃣︲**Vérifier que le logiciel installé sur la machine master est présent**
 
 Exemple :  
-- VSCode  
-- WinRAR  
-- LibreOffice  
-- FileZilla
+- `🧰`︲VSCode  
+- `🧰`︲WinRAR  
+- `🧰`︲LibreOffice  
+- `🧰`︲FileZilla
 
 C’est l’indicateur principal que le déploiement a fonctionné !
 
@@ -1458,11 +1458,11 @@ C’est l’indicateur principal que le déploiement a fonctionné !
 
 3️⃣︲**Vérifier les informations système**
 
-- Nom de la machine.
-- Comportement général.
-- Absence d’erreurs Windows. 
-- Boot rapide et propre.  
-- Connexions réseau fonctionnelles.
+- `🧰`︲Nom de la machine.
+- `🧰`︲Comportement général.
+- `🧰`︲Absence d’erreurs Windows. 
+- `🧰`︲Boot rapide et propre.  
+- `🧰`︲Connexions réseau fonctionnelles.
 
 ---
 
