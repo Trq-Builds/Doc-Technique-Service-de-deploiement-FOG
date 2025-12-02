@@ -1478,7 +1478,7 @@ Interface Web →
 ---
 
 <a id="outils-ressources"></a>
-## `🧰`︲Outils et ressources utilisées.
+# `🧰`︲Outils et ressources utilisées.
 
 ---
 
@@ -1511,7 +1511,7 @@ Interface Web →
 ---
 
 <a id="technique-methode"></a>
-## `🪛`︲Technique et méthode.
+# `🪛`︲Technique et méthode.
 
 ---
 
