@@ -330,7 +330,7 @@ ssh root@<ip_du_serveur>
 ---
 
 <a id="installation-fog"></a>
-## `🌍`︲Installation du service FOG.
+# `🌍`︲Installation du service FOG.
 
 ---
 
