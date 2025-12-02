@@ -1476,7 +1476,7 @@ Interface Web →
 
 
 > [!TIP]  
-> À ce stade, ton serveur FOG a **réussi un déploiement en multicast**, et tu as un workflow complet de capture/déploiement fonctionnel.  
+> À ce stade, ton serveur FOG a **réussi un déploiement**, et tu as un workflow complet de capture/déploiement fonctionnel.  
 > La mission est validée !
 
 ---
