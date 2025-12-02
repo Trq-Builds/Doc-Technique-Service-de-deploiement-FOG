@@ -103,7 +103,7 @@ Tu y apprendras à **installer le serveur**, **capturer une image master**, et *
 
 ---
 
-`⚙️`︲Configuration de la VM.
+`⚙️`︲**Configuration de la VM.**
 
 * `❓` ︲**Hostname :** `srv-fog`.
 * `📡` ︲**Adressage IP :** dynamique (DHCP) récupérer une adresse sur le réseau local physique.
@@ -119,7 +119,7 @@ Tu y apprendras à **installer le serveur**, **capturer une image master**, et *
 </details>
 
 
-`🚧`︲Couples d’identifiants (__NON NÉGOCIABLE__).
+`🚧`︲**Couples d’identifiants (__NON NÉGOCIABLE__).**
 
 ```
 ID : root    | MDP : btssio
