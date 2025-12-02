@@ -1078,7 +1078,6 @@ Tu peux associer l’image `S126-master`, mais ce n’est pas obligatoire avant 
 <img width="1777" height="999" alt="image" src="https://github.com/user-attachments/assets/6fe59d1b-a890-44c7-9b2f-f873ff50ba30" />
 </details>
 
----
 
 > [!TIP]  
 > Ton master est maintenant **préparé, recensé et prêt à être capturé !**
