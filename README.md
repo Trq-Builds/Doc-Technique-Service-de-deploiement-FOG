@@ -1507,7 +1507,6 @@ Interface Web →
 * `✂️` **︲Screenpresso**   ︲[`🌐`](https://www.screenpresso.com/fr/)
 * `😀` **︲Smiley.cool**   ︲[`🌐`](https://smiley.cool/emoji-list.php)
 * `❓` **︲Syntaxe de base pour l’écriture et la mise en forme**  ︲ [`🌐`](https://docs.github.com/fr/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
-* `🛠️` **︲VMWare**   ︲[`🌐`](https://www.vmware.com/)
 
 --- 
 
