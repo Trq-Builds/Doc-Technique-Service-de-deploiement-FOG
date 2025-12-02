@@ -1118,7 +1118,9 @@ Avant toute capture :
 ---
 
 > [!IMPORTANT]  
-> **Sysprep est un outil Windows qui permet de préparer une installation pour le déploiement sur plusieurs machines en supprimant les informations spécifiques au PC (comme le SID, les pilotes ou la configuration matérielle). Son intérêt principal est de créer une image système généralisée, réutilisable et adaptable à différents environnements.**  
+> **Sysprep est un outil Windows qui permet de préparer une installation pour le déploiement sur plusieurs machines en supprimant les informations spécifiques au PC (comme le SID, les pilotes ou la configuration matérielle). Son intérêt principal est de créer une image système généralisée, réutilisable et adaptable à différents environnements.**
+
+--- 
 
 `🎯`︲ Intérêt de Sysprep.
 
