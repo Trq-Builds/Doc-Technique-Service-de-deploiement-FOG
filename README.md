@@ -488,7 +488,7 @@ http://<ip_du_serveur_fog>/fog/management
 > Exemple : `http://192.168.1.25/fog/management`
 
 Sur la page d’accueil, clique sur :
-➡️ **“Install/Update Now”** pour lancer la création de la base de données FOG.
+**“Install/Update Now”** pour lancer la création de la base de données FOG !
 
 <details>
   <summary>📸︲Page web d’installation</summary>
