@@ -1296,7 +1296,7 @@ Vérifie :
 ---
 
 <a id="deploiement-image"></a>
-## `🚀`︲Déploiement de l’image master.
+# `🚀`︲Déploiement de l’image master.
 
 ---
 
