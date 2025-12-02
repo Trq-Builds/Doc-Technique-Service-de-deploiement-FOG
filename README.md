@@ -118,6 +118,7 @@ Tu y apprendras à **installer le serveur**, **capturer une image master**, et *
     <img width="887" height="880" alt="image" src="https://github.com/user-attachments/assets/8671256d-3603-45e0-af58-d9cf730d5d52" />
 </details>
 
+---
 
 `🚧`︲**Couples d’identifiants (__NON NÉGOCIABLE__).**
 
