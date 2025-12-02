@@ -1109,7 +1109,7 @@ Avant toute capture :
 - Le système doit être propre (pas de fichiers perso, pas de téléchargements inutiles).
 - Les mises à jour Windows doivent être terminées.
 - Le nom d’hôte doit être correct (`master-s126`).
-- L’EFI doit être **désactivé** dans VirtualBox.
+- L’EFI doit être **désactivé** dans VMWare.
 - Le master doit être **éteint** avant capture.
 
 > [!TIP]  
