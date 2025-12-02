@@ -1506,7 +1506,7 @@ Interface Web →
 
 --- 
 
-> * `🎚️`︲Nagi Player︲ [`🌐`](https://github.com/Anthonyy232/Nagi)
+> * `⏺️`︲Nagi Player︲ [`🌐`](https://github.com/Anthonyy232/Nagi)
 > * `🎶`︲Mac DeMarco - 20191229  ︲ [`🌐`](https://youtu.be/_7VD_ur8ZJ4)
 > * `☕`**︲De la patience !**
 ---
