@@ -1434,7 +1434,7 @@ Image deployed successfully
 
 ```
 
-Puis redémarrera automatiquement.
+Puis redémarrera automatiquement !
 
 ---
 
