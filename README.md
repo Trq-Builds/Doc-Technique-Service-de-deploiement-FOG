@@ -1379,13 +1379,9 @@ Clique sur :
 
 <details>
   <summary>📸︲Deploy / Création de la tâche</summary>
-  
 <img width="1242" height="306" alt="image" src="https://github.com/user-attachments/assets/7d501fa9-b79e-4ef6-8d90-207a9b6bc2b6" />
-
 <img width="1222" height="688" alt="image" src="https://github.com/user-attachments/assets/1fc608a4-9403-4d94-ba5f-b71fe0248e73" />
-
 <img width="1241" height="452" alt="image" src="https://github.com/user-attachments/assets/fd9c859b-c2e0-4c41-ab14-816fb92d4101" />
-
 </details>
 
 ---
@@ -1417,9 +1413,7 @@ Les étapes typiques :
 
 <details>
   <summary>📸︲Déploiement en cours (Partclone)</summary>
-
 <img width="1618" height="938" alt="image" src="https://github.com/user-attachments/assets/71fb3e35-a28d-475e-80e4-d8be2f7eec18" />
-
 </details>
 
 ---
