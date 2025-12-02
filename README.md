@@ -1085,7 +1085,7 @@ Tu peux associer l’image `S126-master`, mais ce n’est pas obligatoire avant 
 ---
 
 <a id="capture-image"></a>
-## `📦`︲Capture de l’image master.
+# `📦`︲Capture de l’image master.
 
 ---
 
