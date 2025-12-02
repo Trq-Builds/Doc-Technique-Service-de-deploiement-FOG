@@ -759,9 +759,9 @@ Depuis l’interface web :
 
 ---
 
-La modification du nombre de connexions simultanées dans FOG se fait via l’interface Web d’administration.
+La modification du nombre de connexions simultanées dans FOG se fait via l’interface Web d’administration !
 
-### Modifier le nombre de clients (Max Clients).
+**Modifier le nombre de clients (Max Clients).**
 
 1. Ouvrir **Storage Management**.
 2. Sélectionner **DefaultMember** (stockage créé par défaut).
@@ -769,7 +769,7 @@ La modification du nombre de connexions simultanées dans FOG se fait via l’in
 
 Ce paramétrage permet d’adapter FOG aux besoins, par exemple pour couvrir plusieurs salles de TP de 18 postes lors d’un déploiement.
 
-### Modifier le délai d’affichage du menu PXE.
+**Modifier le délai d’affichage du menu PXE.**
 
 1. Aller dans **FOG Configuration**.
 2. Ouvrir **PXE Boot Menu**.
