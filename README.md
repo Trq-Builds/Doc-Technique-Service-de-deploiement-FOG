@@ -416,7 +416,7 @@ cd /opt/fogproject/bin/
 $ ./installfog.sh
 ```
 
-Lors du processus, plusieurs questions seront posées : (Les questions dans le tableau ne sont pas dans l'ordre.)
+Lors du processus, plusieurs questions seront posées : (**Les questions dans le tableau ne sont pas dans l'ordre.**)
 
 | Question                      | Réponse attendue              |
 | ----------------------------- | ----------------------------- |
