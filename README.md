@@ -60,7 +60,6 @@ Tu y apprendras à **installer le serveur**, **capturer une image master**, et *
    * [`✅`︲Vérifications post-déploiement.](#verification-deploiement)
    
 9. [`🧰`︲Outils et ressources utilisées.](#outils-ressources)
-
 10. [`🪛`︲Technique et méthode.](#technique-methode)
 
 ---
