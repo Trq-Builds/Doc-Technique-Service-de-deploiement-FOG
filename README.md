@@ -550,7 +550,7 @@ $ systemctl status isc-dhcp-server
 
 ---
 
-︲**Tester le service TFTP.**
+3️⃣︲**Tester le service TFTP.**
 
 Pour t’assurer que le boot PXE fonctionnera correctement :
 
