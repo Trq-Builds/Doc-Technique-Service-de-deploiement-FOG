@@ -202,7 +202,7 @@ ID : btssio  | MDP : btssio
 4️⃣︲**Sélection des paquets à installer.**
 
 * Ne **pas** installer d’environnement graphique.
-* Cocher uniquement :
+* **Cocher uniquement :**
 
 - [ ] environnement de bureau Debian
 - [ ] ... GNOME
