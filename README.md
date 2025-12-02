@@ -540,7 +540,7 @@ Par défaut :
 2️⃣︲**Vérifier le service DHCP.**
 
 **FOG gère son propre service DHCP.**
-**Vérifie qu’il est actif :**
+- **Vérifie qu’il est actif :**
 ```bash
 $ systemctl status isc-dhcp-server
 ```
