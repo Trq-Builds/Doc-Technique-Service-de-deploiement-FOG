@@ -805,7 +805,7 @@ Toutes doivent atteindre l’écran de menu FOG sans erreur réseau.
 ---
 
 > [!TIP]
-> Ton serveur FOG est maintenant **configuré, optimisé et prêt à gérer plusieurs déploiements en parallèle**.
+> Ton serveur FOG est maintenant **configuré, optimisé et prêt à gérer plusieurs déploiements en parallèle !**.
 
 ---
 
