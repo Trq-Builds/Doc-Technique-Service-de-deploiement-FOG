@@ -1455,7 +1455,7 @@ Exemple :
 - ` 💻 `︲**LibreOffice.**  
 - ` 📂 `︲**FileZilla.**
 
-C’est l’indicateur principal que le déploiement a fonctionné !
+**C’est l’indicateur principal que le déploiement a fonctionné !**
 
 ---
 
