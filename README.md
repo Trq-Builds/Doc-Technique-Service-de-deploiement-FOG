@@ -8,7 +8,7 @@ Tu y apprendras à **installer le serveur**, **capturer une image master**, et *
 ---
 
 > [!IMPORTANT]
-> Les captures d’écran seront ajoutées progressivement.
+> **Les captures d’écran seront ajoutées progressivement !**
 
 ---
 
