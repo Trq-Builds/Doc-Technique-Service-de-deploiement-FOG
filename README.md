@@ -934,7 +934,7 @@ Puis clique sur **“Update”**.
 
 > [!NOTE]  
 > Ici, tu vas préparer la machine qui servira d’**image master** : installation d’un logiciel, recensement via FOG, et renommage dans l’interface.  
-> Cette étape est indispensable avant la capture de l’image.
+> **Cette étape est indispensable avant la capture de l’image.**
 
 ---
 
