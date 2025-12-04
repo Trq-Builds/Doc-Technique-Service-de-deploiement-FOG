@@ -624,7 +624,7 @@ Dans VMWare :
 
 2️⃣︲**Vérifier la configuration DHCP de FOG**
 
-FOG peut faire office de serveur DHCP.  
+**FOG peut faire office de serveur DHCP.** 
 Pour vérifier et ajuster la configuration :
 
 ```bash
