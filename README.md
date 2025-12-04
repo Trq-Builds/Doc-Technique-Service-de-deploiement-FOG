@@ -9,7 +9,7 @@ Tu y apprendras à **installer le serveur**, **capturer une image master**, et *
 
 > [!IMPORTANT]
 > * **Les captures d’écran seront ajoutées progressivement !**
-> * **Si une image est peu lisible dans le menu, il suffit de cliquer dessus. L'image s'ouvrira dans un nouvel onglet, vous permettant ainsi de la consulter en taille réelle et d'utiliser la fonction zoom.**
+> * **Si une image est peu lisible dans le menu, il suffit de cliquer dessus. L'image s'ouvrira dans un nouvel onglet, vous permettant ainsi de la consulter en taille réelle et d'utiliser la fonction zoom !**
 
 ---
 
