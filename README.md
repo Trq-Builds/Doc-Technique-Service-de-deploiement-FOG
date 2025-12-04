@@ -1497,15 +1497,15 @@ Interface Web →
 --- 
 
 * `🤖` **︲GPT-5** ︲  [`🌐`](https://chatgpt.com/)
-* 
+  
 * `❓` **︲Markdownguide.org**   ︲[`🌐`](https://www.markdownguide.org/)
-* 
+  
 * `🤖` **︲NoteBookLM**   ︲[`🌐`](https://notebooklm.google.com/)
-* 
+  
 * `✂️` **︲Screenpresso**   ︲[`🌐`](https://www.screenpresso.com/fr/)
-* 
+  
 * `😀` **︲Smiley.cool**   ︲[`🌐`](https://smiley.cool/emoji-list.php)
-* 
+  
 * `❓` **︲Syntaxe de base pour l’écriture et la mise en forme**  ︲ [`🌐`](https://docs.github.com/fr/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
 
 --- 
