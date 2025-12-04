@@ -65,6 +65,11 @@ Tu y apprendras à **installer le serveur**, **capturer une image master**, et *
 
 ---
 
+> [!TIP]
+> Pour naviguer rapidement dans le dépôt, vous pouvez également utiliser le sommaire généré automatiquement par GitHub, situé en haut à gauche de ce cadre d'information.
+
+---
+
 <a id="introduction"></a>
 # `📘`︲Introduction.
 
