@@ -1285,7 +1285,7 @@ Vérifie :
 - Nombre de partitions détectées  
 
 > [!TIP]  
-> Si la taille est trop petite (moins de ~2 Go), c’est que la capture n’a pas réussi.
+> **Si la taille est trop petite (moins de ~2 Go), c’est que la capture n’a pas réussi.**
 
 ---
 
