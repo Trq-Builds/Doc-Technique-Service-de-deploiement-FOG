@@ -1520,39 +1520,39 @@ Interface Web →
 
 --- 
 
- `1️⃣`︲**Structure générale : x10 plus claire**
+ `1️⃣`︲**Structure générale : x10 plus claire.**
 
 **Avant :**
 
-* Découpage un peu approximatif
-* Sections mélangées (objectifs, étapes, notes, captures)
-* Manque de hiérarchie visuelle
+* Découpage un peu approximatif...
+* Sections mélangées (objectifs, étapes, notes, captures)...
+* Manque de hiérarchie visuelle...
 
 **Maintenant :**
 
-* Un découpage propre, logique, séquencé
-* Une architecture cohérente du début à la fin
-* Titres uniformisés, ancres, transitions propres
-* Un vrai sommaire professionnel
+* Un découpage propre, logique, séquencé.
+* Une architecture cohérente du début à la fin.
+* Titres uniformisés, ancres, transitions propres.
+* Un vrai sommaire professionnel.
 
 ➡️︲**Lisibilité améliorée.**
 
 ---
 
- `2️⃣`︲**Utilisation intelligente et constante des blocs “NOTE / TIP / WARNING”**
+ `2️⃣`︲**Utilisation intelligente et constante des blocs “NOTE / TIP / WARNING”.**
 
 **Avant :**
 
-* Très peu ou mal utilisés
-* Parfois trop denses ou mal espacés
+* Très peu ou mal utilisés...
+* Parfois trop denses ou mal espacés...
 
 **Maintenant :**
 
-* Blocs parfaitement intégrés
-* Utilisés pour *expliquer*, *clarifier*, *avertir*
-* Respect du rôle précis de chaque type
+* Blocs parfaitement intégrés.
+* Utilisés pour *expliquer*, *clarifier*, *avertir*.
+* Respect du rôle précis de chaque type.
 
-➡️︲**Pédagogie**
+➡️︲**Pédagogie.**
 
 ---
 
@@ -1560,118 +1560,118 @@ Interface Web →
 
 **Avant :**
 
-* Changements de sujet parfois brutaux
-* Connexions entre étapes peu explicites
+* Changements de sujet parfois brutaux...
+* Connexions entre étapes peu explicites...
 
 **Maintenant :**
 
-* Chaque section **introduit** la suivante
-* Le cheminement est fluide et logique
-* Aucun “saut” ou flou
+* Chaque section **introduit** la suivante.
+* Le cheminement est fluide et logique.
+* Aucun “saut” ou flou.
 
 ➡️︲**Cohérence**
 
 ---
 
- `4️⃣`︲**Intégration PRO des captures (via `<details>`)**
+ `4️⃣`︲**Intégration PRO des captures (via `<details>`).**
 
 **Avant :**
 
-* Captures collées dans le texte
-* Peu de contextualisation
-* Mauvaise lisibilité dans les longs blocs
+* Captures collées dans le texte...
+* Peu de contextualisation...
+* Mauvaise lisibilité dans les longs blocs...
 
 **Maintenant :**
 
-* Captures rangées dans des `<details>`
-* Titres explicites
-* Texte lisible sans pollution visuelle
-* L’utilisateur décide quand ouvrir
+* Captures rangées dans des `<details>`.
+* Titres explicites.
+* Texte lisible sans pollution visuelle.
+* L’utilisateur décide quand ouvrir.
 
 ➡️︲**UX documentaire**
 
 ---
 
- `5️⃣`︲**Style visuel maîtrisé (emojis, uniformité, mise en forme)**
+ `5️⃣`︲**Style visuel maîtrisé (emojis, uniformité, mise en forme).**
 
 **Avant :**
 
-* Emojis un peu aléatoires
-* Style plus scolaire que pro
-* Manque d’identité visuelle
+* Emojis un peu aléatoires...
+* Style plus scolaire que pro...
+* Manque d’identité visuelle...
 
 **Maintenant :**
 
-* Identité graphique uniforme
-* Emojis structurants, pas décoratifs
-* Mise en forme stable (titres, listes, sections)
+* Identité graphique uniforme.
+* Emojis structurants, pas décoratifs.
+* Mise en forme stable (titres, listes, sections).
 
 ➡️︲**Esthétique**
 
 ---
 
- `6️⃣`︲**Niveau technique clair, plus mature, mieux vulgarisé**
+ `6️⃣`︲**Niveau technique clair, plus mature, mieux vulgarisé.**
 
 **Avant :**
 
-* Explications parfois courtes
-* Quelques zones floues
-* Manque d’approfondissement sur certains concepts
+* Explications parfois courtes...
+* Quelques zones floues...
+* Manque d’approfondissement sur certains concepts...
 
 **Maintenant :**
 
-* J'explique *pourquoi* je fais les choses
-* Contexte réseau (DHCP / PXE / NAT / Host-only) mieux détaillé
-* FOG expliqué comme un vrai service d’infra, pas juste un script
-* Ajustements réseau parfaitement formulés
+* J'explique *pourquoi* je fais les choses.
+* Contexte réseau (DHCP / PXE / NAT / Host-only) mieux détaillé.
+* FOG expliqué comme un vrai service d’infra, pas juste un script.
+* Ajustements réseau parfaitement formulés.
 
 ➡️︲**Maîtrise technique**
 
 ---
 
- `7️⃣`︲**Qualité d’écriture + confiance dans le ton**
+ `7️⃣`︲**Qualité d’écriture + confiance dans le ton.**
 
 **Avant :**
 
-* Style parfois hésitant
-* Ton un peu scolaire / neutre
+* Style parfois hésitant...
+* Ton un peu scolaire / neutre...
 
 **Maintenant :**
 
-* Style affirmé
-* Ton clair, posé, professionnel
-* Écriture propre, stable, lisible
-* Beaucoup plus fluide
+* Style affirmé.
+* Ton clair, posé, professionnel.
+* Écriture propre, stable, lisible.
+* Beaucoup plus fluide.
 
 ➡️︲**Rédaction**
 
 ---
 
- `8️⃣`︲**Organisation des ressources & transparence**
+ `8️⃣`︲**Organisation des ressources & transparence.**
 
 **Avant :**
 
-* Aucune section dédiée
-* Ressources éparpillées
+* Aucune section dédiée...
+* Ressources éparpillées...
 
 **Maintenant :**
 
-* Section “Outils et ressources” complète, claire, assumée
-* Transparence totale sur mes moyens de production
-* Sources externes correctement créditées
-* Outils techniques + outils de création
+* Section “Outils et ressources” complète, claire, assumée.
+* Transparence totale sur mes moyens de production.
+* Sources externes correctement créditées.
+* Outils techniques + outils de création.
 
-➡️︲**Qualité documentaire**
+➡️︲**Qualité documentaire.**
 
 ---
 En somme c'est : 
 
-* **Plus Clair**
-* **Plus Structuré**
-* **Plus Professionnel**
-* **Plus Technique**
-* **Plus Lisible**
-* **Plus Propre**
+* **Plus Clair.**
+* **Plus Structuré.**
+* **Plus Professionnel.**
+* **Plus Technique.**
+* **Plus Lisible.**
+* **Plus Propre.**
 
 ---
 
