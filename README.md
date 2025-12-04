@@ -78,25 +78,25 @@ Tu y apprendras à **installer le serveur**, **capturer une image master**, et *
 ---
 
 <a id="presentation-outils-prerequis"></a>
-### `🧰`︲Présentation des outils et prérequis.
+### ` 🧰 `︲Présentation des outils et prérequis.
 > [!IMPORTANT]
 > Présentation des outils et prérequis :
-> - `🐧`︲**Serveur :** Debian 13 **sans interface graphique** ︲[`🌐`](https://www.debian.org/)
-> - `🟦`︲**Client :** Windows 11. ︲[`🌐`](https://www.microsoft.com/fr-fr/software-download/windows11)
-> - `🧰`︲**Outils :** FOG (Free Open-Source Ghost) `V.1.5.10.1721` ︲[`🌐`](https://fogproject.org/)
-> - `📦`︲**VMWare :** ︲[`🌐`](https://www.vmware.com/)
-> - `⚡`︲**PuTTY :** ︲[`🌐`](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html)
-> - `👤`︲**Interface Chaise-Clavier fonctionnelle.**
-> - `☕`︲**Un peu de patience !**
+> - ` 🐧 `︲**Serveur :** Debian 13 **sans interface graphique** ︲[`🌐`](https://www.debian.org/)
+> - ` 🟦 `︲**Client :** Windows 11. ︲[`🌐`](https://www.microsoft.com/fr-fr/software-download/windows11)
+> - ` 🧰 `︲**Outils :** FOG (Free Open-Source Ghost) `V.1.5.10.1721` ︲[`🌐`](https://fogproject.org/)
+> - ` 📦 `︲**VMWare :** ︲[`🌐`](https://www.vmware.com/)
+> - ` ⚡ `︲**PuTTY :** ︲[`🌐`](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html)
+> - ` 👤 `︲**Interface Chaise-Clavier fonctionnelle.**
+> - ` ☕ `︲**Un peu de patience !**
 ---
 
 <a id="installation-debian"></a>
-# `🛠️`︲Installation de Debian 13 sans interface graphique.
+# ` 🛠️ `︲Installation de Debian 13 sans interface graphique.
 
 ---
 
 <a id="creation-vm"></a>
-## `💿`︲Création et Configuration de la VM.
+## ` 💿 `︲Création et Configuration de la VM.
 
 > [!TIP]
 > - **Pour afficher les captures d’écran, clique sur le menu déroulant avec l’émoji  `  📸  `.**
@@ -104,15 +104,15 @@ Tu y apprendras à **installer le serveur**, **capturer une image master**, et *
 
 ---
 
-`⚙️`︲**Configuration de la VM.**
+` ⚙️ `︲**Configuration de la VM.**
 
-* `❓` ︲**Hostname :** `srv-fog`.
-* `📡` ︲**Adressage IP :** dynamique (DHCP) récupérer une adresse sur le réseau local physique.
-* `🖼️` ︲**Interface graphique :** **__aucune__** (__installation en mode serveur / ligne de commande__).
-* `🧩` ︲**Service à installer :** `ssh` **(SSH activé et démarré)**.
-* `📏` ︲**Mémoire :** `1024 Mo`.
-* `💾` ︲**Disque :** `100 Go` (allocation dynamique).
-* `❤️` ︲**Cœurs :** `1`. (Optionel)
+* ` ❓ ` ︲**Hostname :** `srv-fog`.
+* ` 📡 ` ︲**Adressage IP :** dynamique (DHCP) récupérer une adresse sur le réseau local physique.
+* ` 🖼️ ` ︲**Interface graphique :** **__aucune__** (__installation en mode serveur / ligne de commande__).
+* ` 🧩 ` ︲**Service à installer :** `ssh` **(SSH activé et démarré)**.
+* ` 📏 ` ︲**Mémoire :** `1024 Mo`.
+* ` 💾 ` ︲**Disque :** `100 Go` (allocation dynamique).
+* ` ❤️ ` ︲**Cœurs :** `1`. (Optionel)
 
 <details>
   <summary><strong>📸︲Capture d'écran (Config VMWare).</strong></summary>
@@ -121,7 +121,7 @@ Tu y apprendras à **installer le serveur**, **capturer une image master**, et *
 
 ---
 
-`🚧`︲**Couples d’identifiants (__NON NÉGOCIABLE__).**
+` 🚧 `︲**Couples d’identifiants (__NON NÉGOCIABLE__).**
 
 ```
 ID : root    | MDP : btssio
@@ -134,7 +134,7 @@ ID : btssio  | MDP : btssio
 ---
 
 <a id="installation-systeme"></a>
-## `⚙️`︲Installation du système Debian 13.
+## ` ⚙️ `︲Installation du système Debian 13.
 
 ---
 
@@ -238,7 +238,7 @@ ID : btssio  | MDP : btssio
 ---
 
 <a id="configuration-ssh"></a>
-## `🔐`︲Création des comptes et configuration SSH.
+## ` 🔐 `︲Création des comptes et configuration SSH.
 
 ---
 
@@ -332,7 +332,7 @@ ssh root@<ip_du_serveur>
 ---
 
 <a id="installation-fog"></a>
-# `🌍`︲Installation du service FOG.
+# ` 🌍 `︲Installation du service FOG.
 
 ---
 
@@ -343,7 +343,7 @@ ssh root@<ip_du_serveur>
 ---
 
 <a id="telechargement-fog"></a>
-### `⬇️`︲Téléchargement et préparation de l’archive.
+### ` ⬇️ `︲Téléchargement et préparation de l’archive.
 
 ---
 
@@ -401,7 +401,7 @@ cd /opt/fogproject/bin/
 ---
 
 <a id="installation-serveur-fog"></a>
-### `🧩`︲Procédure d’installation du serveur FOG.
+### ` 🧩 `︲Procédure d’installation du serveur FOG.
 
 ---
 
@@ -503,7 +503,7 @@ Sur la page d’accueil, clique sur :
 ---
 
 <a id="configuration-initiale-fog"></a>
-### `🔧`︲Configuration initiale et tests.
+### ` 🔧 `︲Configuration initiale et tests.
 
 ---
 
@@ -590,7 +590,7 @@ Une fois tout opérationnel :
 ---
 
 <a id="configuration-service-fog"></a>
-# `⚙️`︲Configuration du service FOG.
+# ` ⚙️ `︲Configuration du service FOG.
 
 ---
 
@@ -601,7 +601,7 @@ Une fois tout opérationnel :
 ---
 
 <a id="parametres-reseau"></a>
-### `🌐`︲Paramètres réseau et DHCP.
+### ` 🌐 `︲Paramètres réseau et DHCP.
 
 ---
 
@@ -676,7 +676,7 @@ $ systemctl restart FOGScheduler
 ---
 
 <a id="modification-pxe"></a>
-### `⏱️`︲Modification du menu PXE et du timeout.
+### ` ⏱️ `︲Modification du menu PXE et du timeout.
 
 ---
 
@@ -738,7 +738,7 @@ Le menu FOG devrait maintenant s’afficher **pendant 10 secondes**.
 ---
 
 <a id="clients-simultanes"></a>
-### `👥`︲Augmentation du nombre de clients simultanés.
+### ` 👥 `︲Augmentation du nombre de clients simultanés.
 
 ---
 
@@ -810,7 +810,7 @@ Toutes doivent atteindre l’écran de menu FOG sans erreur réseau.
 ---
 
 <a id="creation-image-groupe"></a>
-# `🖼️`︲Création d’une image et d’un groupe de déploiement.
+# ` 🖼️ `︲Création d’une image et d’un groupe de déploiement.
 
 ---
 
@@ -821,7 +821,7 @@ Toutes doivent atteindre l’écran de menu FOG sans erreur réseau.
 ---
 
 <a id="creation-image"></a>
-### `📷`︲Création d’une image “S126-master”.
+### ` 📷 `︲Création d’une image “S126-master”.
 
 ---
 
@@ -872,7 +872,7 @@ Tu verras apparaître ton image dans :
 ---
 
 <a id="creation-groupe"></a>
-### `👥`︲Création d’un groupe de déploiement.
+### ` 👥 `︲Création d’un groupe de déploiement.
 
 ---
 
@@ -928,7 +928,7 @@ Puis clique sur **“Update”**.
 ---
 
 <a id="preparation-master"></a>
-# `💻`︲Préparation et recensement de la machine master.
+# ` 💻 `︲Préparation et recensement de la machine master.
 
 ---
 
@@ -939,7 +939,7 @@ Puis clique sur **“Update”**.
 ---
 
 <a id="logiciel-master"></a>
-### `🧰`︲Installation du logiciel de personnalisation (au choix).
+### ` 🧰 `︲Installation du logiciel de personnalisation (au choix).
 
 ---
 
@@ -955,10 +955,10 @@ Puis clique sur **“Update”**.
 
 Tu dois installer **un des logiciels suivants** sur la machine master :
 
-- `📁`︲FileZilla Client ︲[`🌐`](https://filezilla-project.org/)
-- `💻`︲LibreOffice ︲[`🌐`](https://fr.libreoffice.org/)
-- `👨‍💻`︲Visual Studio Code ︲[`🌐`](https://code.visualstudio.com/)
-- `📦`︲WinRAR ︲[`🌐`](https://www.win-rar.com/)
+- ` 📁 `︲FileZilla Client ︲[`🌐`](https://filezilla-project.org/)
+- ` 💻 `︲LibreOffice ︲[`🌐`](https://fr.libreoffice.org/)
+- ` 👨‍💻 `︲Visual Studio Code ︲[`🌐`](https://code.visualstudio.com/)
+- ` 📦 `︲WinRAR ︲[`🌐`](https://www.win-rar.com/)
 
 > [!TIP]  
 > Choisis un logiciel visible et simple à repérer : idéal pour vérifier, après déploiement, que l’image a bien été appliquée.
@@ -977,10 +977,10 @@ Tu dois installer **un des logiciels suivants** sur la machine master :
 
 3️⃣︲**Finaliser la machine avant recensement (Optionel)**
 
-- `🧹`︲Nettoyer les fichiers inutiles.  
-- `✅`︲Vérifier que Windows est activé.  
-- `🔁`︲Vérifier les mises à jour.  
-- `🔁`︲Redémarrer une dernière fois avant de passer au boot PXE.
+- ` 🧹 `︲Nettoyer les fichiers inutiles.  
+- ` ✅ `︲Vérifier que Windows est activé.  
+- ` 🔁 `︲Vérifier les mises à jour.  
+- ` 🔁 `︲Redémarrer une dernière fois avant de passer au boot PXE.
 
 ---
 
@@ -1057,10 +1057,10 @@ Interface Web →
 
 2️⃣︲**Vérifier / modifier si nécessaire**
 
-- `🚦`︲Hostname  
-- `❓`︲MAC address  
-- `ℹ️`︲Description  
-- `❔`︲Groupe d’appartenance (**La machine master NE DOIT PAS aller dans un groupe client** !)
+- ` 🚦 `︲Hostname  
+- ` ❓ `︲MAC address  
+- ` ℹ️ `︲Description  
+- ` ❔ `︲Groupe d’appartenance (**La machine master NE DOIT PAS aller dans un groupe client** !)
 
 > [!WARNING]  
 > Le master NE doit **jamais** être dans le groupe “Salle126”.  
@@ -1085,7 +1085,7 @@ Tu peux associer l’image `S126-master`, mais ce n’est pas obligatoire avant 
 ---
 
 <a id="capture-image"></a>
-# `📦`︲Capture de l’image master.
+# ` 📦 `︲Capture de l’image master.
 
 ---
 
@@ -1096,7 +1096,7 @@ Tu peux associer l’image `S126-master`, mais ce n’est pas obligatoire avant 
 ---
 
 <a id="preparation-capture"></a>
-### `🧭`︲Préparation avant capture.
+### ` 🧭 `︲Préparation avant capture.
 
 ---
 
@@ -1121,7 +1121,7 @@ Avant toute capture :
 
 --- 
 
-`🎯`**︲ Intérêt de Sysprep.**
+` 🎯 `**︲ Intérêt de Sysprep.**
 
 - **Généralisation** : supprime les identifiants uniques (SID) et rend l’image indépendante du matériel.
 - **Gain de temps** : permet de déployer rapidement des systèmes préconfigurés sur plusieurs postes.
@@ -1129,10 +1129,10 @@ Avant toute capture :
 - **Flexibilité** : compatible avec des scénarios de déploiement automatisés via fichiers de réponses (unattend.xml).
 - **Maintenance facilitée** : mise à jour d’une seule image maître au lieu de chaque poste individuellement.
 
-`📌`**︲Exemple concret.**
+` 📌 `**︲Exemple concret.**
 - **Une entreprise installe Windows 11 sur une machine, ajoute Office, configure les paramètres réseau et applique les mises à jour. Avec Sysprep, elle généralise cette installation et capture une image. Cette image est ensuite déployée sur 100 ordinateurs, chacun recevant un SID unique et une configuration adaptée lors du premier démarrage.**
 
-`🖼️`**︲Shéma récapitulatif :**
+` 🖼️ `**︲Shéma récapitulatif :**
  
 ```
 [Machine de référence]
@@ -1156,7 +1156,7 @@ Avant toute capture :
 
 ---
 
-`🌐`**︲Sources :**
+` 🌐 `**︲Sources :**
 - Vue d’ensemble de Sysprep – Microsoft Learn [`🌐`](https://learn.microsoft.com/fr-fr/windows-hardware/manufacture/desktop/sysprep--system-preparation--overview?view=windows-11)  
 - Processus Sysprep – Microsoft Learn [`🌐`](https://learn.microsoft.com/fr-fr/windows-hardware/manufacture/desktop/sysprep-process-overview?view=windows-11)  
 - Utiliser Sysprep (généralisation) – Microsoft Learn [`🌐`](https://learn.microsoft.com/fr-fr/windows-hardware/manufacture/desktop/sysprep--generalize--a-windows-installation?view=windows-11)  
@@ -1296,7 +1296,7 @@ Vérifie :
 ---
 
 <a id="deploiement-image"></a>
-# `🚀`︲Déploiement de l’image master.
+# ` 🚀 `︲Déploiement de l’image master.
 
 ---
 
@@ -1306,7 +1306,7 @@ Vérifie :
 ---
 
 <a id="preparation-deploiement"></a>
-### `🌐`︲Préparation de l’environnement réseau.
+### ` 🌐 `︲Préparation de l’environnement réseau.
 
 ---
 
@@ -1354,7 +1354,7 @@ Les machines destinées au déploiement doivent :
 ---
 
 <a id="lancement-deploiement"></a>
-### `⚡`︲Lancement du déploiement.
+### ` ⚡ `︲Lancement du déploiement.
 
 ---
 
@@ -1432,7 +1432,7 @@ Puis redémarrera automatiquement !
 ---
 
 <a id="verification-deploiement"></a>
-### `✅`︲Vérifications post-déploiement.
+### ` ✅ `︲Vérifications post-déploiement.
 
 ---
 
@@ -1443,10 +1443,10 @@ Puis redémarrera automatiquement !
 2️⃣︲**Vérifier que le logiciel installé sur la machine master est présent**
 
 Exemple :  
-- `👨‍💻`︲**VSCode.**  
-- `📦`︲**WinRAR.**  
-- `💻`︲**LibreOffice.**  
-- `📁`︲**FileZilla.**
+- ` 👨‍💻 `︲**VSCode.**  
+- ` 📦 `︲**WinRAR.**  
+- ` 💻 `︲**LibreOffice.**  
+- ` 📂 `︲**FileZilla.**
 
 C’est l’indicateur principal que le déploiement a fonctionné !
 
@@ -1454,11 +1454,11 @@ C’est l’indicateur principal que le déploiement a fonctionné !
 
 3️⃣︲**Vérifier les informations système**
 
-- `❔`︲**Nom de la machine.**
-- `☑️`︲**Comportement général.**
-- `❌`︲**Absence d’erreurs Windows.** 
-- `⚡`︲**Boot rapide et propre.**
-- `🌐`︲**Connexions réseau fonctionnelles.**
+- ` ❔ `︲**Nom de la machine.**
+- ` ☑️ `︲**Comportement général.**
+- ` ❌ `︲**Absence d’erreurs Windows.** 
+- ` ⚡ `︲**Boot rapide et propre.**
+- ` 🌐 `︲**Connexions réseau fonctionnelles.**
 
 ---
 
@@ -1478,7 +1478,7 @@ Interface Web →
 ---
 
 <a id="outils-ressources"></a>
-# `🧰`︲Outils et ressources utilisées.
+# ` 🧰 `︲Outils et ressources utilisées.
 
 ---
 
@@ -1489,34 +1489,34 @@ Interface Web →
 ---
 
 * `🗃️ ︲ 🌐` **︲Documents/Liens d’annexes fournis dans le TP :**
-  * `📂` ︲`1.2 - Installer et configurer un service de déploiement FOG - TP`.`pdf`
-  * `🌐` ︲`Idum.fr`︲[`🌐`](https://idum.fr/spip.php?article301)
-  * `🌐` ︲`Installation de FOG 1.4.4 sur Debian 9`︲[`🌐`](https://idum.fr/spip.php?article301](https://memo-linux.com/installation-de-fog-1-4-4-sur-debian-9/))
-  * `🌐` ︲`www.ceos3c.com`︲[`🌐`](https://www.ceos3c.com/linux/)
+  * ` 📂 ` ︲`1.2 - Installer et configurer un service de déploiement FOG - TP`.`pdf`
+  * ` 🌐 ` ︲`Idum.fr`︲[`🌐`](https://idum.fr/spip.php?article301)
+  * ` 🌐 ` ︲`Installation de FOG 1.4.4 sur Debian 9`︲[`🌐`](https://idum.fr/spip.php?article301](https://memo-linux.com/installation-de-fog-1-4-4-sur-debian-9/))
+  * ` 🌐 ` ︲`www.ceos3c.com`︲[`🌐`](https://www.ceos3c.com/linux/)
   
 --- 
 
-* `🤖` **︲GPT-5** ︲  [`🌐`](https://chatgpt.com/)
+* ` 🤖 ` **︲GPT-5.1** ︲  [`🌐`](https://chatgpt.com/)
   
-* `❓` **︲Markdownguide.org**   ︲[`🌐`](https://www.markdownguide.org/)
+* ` ❓ ` **︲Markdownguide.org**   ︲[`🌐`](https://www.markdownguide.org/)
   
-* `🤖` **︲NoteBookLM**   ︲[`🌐`](https://notebooklm.google.com/)
+* ` 🤖 ` **︲NoteBookLM**   ︲[`🌐`](https://notebooklm.google.com/)
   
-* `✂️` **︲Screenpresso**   ︲[`🌐`](https://www.screenpresso.com/fr/)
+* ` ✂️ ` **︲Screenpresso**   ︲[`🌐`](https://www.screenpresso.com/fr/)
   
-* `😀` **︲Smiley.cool**   ︲[`🌐`](https://smiley.cool/emoji-list.php)
+* ` 😀 ` **︲Smiley.cool**   ︲[`🌐`](https://smiley.cool/emoji-list.php)
   
-* `❓` **︲Syntaxe de base pour l’écriture et la mise en forme**  ︲ [`🌐`](https://docs.github.com/fr/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
+* ` ❓ ` **︲Syntaxe de base pour l’écriture et la mise en forme**  ︲ [`🌐`](https://docs.github.com/fr/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
 
 --- 
 
-> * `⏺️`︲Nagi Player︲ [`🌐`](https://github.com/Anthonyy232/Nagi)
-> * `🎶`︲Mac DeMarco - 20191229  ︲ [`🌐`](https://youtu.be/_7VD_ur8ZJ4)
-> * `☕`**︲De la patience !**
+> * ` ⏺️ `︲Nagi Player︲ [`🌐`](https://github.com/Anthonyy232/Nagi)
+> * ` 🎶 `︲Mac DeMarco - 20191229  ︲ [`🌐`](https://youtu.be/_7VD_ur8ZJ4)
+> * ` ☕ `**︲De la patience !**
 ---
 
 <a id="technique-methode"></a>
-# `📚`︲Technique et méthode.
+# ` 📚 `︲Technique et méthode.
 
 ---
 
