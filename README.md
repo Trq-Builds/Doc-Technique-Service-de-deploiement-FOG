@@ -1520,7 +1520,7 @@ Interface Web →
 
 --- 
 
-#### `1️⃣`︲**Structure générale : x10 plus claire**
+ `1️⃣`︲**Structure générale : x10 plus claire**
 
 **Avant :**
 
@@ -1539,7 +1539,7 @@ Interface Web →
 
 ---
 
-#### `2️⃣`︲**Utilisation intelligente et constante des blocs “NOTE / TIP / WARNING”**
+ `2️⃣`︲**Utilisation intelligente et constante des blocs “NOTE / TIP / WARNING”**
 
 **Avant :**
 
@@ -1556,7 +1556,7 @@ Interface Web →
 
 ---
 
-#### `3️⃣`︲**Sectionnement narratif propre (flow continu)**
+ `3️⃣`︲**Sectionnement narratif propre (flow continu)**
 
 **Avant :**
 
@@ -1573,7 +1573,7 @@ Interface Web →
 
 ---
 
-#### `4️⃣`︲**Intégration PRO des captures (via `<details>`)**
+ `4️⃣`︲**Intégration PRO des captures (via `<details>`)**
 
 **Avant :**
 
@@ -1592,7 +1592,7 @@ Interface Web →
 
 ---
 
-#### `5️⃣`︲**Style visuel maîtrisé (emojis, uniformité, mise en forme)**
+ `5️⃣`︲**Style visuel maîtrisé (emojis, uniformité, mise en forme)**
 
 **Avant :**
 
@@ -1610,7 +1610,7 @@ Interface Web →
 
 ---
 
-#### `6️⃣`︲**Niveau technique clair, plus mature, mieux vulgarisé**
+ `6️⃣`︲**Niveau technique clair, plus mature, mieux vulgarisé**
 
 **Avant :**
 
@@ -1629,7 +1629,7 @@ Interface Web →
 
 ---
 
-#### `7️⃣`︲**Qualité d’écriture + confiance dans le ton**
+ `7️⃣`︲**Qualité d’écriture + confiance dans le ton**
 
 **Avant :**
 
@@ -1647,7 +1647,7 @@ Interface Web →
 
 ---
 
-#### `8️⃣`︲**Organisation des ressources & transparence**
+ `8️⃣`︲**Organisation des ressources & transparence**
 
 **Avant :**
 
