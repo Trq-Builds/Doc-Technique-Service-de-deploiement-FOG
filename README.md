@@ -1543,7 +1543,7 @@ Interface Web →
 * Titres uniformisés, ancres, transitions propres.
 * Un vrai sommaire professionnel.
 
-➡️︲**Lisibilité améliorée.**
+`➡️`︲**Lisibilité améliorée.**
 
 ---
 
@@ -1560,7 +1560,7 @@ Interface Web →
 * Utilisés pour *expliquer*, *clarifier*, *avertir*.
 * Respect du rôle précis de chaque type.
 
-➡️︲**Pédagogie.**
+`➡️`︲**Pédagogie.**
 
 ---
 
@@ -1577,7 +1577,7 @@ Interface Web →
 * Le cheminement est fluide et logique.
 * Aucun “saut” ou flou.
 
-➡️︲**Cohérence.**
+`➡️`︲**Cohérence.**
 
 ---
 
@@ -1596,7 +1596,7 @@ Interface Web →
 * Texte lisible sans pollution visuelle.
 * L’utilisateur décide quand ouvrir.
 
-➡️︲**UX documentaire.**
+`➡️`︲**UX documentaire.**
 
 ---
 
@@ -1614,7 +1614,7 @@ Interface Web →
 * Emojis structurants, pas décoratifs.
 * Mise en forme stable (titres, listes, sections).
 
-➡️︲**Esthétique.**
+`➡️`︲**Esthétique.**
 
 ---
 
@@ -1633,7 +1633,7 @@ Interface Web →
 * FOG expliqué comme un vrai service d’infra, pas juste un script.
 * Ajustements réseau parfaitement formulés.
 
-➡️︲**Maîtrise technique.**
+`➡️`︲**Maîtrise technique.**
 
 ---
 
@@ -1651,7 +1651,7 @@ Interface Web →
 * Écriture propre, stable, lisible.
 * Beaucoup plus fluide.
 
-➡️︲**Rédaction.**
+`➡️`︲**Rédaction.**
 
 ---
 
