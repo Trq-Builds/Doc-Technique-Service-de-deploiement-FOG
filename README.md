@@ -1663,7 +1663,7 @@ Interface Web →
 **Maintenant :**
 
 * Section “Outils et ressources” complète, claire, assumée.
-* Transparence totale sur mes moyens de production.
+* **Transparence totale sur mes moyens de production.**
 * Sources externes correctement créditées.
 * Outils techniques + outils de création.
 
