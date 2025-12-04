@@ -1443,10 +1443,10 @@ Puis redémarrera automatiquement !
 2️⃣︲**Vérifier que le logiciel installé sur la machine master est présent**
 
 Exemple :  
-- `👨‍💻`︲**VSCode**  
-- `📦`︲**WinRAR**  
-- `💻`︲**LibreOffice**  
-- `📁`︲**FileZilla**
+- `👨‍💻`︲**VSCode.**  
+- `📦`︲**WinRAR.**  
+- `💻`︲**LibreOffice.**  
+- `📁`︲**FileZilla.**
 
 C’est l’indicateur principal que le déploiement a fonctionné !
 
