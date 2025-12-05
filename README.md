@@ -530,7 +530,7 @@ http://<ip_du_serveur_fog>/fog/management
 Par défaut :
 
 * **Utilisateur :** `fog`
-* **Mot de passe :** `password` *(à modifier plus tard)*
+* **Mot de passe :** `password` *(à modifier plus tard ici test en Labo donc pas grave)*
   
 <details>
   <summary>📸︲Copie d'écran (Login)</summary>
