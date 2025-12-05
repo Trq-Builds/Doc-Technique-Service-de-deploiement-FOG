@@ -187,7 +187,7 @@ ID : btssio  | MDP : btssio
 
 3️⃣︲**Partitionnement du disque.**
 
-* Disque virtuel : **100 Go dynamiquement alloué**
+* Disque virtuel : `100Go` **dynamiquement alloué**
 * Schéma recommandé :
 
   * `/` → 60 Go
