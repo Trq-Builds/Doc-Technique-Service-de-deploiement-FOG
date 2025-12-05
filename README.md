@@ -153,10 +153,10 @@ ID : btssio  | MDP : btssio
 
 1️⃣︲**Lancement de l’installation depuis l’ISO Debian 13.**
 
-* Sélectionner **Installation** (pas “Graphical install”).
+* Sélectionner `Install` (pas “Graphical install”).
 * Choisir la **langue :** `Français`
 * Choisir le **pays :** `France`
-* Disposition clavier : **Français (AZERTY)**
+* Disposition clavier : **Français (`AZERTY`)**
 
 <details>
   <summary>📸︲Installation et sélection langue et clavier.</summary>
