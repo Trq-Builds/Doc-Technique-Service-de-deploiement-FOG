@@ -363,7 +363,7 @@ $ apt update && $ apt install -y unzip git curl wget lsb-release net-tools
 ````
 
 > [!TIP]
-> Ces paquets garantissent le bon fonctionnement du script d’installation FOG (gestion réseau, extraction, téléchargements, etc.).
+> **Ces paquets garantissent le bon fonctionnement du script d’installation FOG (gestion réseau, extraction, téléchargements, etc.).**
 
 ---
 
