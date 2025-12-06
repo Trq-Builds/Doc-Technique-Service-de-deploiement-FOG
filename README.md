@@ -363,7 +363,7 @@ $ apt update && $ apt install -y unzip git curl wget lsb-release net-tools
 ````
 
 > [!TIP]
-> **Ces paquets garantissent le bon fonctionnement du script d’installation FOG (gestion réseau, extraction, téléchargements, etc.).**
+> **Ces paquets garantissent le bon fonctionnement du script d’installation FOG (gestion réseau, extraction, téléchargements, etc...)**
 
 ---
 
@@ -515,7 +515,7 @@ Sur la page d’accueil, clique sur :
 ---
 
 > [!NOTE]
-> Avant d’aller plus loin, on vérifie le bon fonctionnement global de FOG (services, réseau, TFTP, etc.).
+> Avant d’aller plus loin, on vérifie le bon fonctionnement global de FOG (services, réseau, TFTP, etc...)
 
 ---
 
@@ -530,7 +530,7 @@ http://<ip_du_serveur_fog>/fog/management
 Par défaut :
 
 * **Utilisateur :** `fog`
-* **Mot de passe :** `password` *(à modifier plus tard ici test en Labo donc pas grave)*
+* **Mot de passe :** `password` *(à modifier plus tard ici test en Labo donc ce n'est pas grave)*
   
 <details>
   <summary>📸︲Copie d'écran (Login)</summary>
@@ -592,7 +592,7 @@ Une fois tout opérationnel :
 
 > [!TIP]
 > À ce stade, ton serveur FOG est **installé, opérationnel et prêt pour la configuration avancée !**.
-> Tu peux maintenant passer à la section suivante pour affiner les paramètres (menu PXE, délais, nombre de clients simultanés, etc.).
+> Tu peux maintenant passer à la section suivante pour affiner les paramètres (menu PXE, délais, nombre de clients simultanés, etc...)
 
 ---
 
