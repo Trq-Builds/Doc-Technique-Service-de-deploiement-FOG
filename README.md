@@ -89,11 +89,17 @@ Tu y apprendras à **installer le serveur**, **capturer une image master**, et *
 > [!IMPORTANT]
 > **Présentation des outils et prérequis :**
 > - ` 🐧 `︲**Serveur :** Debian 13 **sans interface graphique** ︲[`🌐`](https://www.debian.org/)
+> 
 > - ` 🟦 `︲**Client :** Windows 11. ︲[`🌐`](https://www.microsoft.com/fr-fr/software-download/windows11)
+> 
 > - ` 🧰 `︲**Outils :** FOG (Free Open-Source Ghost) `V.1.5.10.1721` ︲[`🌐`](https://fogproject.org/)
+> 
 > - ` 📦 `︲**VMWare :** ︲[`🌐`](https://www.vmware.com/)
+> 
 > - ` ⚡ `︲**PuTTY :** ︲[`🌐`](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html)
+> 
 > - ` 👤 `︲**Interface Chaise-Clavier fonctionnelle.**
+> 
 > - ` ☕ `︲**Un peu de patience !**
 ---
 
@@ -123,7 +129,9 @@ Tu y apprendras à **installer le serveur**, **capturer une image master**, et *
 
 <details>
   <summary><strong>📸︲Capture d'écran (Config VMWare).</strong></summary>
+  
   <img width="887" height="880" alt="image" src="https://github.com/user-attachments/assets/8671256d-3603-45e0-af58-d9cf730d5d52" />
+  
 </details>
 
 ---
@@ -214,10 +222,23 @@ ID : btssio  | MDP : btssio
 <details>
   <summary>📸︲Partitionnement automatique.</summary>
 <img width="802" height="594" alt="image" src="https://github.com/user-attachments/assets/ed6046dd-c312-47fb-bce0-79ef312d88bb" />
+  
+---
+  
 <img width="797" height="597" alt="image" src="https://github.com/user-attachments/assets/d401aafe-522b-4d87-9a58-c75c25c8f6ba" />
+
+---
+
 <img width="794" height="589" alt="image" src="https://github.com/user-attachments/assets/65948516-8dcc-40c3-883d-1375b6a9f65e" />
+
+---
+
 <img width="803" height="588" alt="image" src="https://github.com/user-attachments/assets/46bb2f9c-b96e-4986-b22c-91a0dae464a1" />
+
+---
+
 <img width="801" height="596" alt="image" src="https://github.com/user-attachments/assets/07d8ee6b-4e9b-406f-baf1-948ba7fe5bad" />
+
 </details>
 
 ---
@@ -250,8 +271,11 @@ ID : btssio  | MDP : btssio
 
 <details>
   <summary>📸︲Installation Grub et redémarrage.</summary>
+  
 <img width="803" height="595" alt="image" src="https://github.com/user-attachments/assets/171b3e92-fc9a-4348-8f36-5ea8fcfd55be" />
+
 <img width="802" height="596" alt="image" src="https://github.com/user-attachments/assets/868f4416-77c3-4f45-a338-913e8c6595b3" />
+
 </details>
 
 ---
@@ -300,7 +324,9 @@ ID : btssio  | MDP : btssio
 
 <details>
   <summary>📸︲Vérification du service SSH.</summary>
+  
 <img width="857" height="814" alt="image" src="https://github.com/user-attachments/assets/22247b4e-f8f5-41a4-8da9-cb546dd40862" />
+
 </details>
 
 ---
@@ -344,7 +370,9 @@ ssh root@<ip_du_serveur>
 
 <details>
   <summary>📸︲Connexion SSH réussie (Putty )</summary>
+  
 <img width="1481" height="914" alt="image" src="https://github.com/user-attachments/assets/d71b108c-696f-42d7-a863-e7ebfb7f4b94" />
+
 </details>
 
 ---
@@ -402,8 +430,13 @@ $ unzip fogproject.zip
 
 <details>
   <summary>📸︲Téléchargement et extraction</summary>
+  
 <img width="825" height="701" alt="image" src="https://github.com/user-attachments/assets/a69c78e0-e50d-4d50-917a-f7414c4f9110" />
+
+--- 
+
 <img width="985" height="861" alt="image" src="https://github.com/user-attachments/assets/82888635-ad99-4343-8d46-c77c2f8da117" />
+
 </details>
 
 ---
@@ -418,7 +451,9 @@ cd /opt/fogproject/bin/
 
 <details>
   <summary>📸︲Navigation vers le dossier `bin/`</summary>
+  
   <img width="985" height="861" alt="image" src="https://github.com/user-attachments/assets/9d51d583-3959-4a61-8136-ee61bb5722bc" />
+  
 </details>
 
 ---
@@ -474,7 +509,9 @@ Récapitulatif rapide des options :
 - [x] **Send OS Name, OS Version, and FOG Version:** No
 <details>
   <summary>📸︲Copie d'écran</summary>
+  
 <img width="612" height="833" alt="image" src="https://github.com/user-attachments/assets/57116a47-b443-43e4-9008-b2aff9e5cfb7" />
+
 </details>
 
 
@@ -495,7 +532,9 @@ Une fois terminé, un message t’indiquera d’accéder à l’interface web po
 
 <details>
   <summary>📸︲Installation du script FOG</summary>
+  
 <img width="637" height="836" alt="image" src="https://github.com/user-attachments/assets/b2ac5481-4ddd-4058-99cf-6f3d1b64870a" />
+
 </details>
 
 ---
@@ -515,7 +554,9 @@ Sur la page d’accueil, clique sur :
 
 <details>
   <summary>📸︲Page web d’installation</summary>
+  
 <img width="1774" height="1048" alt="image" src="https://github.com/user-attachments/assets/cf84e032-fa31-42b7-9320-6f205b2913e8" />
+
 </details>
 
 ---
@@ -550,12 +591,16 @@ Par défaut :
   
 <details>
   <summary>📸︲Copie d'écran (Login)</summary>
+  
   <img width="1783" height="982" alt="image" src="https://github.com/user-attachments/assets/a9b7d3db-2983-4546-863d-8da59ebbef29" />
+  
 </details>
 
 <details>
   <summary>📸︲Tableau de bord FOG</summary>
+  
 <img width="1787" height="1057" alt="image" src="https://github.com/user-attachments/assets/49bf6987-7a78-4eb2-ae31-30417bc12f55" />
+
 </details>
 
 ---
@@ -591,7 +636,9 @@ $ systemctl status tftpd-hpa
 
 <details>
   <summary>📸︲Test du service TFTP</summary>
+  
 <img width="1089" height="701" alt="image" src="https://github.com/user-attachments/assets/0467a90e-1723-40fd-bb13-5ea6d8e21b27" />
+
 </details>
 
 ---
@@ -636,7 +683,9 @@ Dans VMWare :
   
 <details>
   <summary>📸︲Config VMWare</summary>
-    <img width="1197" height="933" alt="image" src="https://github.com/user-attachments/assets/0dd3b069-8b9e-4e01-accc-16ebde632b9c" />
+  
+  <img width="1197" height="933" alt="image" src="https://github.com/user-attachments/assets/0dd3b069-8b9e-4e01-accc-16ebde632b9c" />
+    
 </details>
 
 
@@ -671,7 +720,9 @@ subnet 192.168.100.0 netmask 255.255.255.0 {
 
 <details>
   <summary>📸︲Exemple de configuration DHCP</summary>
+  
 <img width="1085" height="701" alt="image" src="https://github.com/user-attachments/assets/9356d95a-27ec-4928-af09-5f08839d44d9" />
+
 </details>
 
 ---
@@ -687,7 +738,9 @@ $ systemctl restart FOGScheduler
 
 <details>
   <summary>📸︲Redémarrage des services</summary>
+  
 <img width="1085" height="701" alt="image" src="https://github.com/user-attachments/assets/94c235dd-1aaf-476e-bbbe-ab9b13cb8edd" />
+
 </details>
 
 ---
@@ -715,7 +768,9 @@ $ systemctl restart FOGScheduler
 
 <details>
 <summary>📸︲Copie d"écran</summary>
+  
 <img width="1777" height="999" alt="image" src="https://github.com/user-attachments/assets/f9cf1be6-1945-48f9-badf-44986edfb79c" />
+
 </details>
 
 ---
@@ -738,7 +793,9 @@ Puis clique sur **“Save Changes”** pour enregistrer.
 
 <details>
   <summary>📸︲Modification du délai PXE</summary>
+  
 <img width="1151" height="383" alt="image" src="https://github.com/user-attachments/assets/51dc3624-a08d-4b52-87c7-22342cc861dc" />
+
 </details>
 
 ---
@@ -750,7 +807,9 @@ Le menu FOG devrait maintenant s’afficher **pendant 10 secondes**.
 
 <details>
   <summary>📸︲Affichage du menu PXE</summary>
+  
   <img width="803" height="604" alt="image" src="https://github.com/user-attachments/assets/904507c2-8a98-439d-b4c8-e60c15ca2381" />
+  
 </details>
 
 ---
@@ -804,7 +863,9 @@ Ce paramétrage permet d’adapter FOG aux besoins, par exemple pour couvrir plu
 
 <details>
   <summary>📸︲Paramètre modifié</summary>
+  
 <img width="1777" height="999" alt="image" src="https://github.com/user-attachments/assets/6188d04a-2b91-468c-af9b-24393eeccdf4" />
+
 </details>
 
 ---
@@ -875,7 +936,9 @@ Renseigne les champs suivants :
 
 <details>
   <summary>📸︲Création de l’image dans FOG</summary>
+  
 <img width="1294" height="738" alt="image" src="https://github.com/user-attachments/assets/3bfe28f9-58ac-4e4a-a23d-418be5255508" />
+
 </details>
 
 ---
@@ -889,7 +952,9 @@ Tu verras apparaître ton image dans :
 
 <details>
   <summary>📸︲Image enregistrée</summary>
+  
 <img width="1299" height="350" alt="image" src="https://github.com/user-attachments/assets/34fa040f-dc2e-4cbb-a666-9853ccfad912" />
+
 </details>
 
 ---
@@ -916,7 +981,9 @@ Clique ensuite sur **“Add”**.
 
 <details>
   <summary>📸︲Création du groupe Salle126</summary>
+  
 <img width="1290" height="482" alt="image" src="https://github.com/user-attachments/assets/a59bc055-d069-42c4-a6e7-b99d4970fb7f" />
+
 </details>
 
 ---
@@ -940,7 +1007,9 @@ Puis clique sur **“Update”**.
 
 <details>
   <summary>📸︲Assignation de l’image au groupe</summary>
+  
 <img width="1777" height="999" alt="image" src="https://github.com/user-attachments/assets/99cf6486-9613-493f-be73-316e1428f330" />
+
 </details>
 
 ---
@@ -992,8 +1061,11 @@ Tu dois installer **un des logiciels suivants** sur la machine master :
 
 <details>
   <summary>📸︲Bureau de la VM de Test (Master)</summary>
+  
 <img width="1039" height="778" alt="image" src="https://github.com/user-attachments/assets/c3a847d3-90b1-4f70-b2cf-341a347576b5" />
+
 <img width="1035" height="766" alt="image" src="https://github.com/user-attachments/assets/c24ca75c-a490-4de0-8937-9875f2f97c98" />
+
 </details>
 
 ---
@@ -1037,7 +1109,9 @@ Quick Registration and Inventory
 
 <details>
   <summary>📸︲Menu PXE  FOG</summary>
+  
 <img width="803" height="604" alt="image" src="https://github.com/user-attachments/assets/be68581a-fe4c-48c8-acc6-e2046e3e9d4a" />
+
 </details>
 
 ---
@@ -1061,7 +1135,9 @@ Après l’enregistrement, laisse la machine redémarrer normalement.
 
 <details>
   <summary>📸︲Machine master recensée dans FOG</summary>
+  
 <img width="1756" height="927" alt="image" src="https://github.com/user-attachments/assets/425637ff-dd3e-4c31-a045-2c2a434f6ba2" />
+
 </details>
 
 ---
@@ -1097,7 +1173,9 @@ Tu peux associer l’image `S126-master`, mais ce n’est pas obligatoire avant 
 
 <details>
   <summary>📸︲Paramètres du host master dans FOG</summary>
+  
 <img width="1777" height="999" alt="image" src="https://github.com/user-attachments/assets/6fe59d1b-a890-44c7-9b2f-f873ff50ba30" />
+
 </details>
 
 
@@ -1155,7 +1233,7 @@ Avant toute capture :
 ` 📌 `**︲Exemple concret.**
 - **Une entreprise installe Windows 11 sur une machine, ajoute Office, configure les paramètres réseau et applique les mises à jour. Avec Sysprep, elle généralise cette installation et capture une image. Cette image est ensuite déployée sur 100 ordinateurs, chacun recevant un SID unique et une configuration adaptée lors du premier démarrage.**
 
-` 🖼️ `**︲Shéma récapitulatif :**
+` 🖼️ `**︲Shéma `ASCII` récapitulatif :**
  
 ```
 [Machine de référence]
@@ -1197,7 +1275,9 @@ sysprep /generalize /oobe /shutdown
 
 <details>
   <summary>📸︲Copie d'écran Sysprep</summary>
+  
 <img width="1052" height="788" alt="image" src="https://github.com/user-attachments/assets/1ab1f2ed-12a8-45c8-bc20-d813767d0d1f" />
+
 </details>
 
 ---
@@ -1218,7 +1298,9 @@ Puis clique sur **Update**.
 
 <details>
   <summary>📸︲Association de l’image au master</summary>
+  
 <img width="1770" height="977" alt="image" src="https://github.com/user-attachments/assets/48d0d2c8-8b56-44b5-ac05-89a1cfb98b11" />
+
 </details>
 
 ---
@@ -1240,7 +1322,9 @@ Puis clique sur :
 
 <details>
   <summary>📸︲Planification de la tâche de capture</summary>
+  
 <img width="1777" height="999" alt="image" src="https://github.com/user-attachments/assets/c36d7a2f-2254-49ce-a583-0586296c58f0" />
+
 </details>
 
 ---
@@ -1270,7 +1354,9 @@ Tu vas voir plusieurs étapes :
 
 <details>
   <summary>📸︲Écran Partclone pendant la capture</summary>
+  
 <img width="541" height="378" alt="image" src="https://github.com/user-attachments/assets/520f37d6-37b9-4eed-87e7-247a168e2ce3" />
+
 </details>
 
 ---
@@ -1291,7 +1377,9 @@ Sur ton serveur Debian, dans `/images/`, tu dois voir le dossier :
 
 <details>
   <summary>📸︲Fichiers d’image sur le serveur</summary>
+  
 <img width="1777" height="999" alt="image" src="https://github.com/user-attachments/assets/ca4c670c-c1ea-43ca-8f10-b8ede6971c63" />
+
 </details>
 
 ---
@@ -1371,7 +1459,9 @@ Les machines destinées au déploiement doivent :
 
 <details>
   <summary>📸︲Liste des hosts clients</summary>
+  
 <img width="1777" height="1002" alt="image" src="https://github.com/user-attachments/assets/6c57f2c4-b573-4bae-bcec-6aff09bcc1e1" />
+
 </details>
 
 ---
