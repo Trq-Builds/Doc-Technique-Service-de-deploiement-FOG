@@ -821,7 +821,7 @@ Le menu FOG devrait maintenant s’afficher **pendant 10 secondes**.
 ---
 
 > [!TIP]
-> Augmenter le délai du menu PXE évite de rater l’entrée en mode “Quick Registration” ou “Deploy Image” lors des tests en TP.
+> **Augmenter le délai du menu PXE évite de rater l’entrée en mode “Quick Registration” ou “Deploy Image” lors des tests en TP.**
 
 ---
 
