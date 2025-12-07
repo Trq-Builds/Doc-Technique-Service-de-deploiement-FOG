@@ -123,7 +123,6 @@ Tu y apprendras à **installer le serveur**, **capturer une image master**, et *
 
 <details>
   <summary><strong>📸︲Capture d'écran (Config VMWare).</strong></summary>
-    ⬇️︲Ceci est un Test d'ALT.
   <img width="887" height="880" alt="image" src="https://github.com/user-attachments/assets/8671256d-3603-45e0-af58-d9cf730d5d52" />
 </details>
 
