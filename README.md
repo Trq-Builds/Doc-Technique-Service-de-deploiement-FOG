@@ -160,9 +160,10 @@ ID : btssio  | MDP : btssio
 
 <details>
   <summary>📸︲Installation et sélection langue et clavier.</summary>
-  * ⬇️︲Écran d'installation de Debian 13 en mode BIOS, affichant le menu du programme d'installation avec des options comme "Graphical install", "Install", "Advanced options", "Accessible dark         contrast installer menu", "Help" et "Install with speech synthesis". L'option "Install" est mise en surbrillance.
+ - Écran d'installation de Debian 13 en mode BIOS, affichant le menu du programme d'installation avec des options comme "Graphical install", "Install", "Advanced options", "Accessible dark         contrast installer menu", "Help" et "Install with speech synthesis". L'option "Install" est mise en surbrillance.
   <img width="641" height="482" alt="image" src="https://github.com/user-attachments/assets/f7a1f54b-9540-48ce-b3a9-bf605673302b" />
-  * ⬇️︲Écran de configuration du clavier dans l'installation de Debian, affichant une liste de dispositions de clavier à choisir. L'option "Français" est sélectionnée et mise en surbrillance.
+  
+  - Écran de configuration du clavier dans l'installation de Debian, affichant une liste de dispositions de clavier à choisir. L'option "Français" est sélectionnée et mise en surbrillance.
   <img width="800" height="593" alt="image" src="https://github.com/user-attachments/assets/035692f5-ee65-4936-9856-041100e57798" />
 </details>
 
