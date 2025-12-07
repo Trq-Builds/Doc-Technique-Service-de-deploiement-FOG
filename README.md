@@ -923,7 +923,7 @@ Interface Web → `Image Management` → `Create New Image`
 
 2️⃣︲**Paramétrer l’image**
 
-Renseigne les champs suivants :
+**Renseigne les champs suivants :**
 
 | Paramètre | Valeur |
 |----------|--------|
