@@ -220,8 +220,8 @@ ID : btssio  | MDP : btssio
 * Disque virtuel : `100Go` **dynamiquement alloué**
 * Schéma recommandé :
 
-  * `/` → 60 Go
-  * `swap` → 2 Go
+  * `/` → `60Go`
+  * `swap` → `2Go`
   * `/var` → reste du disque
 * Type : **Guidé – utiliser tout le disque**, séparé selon les besoins.
 
