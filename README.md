@@ -1198,7 +1198,7 @@ Tu peux associer l’image `S126-master`, mais ce n’est pas obligatoire avant 
 
 > [!NOTE]  
 > Cette étape consiste à **capturer l’image Windows 11 master** depuis la machine que tu viens de préparer et recenser.  
-> L’objectif : créer un fichier d’image utilisable pour les déploiements en masse.
+> **L’objectif : créer un fichier d’image utilisable pour les déploiements en masse.**
 
 ---
 
