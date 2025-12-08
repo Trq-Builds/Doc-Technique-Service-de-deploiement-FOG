@@ -1156,8 +1156,7 @@ Après l’enregistrement, laisse la machine redémarrer normalement.
 
 1️⃣︲**Ouvrir la fiche de la machine enregistrée**
 
-Interface Web →  
-`Host Management → master-s126`
+Interface Web → `Host Management → master-s126`
 
 ---
 
