@@ -1209,7 +1209,7 @@ Tu peux associer l’image `S126-master`, mais ce n’est pas obligatoire avant 
 
 1️⃣︲**Vérifier les prérequis sur la machine master**
 
-Avant toute capture :
+**Avant toute capture :**
 
 - Un logiciel choisi au choix (VSCode, WinRAR, LibreOffice, FileZilla...) doit être installé.
 - Le système doit être propre (pas de fichiers perso, pas de téléchargements inutiles).
