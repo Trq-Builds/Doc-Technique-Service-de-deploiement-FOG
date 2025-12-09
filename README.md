@@ -1228,7 +1228,7 @@ Tu peux associer l’image `S126-master`, mais ce n’est pas obligatoire avant 
 
 --- 
 
-` 🎯 `**︲ Intérêt de Sysprep.**
+` 🎯 `**︲ Intérêt de Sysprep :**
 
 - **Généralisation** : supprime les identifiants uniques (SID) et rend l’image indépendante du matériel.
 - **Gain de temps** : permet de déployer rapidement des systèmes préconfigurés sur plusieurs postes.
@@ -1236,7 +1236,7 @@ Tu peux associer l’image `S126-master`, mais ce n’est pas obligatoire avant 
 - **Flexibilité** : compatible avec des scénarios de déploiement automatisés via fichiers de réponses (unattend.xml).
 - **Maintenance facilitée** : mise à jour d’une seule image maître au lieu de chaque poste individuellement.
 
-` 📌 `**︲Exemple concret.**
+` 📌 `**︲Exemple concret :**
 - **Une entreprise installe Windows 11 sur une machine, ajoute Office, configure les paramètres réseau et applique les mises à jour. Avec Sysprep, elle généralise cette installation et capture une image. Cette image est ensuite déployée sur 100 ordinateurs, chacun recevant un SID unique et une configuration adaptée lors du premier démarrage.**
 
 ` 📐 `**︲Shéma `ASCII` récapitulatif :**
