@@ -1054,10 +1054,10 @@ Puis clique sur **“Update”**.
 
 Tu dois installer **un des logiciels suivants** sur la machine master :
 
-- ` 📁 `︲FileZilla Client ︲[`🌐`](https://filezilla-project.org/)
-- ` 💻 `︲LibreOffice ︲[`🌐`](https://fr.libreoffice.org/)
-- ` 👨‍💻 `︲Visual Studio Code ︲[`🌐`](https://code.visualstudio.com/)
-- ` 📦 `︲WinRAR ︲[`🌐`](https://www.win-rar.com/)
+- ` 📁 `︲**FileZilla Client** ︲[`🌐`](https://filezilla-project.org/)
+- ` 💻 `︲**LibreOffice** ︲[`🌐`](https://fr.libreoffice.org/)
+- ` 👨‍💻 `︲**Visual Studio Code** ︲[`🌐`](https://code.visualstudio.com/)
+- ` 📦 `︲**WinRAR** ︲[`🌐`](https://www.win-rar.com/)
 
 > [!TIP]  
 > Choisis un logiciel visible et simple à repérer : idéal pour vérifier, après déploiement, que l’image a bien été appliquée.
