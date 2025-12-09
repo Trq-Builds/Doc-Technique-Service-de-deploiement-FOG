@@ -2,8 +2,7 @@
 
 ---
 
-Ce dépôt présente un guide complet pour l’installation, la configuration et l’utilisation du service de déploiement **FOG** (Free Open-Source Ghost) sous **Debian 13**.
-Tu y apprendras à **installer le serveur**, **capturer une image master**, et **déployer celle-ci** sur plusieurs machines clientes.
+Ce dépôt présente un guide complet pour le déploiement de FOG (Free Open-Source Ghost) sous Debian 13. Il couvre l'installation, la configuration et l'utilisation du service. Tu y apprendras à installer le serveur FOG, à capturer une image master, et à la déployer rapidement sur l'ensemble de tes machines clientes !
 
 ---
 
