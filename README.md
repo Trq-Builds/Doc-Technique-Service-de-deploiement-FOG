@@ -6,12 +6,6 @@ Ce dépôt présente un guide complet pour le déploiement de FOG (Free Open-Sou
 
 ---
 
-> [!IMPORTANT]
-> * **Les captures d’écran seront ajoutées progressivement !**
-> * **Si une image est peu lisible dans le menu, il suffit de cliquer dessus. L'image s'ouvrira dans un nouvel onglet, vous permettant ainsi de la consulter en taille réelle et d'utiliser la fonction zoom !**
-
----
-
 ## `📑`︲Sommaire (cliquez pour accéder directement à la section souhaitée)
 
 1. [`📘`︲Introduction.](#introduction)
@@ -114,6 +108,10 @@ Ce dépôt présente un guide complet pour le déploiement de FOG (Free Open-Sou
 > [!TIP]
 > - **Pour afficher les captures d’écran, clique sur le menu déroulant avec l’émoji  `  📸  `.**
 > - **Le menu s’ouvrira et affichera la ou les captures d’écran !**
+
+> [!IMPORTANT]
+> * **Les captures d’écran seront ajoutées progressivement !**
+> * **Si une image est peu lisible dans le menu, il suffit de cliquer dessus. L'image s'ouvrira dans un nouvel onglet, vous permettant ainsi de la consulter en taille réelle et d'utiliser la fonction zoom !**
 
 ---
 
