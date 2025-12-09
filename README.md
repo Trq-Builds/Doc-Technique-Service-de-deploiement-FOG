@@ -1242,23 +1242,23 @@ Tu peux associer l’image `S126-master`, mais ce n’est pas obligatoire avant 
 ` 🖼️ `**︲Shéma `ASCII` récapitulatif :**
  
 ```
-[Machine de référence]
+⭐︲[Machine de référence]
      │
      │ Installation + configuration
      ▼
-[Exécution Sysprep]
+▶️︲[Exécution Sysprep]
      │
      │ /generalize /oobe /shutdown
      ▼
-[Capture de l’image]
+🖼️︲[Capture de l’image]
      │
      │ Outil de déploiement (MDT, DISM…)
      ▼
-[Déploiement sur parc]
+🚀︲[Déploiement sur parc]
      │
      │ Premier démarrage → SID unique + OOBE
      ▼
-[Machines prêtes et personnalisées]
+✅︲[Machines prêtes et personnalisées]
 ```
 
 ---
