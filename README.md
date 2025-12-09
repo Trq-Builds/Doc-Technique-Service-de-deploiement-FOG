@@ -1264,9 +1264,9 @@ Tu peux associer l’image `S126-master`, mais ce n’est pas obligatoire avant 
 ---
 
 ` 🌐 `**︲Sources :**
-- Vue d’ensemble de Sysprep – Microsoft Learn [`🌐`](https://learn.microsoft.com/fr-fr/windows-hardware/manufacture/desktop/sysprep--system-preparation--overview?view=windows-11)  
-- Processus Sysprep – Microsoft Learn [`🌐`](https://learn.microsoft.com/fr-fr/windows-hardware/manufacture/desktop/sysprep-process-overview?view=windows-11)  
-- Utiliser Sysprep (généralisation) – Microsoft Learn [`🌐`](https://learn.microsoft.com/fr-fr/windows-hardware/manufacture/desktop/sysprep--generalize--a-windows-installation?view=windows-11)  
+- Vue d’ensemble de Sysprep ︲ Microsoft Learn [`🌐`](https://learn.microsoft.com/fr-fr/windows-hardware/manufacture/desktop/sysprep--system-preparation--overview?view=windows-11)  
+- Processus Sysprep ︲ Microsoft Learn [`🌐`](https://learn.microsoft.com/fr-fr/windows-hardware/manufacture/desktop/sysprep-process-overview?view=windows-11)  
+- Utiliser Sysprep (généralisation) ︲ Microsoft Learn [`🌐`](https://learn.microsoft.com/fr-fr/windows-hardware/manufacture/desktop/sysprep--generalize--a-windows-installation?view=windows-11)  
 ---
 
 Chemin et commande Sysprep (MASTER)
