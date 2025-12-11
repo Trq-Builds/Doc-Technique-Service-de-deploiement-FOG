@@ -394,7 +394,7 @@ ssh root@<ip_du_serveur>
 
 > [!NOTE]  
 > Cette partie détaille l’installation complète du **service FOG (Free Open-Source Ghost)** sur **Debian 13**.  
-> Objectif : mettre en place un serveur de déploiement d’images prêt à capturer et diffuser des systèmes Windows.
+> Objectif : **mettre en place un serveur de déploiement d’images prêt à capturer et diffuser des systèmes Windows.**
 
 ---
 
