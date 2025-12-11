@@ -95,6 +95,7 @@ Ce dépôt présente un guide complet pour le déploiement de FOG (Free Open-Sou
 > - ` 👤 `︲**Interface Chaise-Clavier fonctionnelle.**
 > 
 > - ` ☕ `︲**Un peu de patience !**
+
 ---
 
 <a id="installation-debian"></a>
