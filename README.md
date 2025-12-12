@@ -120,7 +120,7 @@ Ce dépôt présente un guide complet pour le déploiement de FOG (Free Open-Sou
 
 * ` ❓ ` ︲**Hostname :** `srv-fog`.
 
-* ` 📡 ` ︲**Adressage IP :** dynamique (DHCP) récupérer une adresse sur le réseau local physique.
+* ` 📡 ` ︲**Adressage IP :** dynamique (`DHCP`) récupérer une adresse sur le réseau local physique.
 
 * ` 🖼️ ` ︲**Interface graphique :** **__aucune__** (__installation en mode serveur / ligne de commande__).
 
