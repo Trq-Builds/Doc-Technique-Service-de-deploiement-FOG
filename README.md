@@ -92,7 +92,7 @@ Ce dépôt présente un guide complet pour le déploiement de FOG (Free Open-Sou
 > 
 > - ` ⚡ `︲**PuTTY :** ︲[`🌐`](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html)
 > 
-> - ` 👤 `︲**Interface Chaise-Clavier fonctionnelle.**
+> - ` 👤 `︲**Interface Chaise-Clavier fonctionnelle.** 🫵
 > 
 > - ` ☕ `︲**Un peu de patience !**
 
