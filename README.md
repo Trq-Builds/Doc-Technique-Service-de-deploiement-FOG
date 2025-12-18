@@ -13,11 +13,15 @@ Ce dépôt présente un guide complet pour le déploiement de FOG (Free Open-Sou
    * [`❔`︲Contexte et objectifs du TP.](#contexte-et-objectifs)
    * [`🧰`︲Présentation des outils et prérequis.](#presentation-outils-prerequis)
 
+   ---
+
 2. [`🛠️`︲Installation de Debian 13 sans interface graphique.](#installation-debian)
 
    * [`💿`︲Création et configuration de la VM.](#creation-vm)
    * [`⚙️`︲Installation du système Debian 13.](#installation-systeme)
    * [`🔐`︲Création des comptes et configuration SSH.](#configuration-ssh)
+
+   ---
 
 3. [`🌍`︲Installation du service FOG.](#installation-fog)
 
@@ -25,16 +29,22 @@ Ce dépôt présente un guide complet pour le déploiement de FOG (Free Open-Sou
    * [`🧩`︲Procédure d’installation du serveur FOG.](#installation-serveur-fog)
    * [`🔧`︲Configuration initiale et tests.](#configuration-initiale-fog)
 
+   ---
+
 4. [`⚙️`︲Configuration du service FOG.](#configuration-service-fog)
 
    * [`🌐`︲Paramètres réseau et DHCP.](#parametres-reseau)
    * [`⏱️`︲Modification du menu PXE et du timeout.](#modification-pxe)
    * [`👥`︲Augmentation du nombre de clients simultanés.](#clients-simultanes)
+   
+   ---
 
 5. [`🖼️`︲Création d’une image et d’un groupe de déploiement.](#creation-image-groupe)
 
    * [`📷`︲Création d’une image “S126-Master”.](#creation-image)
    * [`👥`︲Création d’un groupe de déploiement et assignation.](#creation-groupe)
+
+   ---
 
 6. [`💻`︲Préparation de la machine master.](#preparation-master)
 
@@ -42,16 +52,22 @@ Ce dépôt présente un guide complet pour le déploiement de FOG (Free Open-Sou
    * [`📋`︲Recensement de la machine sur le serveur FOG.](#recensement-machine)
    * [`🏷️`︲Renommage et validation.](#renommage-machine)
 
+   ---
+
 7. [`📦`︲Capture de l’image Master.](#capture-image)
 
    * [`🧭`︲Préparation avant capture.](#preparation-capture)
    * [`📸`︲Lancer la capture et suivi du processus.](#lancer-capture)
+
+   ---
 
 8. [`🚀`︲Déploiement de l’image.](#deploiement-image)
 
    * [`🌐`︲Préparation de l’environnement réseau.](#preparation-deploiement)
    * [`⚡`︲Lancement du déploiement.](#lancement-deploiement)
    * [`✅`︲Vérifications post-déploiement.](#verification-deploiement)
+
+   ---
    
 9. [`🧰`︲Outils et ressources utilisées.](#outils-ressources)
 10. [`📚`︲Technique et méthode.](#technique-methode)
