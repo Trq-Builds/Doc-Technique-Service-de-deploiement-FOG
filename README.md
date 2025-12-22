@@ -1408,8 +1408,7 @@ Sur ton serveur Debian, dans `/images/`, tu dois voir le dossier :
 
 4️⃣︲**Vérification dans l'interface FOG**
 
-Interface Web →  
-`Image Management → All Images → S126-master`
+Interface Web → `Image Management → All Images → S126-master`
 
 Vérifie :
 
