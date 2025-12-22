@@ -1255,6 +1255,8 @@ Tu peux associer l’image `S126-master`, mais ce n’est pas obligatoire avant 
 ` 📌 `**︲Exemple concret :**
 - **Une entreprise installe Windows 11 sur une machine, ajoute Office, configure les paramètres réseau et applique les mises à jour. Avec Sysprep, elle généralise cette installation et capture une image. Cette image est ensuite déployée sur 100 ordinateurs, chacun recevant un SID unique et une configuration adaptée lors du premier démarrage.**
 
+---
+
 ` 📐 `**︲Shéma `ASCII` récapitulatif :**
  
 ```
