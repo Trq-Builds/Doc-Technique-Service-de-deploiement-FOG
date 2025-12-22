@@ -1599,8 +1599,7 @@ Exemple :
 
 4️⃣︲**Vérifier dans l’interface FOG que la tâche est marquée comme complète**
 
-Interface Web →  
-`Task Management → Active Tasks`
+Interface Web → `Task Management → Active Tasks`
 
 > [!TIP]  
 > Une tâche peut mettre un peu de temps à disparaître même après sa fin : FOG attend la confirmation de tous les clients !
