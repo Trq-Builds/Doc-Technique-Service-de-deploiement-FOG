@@ -1650,7 +1650,7 @@ Interface Web → `Task Management → Active Tasks`
 
 > * ` ⏺️ `︲Nagi Player︲ [`🌐`](https://github.com/Anthonyy232/Nagi)
 > 
-> * ` 🎶 `︲Mac DeMarco - 20191229  ︲ [`🌐`](https://youtu.be/_7VD_ur8ZJ4)
+> * ` 🎶 `︲BEOMGYU - Panic  ︲ [`🌐`](https://youtu.be/9hTpDHJmjC0?si=1maidhWLmi5YCvQm)
 > 
 > * ` ☕ `**︲De la patience !**
 ---
