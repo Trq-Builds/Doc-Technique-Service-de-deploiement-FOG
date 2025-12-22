@@ -1806,7 +1806,7 @@ Interface Web → `Task Management → Active Tasks`
 * Sources externes correctement créditées.
 * Outils techniques + outils de création.
 
-➡️︲**Qualité documentaire.**
+`➡️`︲**Qualité documentaire.**
 
 ---
 *En somme c'est* : 
