@@ -585,7 +585,7 @@ Sur la page d’accueil, clique sur :
 ---
 
 > [!WARNING]
-> **Une fois l’installation web terminée, crée un snapshot de ta VM afin de pouvoir revenir à cet état avant les prochaines configurations.**
+> **Une fois l’installation web terminée, crée un snapshot de ta VM afin de pouvoir revenir à cet état avant les prochaines configurations !**
 
 ---
 
