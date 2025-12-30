@@ -392,7 +392,7 @@ ssh root@<ip_du_serveur>
 ```
 
 <details>
-  <summary>📸︲Connexion SSH réussie (Putty )</summary>
+  <summary>📸︲Connexion SSH réussie (Putty).</summary>
   
 <img width="1481" height="914" alt="image" src="https://github.com/user-attachments/assets/d71b108c-696f-42d7-a863-e7ebfb7f4b94" />
 
@@ -452,7 +452,7 @@ $ unzip fogproject.zip
 > ```
 
 <details>
-  <summary>📸︲Téléchargement et extraction</summary>
+  <summary>📸︲Téléchargement et extraction.</summary>
   
 <img width="825" height="701" alt="image" src="https://github.com/user-attachments/assets/a69c78e0-e50d-4d50-917a-f7414c4f9110" />
 
@@ -473,7 +473,7 @@ cd /opt/fogproject/bin/
 ```
 
 <details>
-  <summary>📸︲Navigation vers le dossier `bin/`</summary>
+  <summary>📸︲Navigation vers le dossier `bin/`.</summary>
   
   <img width="985" height="861" alt="image" src="https://github.com/user-attachments/assets/9d51d583-3959-4a61-8136-ee61bb5722bc" />
   
@@ -531,7 +531,7 @@ Récapitulatif rapide des options :
 - [x] **DHCP Router Address:** 192.168.23.2  
 - [x] **Send OS Name, OS Version, and FOG Version:** No
 <details>
-  <summary>📸︲Copie d'écran</summary>
+  <summary>📸︲Copie d'écran.</summary>
   
 <img width="612" height="833" alt="image" src="https://github.com/user-attachments/assets/57116a47-b443-43e4-9008-b2aff9e5cfb7" />
 
@@ -554,7 +554,7 @@ Le script installe les dépendances et configure FOG.
 Une fois terminé, un message t’indiquera d’accéder à l’interface web pour finaliser la configuration.
 
 <details>
-  <summary>📸︲Installation du script FOG</summary>
+  <summary>📸︲Installation du script FOG.</summary>
   
 <img width="637" height="836" alt="image" src="https://github.com/user-attachments/assets/b2ac5481-4ddd-4058-99cf-6f3d1b64870a" />
 
@@ -576,7 +576,7 @@ Sur la page d’accueil, clique sur :
 **“Install/Update Now”** pour lancer la création de la base de données FOG !
 
 <details>
-  <summary>📸︲Page web d’installation</summary>
+  <summary>📸︲Page web d’installation.</summary>
   
 <img width="1774" height="1048" alt="image" src="https://github.com/user-attachments/assets/cf84e032-fa31-42b7-9320-6f205b2913e8" />
 
@@ -613,14 +613,14 @@ Par défaut :
 * **Mot de passe :** `password` *(à modifier plus tard ici test en Labo donc ce n'est pas grave)*
   
 <details>
-  <summary>📸︲Copie d'écran (Login)</summary>
+  <summary>📸︲Copie d'écran (Login).</summary>
   
   <img width="1783" height="982" alt="image" src="https://github.com/user-attachments/assets/a9b7d3db-2983-4546-863d-8da59ebbef29" />
   
 </details>
 
 <details>
-  <summary>📸︲Tableau de bord FOG</summary>
+  <summary>📸︲Tableau de bord FOG.</summary>
   
 <img width="1787" height="1057" alt="image" src="https://github.com/user-attachments/assets/49bf6987-7a78-4eb2-ae31-30417bc12f55" />
 
@@ -658,7 +658,7 @@ $ systemctl status tftpd-hpa
 ```
 
 <details>
-  <summary>📸︲Test du service TFTP</summary>
+  <summary>📸︲Test du service TFTP.</summary>
   
 <img width="1089" height="701" alt="image" src="https://github.com/user-attachments/assets/0467a90e-1723-40fd-bb13-5ea6d8e21b27" />
 
@@ -705,7 +705,7 @@ Dans VMWare :
 - Fais de même pour les **machines clientes** à déployer.
   
 <details>
-  <summary>📸︲Config VMWare</summary>
+  <summary>📸︲Config VMWare.</summary>
   
   <img width="1197" height="933" alt="image" src="https://github.com/user-attachments/assets/0dd3b069-8b9e-4e01-accc-16ebde632b9c" />
     
@@ -742,7 +742,7 @@ subnet 192.168.100.0 netmask 255.255.255.0 {
 > **Une mauvaise configuration DHCP peut empêcher tout boot PXE.**
 
 <details>
-  <summary>📸︲Exemple de configuration DHCP</summary>
+  <summary>📸︲Exemple de configuration DHCP.</summary>
   
 <img width="1085" height="701" alt="image" src="https://github.com/user-attachments/assets/9356d95a-27ec-4928-af09-5f08839d44d9" />
 
@@ -760,7 +760,7 @@ $ systemctl restart FOGScheduler
 ```
 
 <details>
-  <summary>📸︲Redémarrage des services</summary>
+  <summary>📸︲Redémarrage des services.</summary>
   
 <img width="1085" height="701" alt="image" src="https://github.com/user-attachments/assets/94c235dd-1aaf-476e-bbbe-ab9b13cb8edd" />
 
@@ -790,7 +790,7 @@ $ systemctl restart FOGScheduler
 `Dashboard → FOG Configuration → PXE Boot Menu`
 
 <details>
-<summary>📸︲Copie d"écran</summary>
+<summary>📸︲Copie d"écran.</summary>
   
 <img width="1777" height="999" alt="image" src="https://github.com/user-attachments/assets/f9cf1be6-1945-48f9-badf-44986edfb79c" />
 
@@ -829,7 +829,7 @@ Lance une VM cliente configurée pour booter en réseau (PXE).
 Le menu FOG devrait maintenant s’afficher **pendant 10 secondes**.
 
 <details>
-  <summary>📸︲Affichage du menu PXE</summary>
+  <summary>📸︲Affichage du menu PXE.</summary>
   
   <img width="803" height="604" alt="image" src="https://github.com/user-attachments/assets/904507c2-8a98-439d-b4c8-e60c15ca2381" />
   
@@ -885,7 +885,7 @@ Ce paramétrage permet d’adapter FOG aux besoins, par exemple pour couvrir plu
 > Pour un test en salle complète (18 à 20 machines), 30 connexions assurent un flux stable.
 
 <details>
-  <summary>📸︲Paramètre modifié</summary>
+  <summary>📸︲Paramètre modifié.</summary>
   
 <img width="1777" height="999" alt="image" src="https://github.com/user-attachments/assets/6188d04a-2b91-468c-af9b-24393eeccdf4" />
 
@@ -958,7 +958,7 @@ Interface Web → `Image Management` → `Create New Image`
 > Le type *Resizable* permet à FOG d’adapter la partition lors du déploiement, idéal pour les environnements homogènes.
 
 <details>
-  <summary>📸︲Création de l’image dans FOG</summary>
+  <summary>📸︲Création de l’image dans FOG.</summary>
   
 <img width="1294" height="738" alt="image" src="https://github.com/user-attachments/assets/3bfe28f9-58ac-4e4a-a23d-418be5255508" />
 
@@ -974,7 +974,7 @@ Tu verras apparaître ton image dans :
 `Image Management → All Images`
 
 <details>
-  <summary>📸︲Image enregistrée</summary>
+  <summary>📸︲Image enregistrée.</summary>
   
 <img width="1299" height="350" alt="image" src="https://github.com/user-attachments/assets/34fa040f-dc2e-4cbb-a666-9853ccfad912" />
 
@@ -1003,7 +1003,7 @@ Interface Web → `Group Management` → `Create New Group`
 Clique ensuite sur **“Add”**.
 
 <details>
-  <summary>📸︲Création du groupe Salle126</summary>
+  <summary>📸︲Création du groupe Salle 126.</summary>
   
 <img width="1290" height="482" alt="image" src="https://github.com/user-attachments/assets/a59bc055-d069-42c4-a6e7-b99d4970fb7f" />
 
@@ -1029,7 +1029,7 @@ Puis clique sur **“Update”**.
 >  Cette étape est cruciale : elle permet de déployer automatiquement l’image sur **toutes les machines recensées dans le groupe** sans reconfigurer chaque client.
 
 <details>
-  <summary>📸︲Assignation de l’image au groupe</summary>
+  <summary>📸︲Assignation de l’image au groupe.</summary>
   
 <img width="1777" height="999" alt="image" src="https://github.com/user-attachments/assets/99cf6486-9613-493f-be73-316e1428f330" />
 
@@ -1083,7 +1083,7 @@ Tu dois installer **un des logiciels suivants** sur la machine master :
 
 
 <details>
-  <summary>📸︲Bureau de la VM de Test (Master)</summary>
+  <summary>📸︲Bureau de la VM de Test (Master).</summary>
   
 <img width="1039" height="778" alt="image" src="https://github.com/user-attachments/assets/c3a847d3-90b1-4f70-b2cf-341a347576b5" />
 
@@ -1298,7 +1298,7 @@ sysprep /generalize /oobe /shutdown
 ```
 
 <details>
-  <summary>📸︲Copie d'écran Sysprep</summary>
+  <summary>📸︲Copie d'écran Sysprep.</summary>
   
 <img width="1052" height="788" alt="image" src="https://github.com/user-attachments/assets/1ab1f2ed-12a8-45c8-bc20-d813767d0d1f" />
 
@@ -1321,7 +1321,7 @@ S126-master
 Puis clique sur **Update**.
 
 <details>
-  <summary>📸︲Association de l’image au master</summary>
+  <summary>📸︲Association de l’image au master.</summary>
   
 <img width="1770" height="977" alt="image" src="https://github.com/user-attachments/assets/48d0d2c8-8b56-44b5-ac05-89a1cfb98b11" />
 
@@ -1345,7 +1345,7 @@ Puis clique sur :
 ➡️ **“Schedule Task”**
 
 <details>
-  <summary>📸︲Planification de la tâche de capture</summary>
+  <summary>📸︲Planification de la tâche de capture.</summary>
   
 <img width="1777" height="999" alt="image" src="https://github.com/user-attachments/assets/c36d7a2f-2254-49ce-a583-0586296c58f0" />
 
@@ -1377,7 +1377,7 @@ Tu vas voir plusieurs étapes :
 - Envoi vers `/images/S126-master` sur le serveur
 
 <details>
-  <summary>📸︲Écran Partclone pendant la capture</summary>
+  <summary>📸︲Écran Partclone pendant la capture.</summary>
   
 <img width="541" height="378" alt="image" src="https://github.com/user-attachments/assets/520f37d6-37b9-4eed-87e7-247a168e2ce3" />
 
@@ -1400,7 +1400,7 @@ Sur ton serveur Debian, dans `/images/`, tu dois voir le dossier :
 `/images/S126-master/`
 
 <details>
-  <summary>📸︲Fichiers d’image sur le serveur</summary>
+  <summary>📸︲Fichiers d’image sur le serveur.</summary>
   
 <img width="1777" height="999" alt="image" src="https://github.com/user-attachments/assets/ca4c670c-c1ea-43ca-8f10-b8ede6971c63" />
 
@@ -1481,7 +1481,7 @@ Les machines destinées au déploiement doivent :
 - Être dans le groupe `Salle126`
 
 <details>
-  <summary>📸︲Liste des hosts clients</summary>
+  <summary>📸︲Liste des hosts clients.</summary>
   
 <img width="1777" height="1002" alt="image" src="https://github.com/user-attachments/assets/6c57f2c4-b573-4bae-bcec-6aff09bcc1e1" />
 
@@ -1513,7 +1513,7 @@ Clique sur :
 ➡️ **“`Task`”**
 
 <details>
-  <summary>📸︲Deploy / Création de la tâche</summary>
+  <summary>📸︲Deploy / Création de la tâche.</summary>
 <img width="1242" height="306" alt="image" src="https://github.com/user-attachments/assets/7d501fa9-b79e-4ef6-8d90-207a9b6bc2b6" />
 <img width="1222" height="688" alt="image" src="https://github.com/user-attachments/assets/1fc608a4-9403-4d94-ba5f-b71fe0248e73" />
 <img width="1241" height="452" alt="image" src="https://github.com/user-attachments/assets/fd9c859b-c2e0-4c41-ab14-816fb92d4101" />
@@ -1547,7 +1547,7 @@ Les étapes typiques :
 - Finalisation et reboot automatique
 
 <details>
-  <summary>📸︲Déploiement en cours (Partclone)</summary>
+  <summary>📸︲Déploiement en cours (Partclone).</summary>
 <img width="1618" height="938" alt="image" src="https://github.com/user-attachments/assets/71fb3e35-a28d-475e-80e4-d8be2f7eec18" />
 </details>
 
@@ -1634,7 +1634,7 @@ Interface Web → `Task Management → Active Tasks`
   
 --- 
 
-* ` 🤖 ` **︲GPT-`5.1`** ︲  [`🌐`](https://chatgpt.com/)
+* ` 🤖 ` **︲GPT `5.1`** ︲  [`🌐`](https://chatgpt.com/)
   
 * ` ❓ ` **︲Markdownguide.org**   ︲[`🌐`](https://www.markdownguide.org/)
   
