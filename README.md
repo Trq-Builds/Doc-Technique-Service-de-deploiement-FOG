@@ -146,9 +146,9 @@ Ce dépôt présente un guide complet pour le déploiement de FOG (Free Open-Sou
 
 * ` 📏 ` ︲**Mémoire :** `1024 Mo`.
 
-* ` 💾 ` ︲**Disque :** `100 Go` (allocation dynamique).
+* ` 💾 ` ︲**Disque :** `100 Go`. (*allocation dynamique*).
 
-* ` ❤️ ` ︲**Cœurs :** `1`. (Optionel)
+* ` ❤️ ` ︲**Cœurs :** `1`. (*Optionel*)
 
 <details>
   <summary><strong>📸︲Capture d'écran (Config VMWare).</strong></summary>
