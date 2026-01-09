@@ -1607,8 +1607,7 @@ Interface Web → `Task Management → Active Tasks`
 
 
 > [!TIP]  
-> À ce stade, ton serveur FOG a **réussi un déploiement**, et tu as un workflow complet de capture/déploiement fonctionnel.  
-> La mission est validée ! 🎉
+> À ce stade, ton serveur FOG a **réussi un déploiement**, et tu as un workflow complet de capture/déploiement fonctionnel !
 
 ---
 
