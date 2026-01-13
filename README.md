@@ -1633,7 +1633,7 @@ Interface Web → `Task Management → Active Tasks`
   
 --- 
 
-* ` 🤖 ` **︲GPT `5.1`** ︲  [`🌐`](https://chatgpt.com/)
+* ` 🤖 ` **︲`GPT 5.1`** ︲  [`🌐`](https://chatgpt.com/)
   
 * ` ❓ ` **︲Markdownguide.org**   ︲[`🌐`](https://www.markdownguide.org/)
   
