@@ -1650,6 +1650,8 @@ Interface Web → `Task Management → Active Tasks`
 > * ` ⏺️ `︲Nagi Player︲ [`🌐`](https://github.com/Anthonyy232/Nagi)
 > 
 > * ` 🎶 `︲BEOMGYU - Panic  ︲ [`🌐`](https://youtu.be/9hTpDHJmjC0?si=1maidhWLmi5YCvQm)
+>
+> * ` 🎶 `︲The Marías - heavy  ︲[`🌐`](https://youtu.be/1BCqCgamowo)
 > 
 > * ` ☕ `**︲De la patience !**
 ---
