@@ -1637,7 +1637,7 @@ Interface Web → `Task Management → Active Tasks`
   
 * ` ❓ ` **︲Markdownguide.org**   ︲[`🌐`](https://www.markdownguide.org/)
   
-* ` 🤖 ` **︲NoteBookLM**   ︲[`🌐`](https://notebooklm.google.com/)
+* ` 🤖 ` **︲`NoteBookLM`**   ︲[`🌐`](https://notebooklm.google.com/)
   
 * ` ✂️ ` **︲Screenpresso**   ︲[`🌐`](https://www.screenpresso.com/fr/)
   
