@@ -1649,7 +1649,7 @@ Interface Web → `Task Management → Active Tasks`
 
 > * ` ⏺️ `︲Nagi Player︲ [`🌐`](https://github.com/Anthonyy232/Nagi)
 > 
-> * ` 🎶 `︲BEOMGYU - Panic  ︲ [`🌐`](https://youtu.be/9hTpDHJmjC0?si=1maidhWLmi5YCvQm)
+> * ` 🎶 `︲No More Tears to Cry - Bullet for My Valentine ︲ [`🌐`](https://youtu.be/awX198gz4xk?si=Hbsem9RVtT40v1vd)
 > 
 > * ` ☕ `︲De la patience.
 
