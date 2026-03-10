@@ -79,7 +79,7 @@ Ce dépôt présente un guide complet pour le déploiement de FOG (Free Open-Sou
 ---
 
 > [!TIP]
-> **Pour naviguer rapidement dans le dépôt, vous pouvez également utiliser le sommaire généré automatiquement par GitHub, situé en haut à gauche de ce cadre !**
+> **Pour naviguer rapidement dans le dépôt, vous pouvez également utiliser le sommaire généré automatiquement par GitHub, situé en haut à droite de ce cadre !**
 
 ---
 
