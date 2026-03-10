@@ -1,5 +1,10 @@
 # ` 👻 `︲Documentation TP : Installer et configurer un service de déploiement FOG.
 
+![FOG](https://img.shields.io/badge/FOG-imaging-orange)
+![Linux](https://img.shields.io/badge/Linux-server-yellow?logo=linux)
+![PXE](https://img.shields.io/badge/PXE-boot-blue)
+![iPXE](https://img.shields.io/badge/iPXE-networkboot-purple)
+
 ---
 
 Ce dépôt présente un guide complet pour le déploiement de FOG (Free Open-Source Ghost) sous Debian 13. Il couvre l'installation, la configuration et l'utilisation du service. Tu y apprendras à installer le serveur FOG, à capturer une image master, et à la déployer rapidement sur l'ensemble de tes machines clientes !
