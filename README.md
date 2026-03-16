@@ -5,7 +5,7 @@
 ![PXE](https://img.shields.io/badge/PXE-boot-blue)
 ![iPXE](https://img.shields.io/badge/iPXE-networkboot-purple)
 ![Made With Markdown](https://img.shields.io/badge/made%20with-Markdown-blue)
-https://img.shields.io/badge/Debian-A81D33?style=for-the-badge&logo=debian&logoColor=white
+
 ---
 
 Ce dépôt présente un guide complet pour le déploiement de FOG (Free Open-Source Ghost) sous Debian 13. Il couvre l'installation, la configuration et l'utilisation du service. Tu y apprendras à installer le serveur FOG, à capturer une image master, et à la déployer rapidement sur l'ensemble de tes machines clientes !
