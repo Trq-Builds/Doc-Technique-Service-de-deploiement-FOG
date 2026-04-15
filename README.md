@@ -1,6 +1,10 @@
 # ` 👻 `︲Documentation TP : Installer et configurer un service de déploiement FOG.
 
 <p align="center">
+<img src="https://github.com/user-attachments/assets/2582985d-c4a0-48a7-86ff-64daa2e0044c" width="100"/>
+</p>
+
+<p align="center">
   <img src="https://img.shields.io/badge/FOG-imaging-orange?style=for-the-badge">
   <img src="https://img.shields.io/badge/Linux-server-333333?logo=linux&logoColor=white&style=for-the-badge">
   <img src="https://img.shields.io/badge/PXE-boot-blue?style=for-the-badge">
